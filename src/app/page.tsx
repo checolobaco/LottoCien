@@ -94,6 +94,7 @@ export default function Dashboard() {
   const [successMessage, setSuccessMessage] = useState("");
   const [copySuccess, setCopySuccess] = useState(false);
   const [showTermsModal, setShowTermsModal] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   // Claim prize states
   const [currentClaim, setCurrentClaim] = useState<{
@@ -376,6 +377,55 @@ export default function Dashboard() {
     setLoading(false);
   }, []);
 
+  // Track page visibility and user activity to optimize API calls and conserve Railway credits
+  useEffect(() => {
+    // 1. Page Visibility API Handler
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        fetchTickets();
+        if (token) fetchClaimStatus();
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    // 2. User Inactivity Tracker (5 minutes)
+    let inactivityTimer: NodeJS.Timeout;
+    const INACTIVITY_TIMEOUT = 5 * 60 * 1000; // 5 minutes
+
+    const resetInactivityTimer = () => {
+      setIsActive((prev) => {
+        if (!prev) {
+          // Immediately fetch once when returning from inactivity
+          fetchTickets();
+          if (token) fetchClaimStatus();
+        }
+        return true;
+      });
+      clearTimeout(inactivityTimer);
+      inactivityTimer = setTimeout(() => {
+        setIsActive(false);
+        console.log("[Lottocien] Inactividad detectada. Polling pausado.");
+      }, INACTIVITY_TIMEOUT);
+    };
+
+    // User activity events
+    const activityEvents = ["mousemove", "mousedown", "keydown", "scroll", "touchstart", "click"];
+    activityEvents.forEach((event) => {
+      window.addEventListener(event, resetInactivityTimer);
+    });
+
+    // Initialize timer
+    resetInactivityTimer();
+
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      activityEvents.forEach((event) => {
+        window.removeEventListener(event, resetInactivityTimer);
+      });
+      clearTimeout(inactivityTimer);
+    };
+  }, [fetchTickets, fetchClaimStatus, token]);
+
   // Poll for tickets status and claim status updates every 15 seconds to sync other users' actions
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -386,9 +436,12 @@ export default function Dashboard() {
     }, 0);
 
     const interval = setInterval(() => {
-      fetchTickets();
-      if (token) {
-        fetchClaimStatus();
+      const isTabVisible = typeof document !== "undefined" && document.visibilityState === "visible";
+      if (isActive && isTabVisible) {
+        fetchTickets();
+        if (token) {
+          fetchClaimStatus();
+        }
       }
     }, 15000);
 
@@ -396,7 +449,7 @@ export default function Dashboard() {
       clearTimeout(timer);
       clearInterval(interval);
     };
-  }, [fetchTickets, fetchClaimStatus, token]);
+  }, [fetchTickets, fetchClaimStatus, token, isActive]);
 
   // Handle number click selection (toggling multi-selection)
   const handleSelectNumber = (number: string, ticketStatus: string) => {

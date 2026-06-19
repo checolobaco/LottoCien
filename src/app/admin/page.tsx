@@ -19,7 +19,8 @@ import {
   Check,
   X,
   Clock,
-  Settings
+  Settings,
+  Send
 } from "lucide-react";
 
 interface Ticket {
@@ -159,6 +160,13 @@ export default function AdminDashboard() {
   const [accountTypeInput, setAccountTypeInput] = useState("Ahorros");
   const [accountHolderInput, setAccountHolderInput] = useState("Lottocien SAS");
   const [configSaving, setConfigSaving] = useState(false);
+
+  // Resend tickets states
+  const [resendType, setResendType] = useState<"number" | "email">("number");
+  const [resendValue, setResendValue] = useState("");
+  const [resendSaving, setResendSaving] = useState(false);
+  const [resendSuccess, setResendSuccess] = useState("");
+  const [resendError, setResendError] = useState("");
 
   // UI states
   const [loading, setLoading] = useState(true);
@@ -422,6 +430,42 @@ export default function AdminDashboard() {
     } finally {
       setActionLoading(false);
       setConfigSaving(false);
+    }
+  };
+
+  // Handle ticket confirmation email resending
+  const handleResendTickets = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!resendValue.trim()) return;
+
+    setResendSaving(true);
+    setResendError("");
+    setResendSuccess("");
+
+    try {
+      const response = await fetch("/api/admin/resend-tickets", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+          type: resendType,
+          value: resendValue,
+        }),
+      });
+
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Ocurrió un error al reenviar los tickets.");
+      }
+
+      setResendSuccess(data.message || "Tickets reenviados con éxito.");
+      setResendValue("");
+    } catch (err) {
+      setResendError(err instanceof Error ? err.message : "Error al procesar el reenvío.");
+    } finally {
+      setResendSaving(false);
     }
   };
 
@@ -1231,6 +1275,86 @@ export default function AdminDashboard() {
                     <CheckCircle size={18} />
                     {configSaving ? "Guardando..." : "Guardar Configuración"}
                   </button>
+                </div>
+              </form>
+            </div>
+
+            {/* 2.6 REENVIAR TICKETS PANEL */}
+            <div className="glass-panel rounded-2xl p-6 shadow-2xl space-y-6">
+              <h3 className="font-extrabold text-lg flex items-center gap-2 border-b border-slate-900 pb-4">
+                <Send className="text-emerald-400" size={20} />
+                Reenviar Comprobantes de Tickets a Clientes
+              </h3>
+              
+              <p className="text-xs text-slate-400 leading-relaxed">
+                Envía nuevamente el correo de confirmación con la lista de números comprados al cliente. Puedes buscar el cliente escribiendo su dirección de correo electrónico o indicando un número de ticket vendido en el sorteo actual.
+              </p>
+
+              <form onSubmit={handleResendTickets} className="space-y-4">
+                {resendError && (
+                  <div className="bg-rose-500/10 border border-rose-500/30 rounded-xl p-3 flex items-start gap-2.5 text-rose-400 text-xs">
+                    <XCircle size={16} className="shrink-0 mt-0.5" />
+                    <span>{resendError}</span>
+                  </div>
+                )}
+
+                {resendSuccess && (
+                  <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-3 flex items-start gap-2.5 text-emerald-400 text-xs">
+                    <CheckCircle size={16} className="shrink-0 mt-0.5" />
+                    <span>{resendSuccess}</span>
+                  </div>
+                )}
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-end">
+                  <div className="space-y-1.5">
+                    <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider">
+                      Método de Búsqueda
+                    </label>
+                    <select
+                      value={resendType}
+                      onChange={(e) => {
+                        setResendType(e.target.value as "number" | "email");
+                        setResendValue("");
+                        setResendError("");
+                        setResendSuccess("");
+                      }}
+                      className="block w-full px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all text-sm"
+                    >
+                      <option value="number">Por Número de Ticket</option>
+                      <option value="email">Por Correo de Cliente</option>
+                    </select>
+                  </div>
+
+                  <div className="space-y-1.5 sm:col-span-2">
+                    <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider">
+                      {resendType === "number" ? "Número de Ticket (2 cifras)" : "Correo Electrónico del Cliente"}
+                    </label>
+                    <div className="flex gap-3">
+                      <input
+                        type={resendType === "number" ? "text" : "email"}
+                        required
+                        placeholder={resendType === "number" ? "Ej: 07 o 45" : "ejemplo@correo.com"}
+                        maxLength={resendType === "number" ? 2 : 100}
+                        value={resendValue}
+                        onChange={(e) => setResendValue(e.target.value)}
+                        className="block flex-1 px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all text-sm font-sans"
+                      />
+                      <button
+                        type="submit"
+                        disabled={resendSaving || actionLoading || !resendValue.trim()}
+                        className="py-3 px-5 bg-indigo-500 hover:bg-indigo-400 text-slate-100 font-bold rounded-xl transition-all shadow-lg shadow-indigo-500/10 flex items-center justify-center gap-1.5 active:scale-95 disabled:opacity-50 whitespace-nowrap text-sm cursor-pointer"
+                      >
+                        {resendSaving ? (
+                          <div className="w-5 h-5 border-2 border-slate-100 border-t-transparent rounded-full animate-spin" />
+                        ) : (
+                          <>
+                            <Send size={15} />
+                            Reenviar Correo
+                          </>
+                        )}
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>

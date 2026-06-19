@@ -47,3 +47,4 @@ next-env.d.ts
 *.db-journal
 *.sqlite
 dev.db
+twilio_2FA_recovery_code.txt

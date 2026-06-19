@@ -8,7 +8,7 @@ const connectionString =
   "postgresql://postgres:postgres@localhost:5432/lottocien?schema=triplika";
 
 // Parse custom schema from DATABASE_URL
-let schema = "triplika";
+let schema = "public";
 try {
   const urlObj = new URL(connectionString);
   const schemaParam = urlObj.searchParams.get("schema") || urlObj.searchParams.get("currentSchema");

@@ -562,7 +562,7 @@ export default function Dashboard() {
       <header className="glass-panel border-b border-slate-900 sticky top-0 z-50 px-4 py-3 sm:px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2">
-            <img src="https://cdn.lottocien.com/logo%20moderno.png" alt="Lottocien Logo" className="h-8 w-auto object-contain" />
+            <img src="https://cdn.lottocien.com/logo%20moderno.png" alt="Lottocien Logo" className="h-16 w-auto object-contain" />
           </Link>
 
           <div className="flex items-center gap-3">

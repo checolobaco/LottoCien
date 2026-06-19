@@ -111,7 +111,7 @@ export default function LoginPage() {
 
       <div className="w-full max-w-md z-10">
         <div className="text-center mb-8 animate-fade-in">
-          <img src="https://cdn.lottocien.com/logo%20moderno.png" alt="Lottocien Logo" className="h-12 w-auto mx-auto object-contain mb-2" />
+          <img src="https://cdn.lottocien.com/logo%20moderno.png" alt="Lottocien Logo" className="h-24 sm:h-28 w-auto mx-auto object-contain mb-2" />
           <p className="mt-2 text-sm text-slate-400">
             {isLogin
               ? "Ingresa a tu cuenta para comprar y ver tus números"

@@ -35,6 +35,34 @@ export async function POST(req: Request) {
       }
     }
 
+    // Check raffle state to see if purchases are blocked (1h before / after draw)
+    const currentState = await prisma.raffleState.findUnique({
+      where: { id: "current" },
+    });
+
+    if (currentState) {
+      if (currentState.winningNumber !== null) {
+        return NextResponse.json(
+          { error: "Las compras están cerradas porque el sorteo ya se ha ejecutado." },
+          { status: 400 }
+        );
+      }
+
+      if (currentState.drawDate) {
+        const now = new Date();
+        const drawTime = new Date(currentState.drawDate);
+        const oneHour = 60 * 60 * 1000;
+        const diff = now.getTime() - drawTime.getTime();
+
+        if (diff >= -oneHour && diff <= oneHour) {
+          return NextResponse.json(
+            { error: "Las compras están deshabilitadas temporalmente (1 hora antes y 1 hora después del sorteo)." },
+            { status: 400 }
+          );
+        }
+      }
+    }
+
     // 2. Perform atomic reservation transaction
     const result = await prisma.$transaction(async (tx) => {
       // Find all target tickets

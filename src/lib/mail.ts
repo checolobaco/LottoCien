@@ -492,4 +492,52 @@ export async function sendClientWinnerNotificationEmail({
   });
 }
 
+// Mailer helper for client contact form messages
+export async function sendAdminContactForm({
+  adminEmail,
+  clientEmail,
+  clientPhone,
+  message,
+}: {
+  adminEmail?: string;
+  clientEmail: string;
+  clientPhone?: string;
+  message: string;
+}) {
+  const finalAdminEmail = adminEmail || process.env.ADMIN_EMAIL || "admin@lottocien.com";
+  
+  const html = `
+    <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;">
+      <h2 style="color: #6366f1; margin-bottom: 20px;">📩 Nuevo Mensaje de Contacto</h2>
+      <p>Un cliente ha enviado un mensaje a través del formulario de contacto:</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <tr style="background: #f8fafc;">
+          <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold; width: 30%;">Correo del Cliente:</td>
+          <td style="padding: 10px; border: 1px solid #e2e8f0;">${clientEmail}</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold;">Teléfono / WhatsApp:</td>
+          <td style="padding: 10px; border: 1px solid #e2e8f0;">${clientPhone || "No especificado"}</td>
+        </tr>
+      </table>
+      
+      <p style="font-weight: bold; margin-bottom: 5px;">Mensaje Escrito:</p>
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 15px; margin: 10px 0; font-style: italic; white-space: pre-wrap; color: #1e293b;">
+        ${message}
+      </div>
+      
+      <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;" />
+      <p style="font-size: 11px; color: #64748b; text-align: center;">Este es un mensaje enviado automáticamente desde el sitio de Lottocien.</p>
+    </div>
+  `;
+
+  return sendEmail({
+    to: finalAdminEmail,
+    subject: `📩 Nuevo Mensaje de Contacto - Lottocien`,
+    html,
+  });
+}
+
+
 

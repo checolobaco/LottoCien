@@ -77,12 +77,46 @@ export async function POST(req: Request) {
     const arrayBuffer = await file.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
 
-    // 4. Upload to Cloudflare R2
+    // 4. Retrieve associated tickets to construct a descriptive filename and pre-validate
+    const preCheckTickets = await prisma.ticket.findMany({
+      where: {
+        transactionRef,
+        userId: user.id,
+      },
+      select: {
+        number: true,
+        status: true,
+      },
+    });
+
+    if (preCheckTickets.length === 0) {
+      return NextResponse.json(
+        { error: "No se encontraron registros activos para la referencia de pago proporcionada." },
+        { status: 404 }
+      );
+    }
+
+    const hasInvalidStatus = preCheckTickets.some(t => t.status !== "PENDING");
+    if (hasInvalidStatus) {
+      return NextResponse.json(
+        { error: "Los números de esta transacción ya han sido procesados, aprobados o su tiempo expiró." },
+        { status: 400 }
+      );
+    }
+
+    const preCheckNumbers = preCheckTickets.map(t => t.number);
+    const cleanEmail = user.email.replace(/[^a-zA-Z0-9]/g, "_");
+    const numbersStr = preCheckNumbers.join("-");
+    const fileExtension = file.name.includes(".") ? file.name.split(".").pop() : "bin";
+    const cleanExtension = fileExtension?.replace(/[^a-zA-Z0-9]/g, "") || "bin";
+    const descriptiveFileName = `comprobante_cliente_${cleanEmail}_tickets_${numbersStr}.${cleanExtension}`;
+
+    // 5. Upload to Cloudflare R2
     console.log(`Subiendo comprobante para transacción: ${transactionRef} a Cloudflare R2...`);
-    const receiptUrl = await uploadReceiptToR2(buffer, file.name, file.type);
+    const receiptUrl = await uploadReceiptToR2(buffer, descriptiveFileName, file.type);
     console.log(`Subido con éxito: ${receiptUrl}`);
 
-    // 5. Update tickets in Database atomically
+    // 6. Update tickets in Database atomically
     const tickets = await prisma.$transaction(async (tx) => {
       // Find tickets associated with this transaction reference
       const associatedTickets = await tx.ticket.findMany({

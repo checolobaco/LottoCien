@@ -561,8 +561,22 @@ export default function Dashboard() {
       {/* HEADER NAVBAR */}
       <header className="glass-panel border-b border-slate-900 sticky top-0 z-50 px-4 py-3 sm:px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-2">
-            <img src="https://cdn.lottocien.com/logo%20moderno.png" alt="Lottocien Logo" className="h-16 w-auto object-contain" />
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative h-12 w-12 sm:h-14 sm:w-14 rounded-xl overflow-hidden bg-slate-900/50 border border-slate-800/80 p-1 flex items-center justify-center transition-all duration-300 group-hover:border-emerald-500/40 group-hover:shadow-[0_0_15px_rgba(16,185,129,0.1)]">
+              <img 
+                src="https://cdn.lottocien.com/Icono%20Isotipo%20Redondo.png" 
+                alt="Lottocien Isotipo" 
+                className="h-full w-full object-contain"
+              />
+            </div>
+            <div className="flex flex-col justify-center">
+              <span className="font-extrabold text-2xl sm:text-3xl tracking-wider bg-gradient-to-r from-emerald-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent transition-all duration-300 group-hover:brightness-110">
+                Lottocien
+              </span>
+              <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.2em] text-slate-400 font-semibold mt-0.5">
+                Rifa Semanal
+              </span>
+            </div>
           </Link>
 
           <div className="flex items-center gap-3">

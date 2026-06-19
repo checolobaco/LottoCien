@@ -110,9 +110,25 @@ export default function LoginPage() {
       <div className="absolute bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl" />
 
       <div className="w-full max-w-md z-10">
-        <div className="text-center mb-8 animate-fade-in">
-          <img src="https://cdn.lottocien.com/logo%20moderno.png" alt="Lottocien Logo" className="h-24 sm:h-28 w-auto mx-auto object-contain mb-2" />
-          <p className="mt-2 text-sm text-slate-400">
+        <div className="text-center mb-8 animate-fade-in flex flex-col items-center">
+          <div className="flex items-center gap-3.5 mb-2 justify-center">
+            <div className="h-16 w-16 rounded-2xl bg-slate-900/50 border border-slate-800 p-1.5 flex items-center justify-center shadow-lg">
+              <img 
+                src="https://cdn.lottocien.com/Icono%20Isotipo%20Redondo.png" 
+                alt="Lottocien Isotipo" 
+                className="h-full w-full object-contain"
+              />
+            </div>
+            <div className="text-left flex flex-col justify-center">
+              <span className="font-extrabold text-3xl sm:text-4xl tracking-wider bg-gradient-to-r from-emerald-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">
+                Lottocien
+              </span>
+              <span className="text-[10px] uppercase tracking-[0.25em] text-slate-400 font-bold mt-0.5">
+                Rifa Semanal
+              </span>
+            </div>
+          </div>
+          <p className="mt-4 text-sm text-slate-400 max-w-sm">
             {isLogin
               ? "Ingresa a tu cuenta para comprar y ver tus números"
               : "Regístrate para participar en la rifa semanal"}

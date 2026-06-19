@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/context/AuthContext";
-import { Lock, Mail, ArrowRight, UserPlus, LogIn, AlertCircle, X } from "lucide-react";
+import { Lock, Mail, ArrowRight, UserPlus, LogIn, AlertCircle, X, Phone } from "lucide-react";
 
 export default function LoginPage() {
   const [isLogin, setIsLogin] = useState(true);
@@ -11,6 +11,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [phone, setPhone] = useState("");
   const { user, login } = useAuth();
   const router = useRouter();
 
@@ -66,10 +67,11 @@ export default function LoginPage() {
     const endpoint = isLogin ? "/api/auth/login" : "/api/auth/register";
 
     try {
+      const payload = isLogin ? { email, password } : { email, password, phone };
       const response = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify(payload),
       });
 
       const data = await response.json();
@@ -168,6 +170,27 @@ export default function LoginPage() {
             </div>
 
             {!isLogin && (
+              <div>
+                <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  Número de Teléfono / WhatsApp
+                </label>
+                <div className="relative">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <Phone className="text-slate-500" size={18} />
+                  </div>
+                  <input
+                    type="tel"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    placeholder="Ej. +573001234567"
+                    className="block w-full pl-10 pr-3 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
+                    required
+                  />
+                </div>
+              </div>
+            )}
+
+            {!isLogin && (
               <div className="flex items-start gap-2.5 mt-2 bg-slate-900/20 border border-slate-900/60 p-3.5 rounded-xl">
                 <input
                   id="accept-terms"
@@ -217,6 +240,7 @@ export default function LoginPage() {
               onClick={() => {
                 setIsLogin(!isLogin);
                 setError("");
+                setPhone("");
               }}
               className="text-sm text-slate-400 hover:text-slate-200 transition-colors"
             >

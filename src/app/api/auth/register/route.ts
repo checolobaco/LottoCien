@@ -5,11 +5,11 @@ import { signToken } from "@/lib/jwt";
 
 export async function POST(req: Request) {
   try {
-    const { email, password } = await req.json();
+    const { email, password, phone } = await req.json();
 
-    if (!email || !password) {
+    if (!email || !password || !phone) {
       return NextResponse.json(
-        { error: "Email y contraseña son obligatorios." },
+        { error: "Email, contraseña y teléfono son obligatorios." },
         { status: 400 }
       );
     }
@@ -34,6 +34,7 @@ export async function POST(req: Request) {
       data: {
         email,
         passwordHash,
+        phone: phone.trim(),
         role: "CLIENT", // Default role
       },
     });
@@ -49,6 +50,7 @@ export async function POST(req: Request) {
       user: {
         id: user.id,
         email: user.email,
+        phone: user.phone,
         role: user.role,
       },
       token,

@@ -19,7 +19,8 @@ import {
   Building,
   CheckCircle,
   XCircle,
-  X
+  X,
+  Copy
 } from "lucide-react";
 
 interface Ticket {
@@ -103,6 +104,7 @@ export default function Dashboard() {
   const [paymentLoading, setPaymentLoading] = useState(false);
   const [error, setError] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
+  const [copySuccess, setCopySuccess] = useState(false);
   const [showTermsModal, setShowTermsModal] = useState(false);
 
   // Claim prize states
@@ -1264,7 +1266,27 @@ export default function Dashboard() {
                           </tr>
                           <tr>
                             <td className="text-slate-500 py-0.5">N° de Cuenta:</td>
-                            <td className="font-mono font-semibold text-slate-200">{raffleState?.accountNumber || "123-456789-01"}</td>
+                            <td className="font-mono font-semibold text-slate-200 flex items-center justify-end gap-1.5">
+                              <span>{raffleState?.accountNumber || "123-456789-01"}</span>
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  if (typeof window !== "undefined") {
+                                    navigator.clipboard.writeText(raffleState?.accountNumber || "123-456789-01");
+                                    setCopySuccess(true);
+                                    setTimeout(() => setCopySuccess(false), 2000);
+                                  }
+                                }}
+                                className="p-1 rounded hover:bg-slate-800 text-indigo-400 hover:text-indigo-300 transition-all flex items-center justify-center cursor-pointer"
+                                title="Copiar número de cuenta"
+                              >
+                                {copySuccess ? (
+                                  <CheckCircle2 size={13} className="text-emerald-400" />
+                                ) : (
+                                  <Copy size={13} />
+                                )}
+                              </button>
+                            </td>
                           </tr>
                           <tr>
                             <td className="text-slate-500 py-0.5">Tipo:</td>

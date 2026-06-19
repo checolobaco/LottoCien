@@ -23,7 +23,7 @@ export async function GET() {
     }
 
     return NextResponse.json(config, { status: 200 });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al obtener la configuración pública:", error);
     return NextResponse.json(
       { error: "Error interno del servidor al obtener la configuración." },

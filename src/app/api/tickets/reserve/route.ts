@@ -107,15 +107,16 @@ export async function POST(req: Request) {
       transactionRef: result.transactionRef,
     }, { status: 200 });
 
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al reservar tickets:", error);
-    if (error.message === "TICKET_TAKEN") {
+    const err = error as Error;
+    if (err.message === "TICKET_TAKEN") {
       return NextResponse.json(
         { error: "Uno o más de los números elegidos ya han sido reservados o comprados por otro usuario." },
         { status: 409 }
       );
     }
-    if (error.message === "TICKET_NOT_FOUND") {
+    if (err.message === "TICKET_NOT_FOUND") {
       return NextResponse.json(
         { error: "Uno o más números no existen en el inventario." },
         { status: 404 }

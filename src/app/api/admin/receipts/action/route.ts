@@ -110,15 +110,16 @@ export async function POST(req: Request) {
         : "La compra ha sido rechazada y los números han sido liberados.",
     }, { status: 200 });
 
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al procesar acción del administrador sobre recibo:", error);
-    if (error.message === "TRANSACTION_NOT_FOUND") {
+    const err = error as Error;
+    if (err.message === "TRANSACTION_NOT_FOUND") {
       return NextResponse.json(
         { error: "No se encontraron tickets asociados a la referencia de pago especificada." },
         { status: 404 }
       );
     }
-    if (error.message === "TICKETS_NOT_PENDING_APPROVAL") {
+    if (err.message === "TICKETS_NOT_PENDING_APPROVAL") {
       return NextResponse.json(
         { error: "Los números de esta transacción no están esperando aprobación (ya fueron procesados o expiraron)." },
         { status: 400 }

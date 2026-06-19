@@ -117,7 +117,7 @@ export async function POST(req: Request) {
       raffleState: updatedState,
     }, { status: 200 });
 
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al actualizar la configuración del sorteo:", error);
     return NextResponse.json(
       { error: "Error interno del servidor al actualizar la configuración." },

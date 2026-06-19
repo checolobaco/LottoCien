@@ -15,7 +15,7 @@ export function signToken(payload: JWTPayload): string {
 export function verifyToken(token: string): JWTPayload | null {
   try {
     return jwt.verify(token, JWT_SECRET) as JWTPayload;
-  } catch (error) {
+  } catch {
     return null;
   }
 }
@@ -28,7 +28,7 @@ export function getCurrentUser(req: Request): JWTPayload | null {
     }
     const token = authHeader.split(" ")[1];
     return verifyToken(token);
-  } catch (error) {
+  } catch {
     return null;
   }
 }

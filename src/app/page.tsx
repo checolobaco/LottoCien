@@ -23,6 +23,22 @@ import {
   Copy
 } from "lucide-react";
 
+interface WompiWidget {
+  open: (callback: (result: { transaction?: { id: string; status: string } }) => void) => void;
+}
+
+interface CustomWindow extends Window {
+  WidgetCheckout?: new (config: {
+    currency: string;
+    amountInCents: number;
+    reference: string;
+    publicKey: string;
+    redirectUrl: string;
+    signature: string;
+    customerData: { email: string };
+  }) => WompiWidget;
+}
+
 interface Ticket {
   number: string;
   status: "AVAILABLE" | "PENDING" | "PENDING_APPROVAL" | "SOLD";
@@ -56,35 +72,6 @@ interface RaffleState {
   accountHolder: string;
 }
 
-interface Winner {
-  number: string;
-  email: string;
-  prizes: string[];
-}
-
-interface DrawHistoryEntry {
-  id: string;
-  winningNumber: string;
-  drawnAt: string;
-  lotteryName: string;
-  ticketPrice: number;
-  prizeMayor: number;
-  prizeSecundario: number;
-  prizeConsolacion: number;
-  winners: string; // JSON string representing Winner[]
-  createdAt: string;
-}
-
-const maskEmail = (email: string): string => {
-  if (!email) return "";
-  const [local, domain] = email.split("@");
-  if (!domain) return email;
-  if (local.length <= 2) {
-    return `${local[0]}**@${domain}`;
-  }
-  return `${local.slice(0, 3)}***@${domain}`;
-};
-
 const formatCOP = (val: number): string => {
   return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 };
@@ -95,7 +82,6 @@ export default function Dashboard() {
   // State
   const [tickets, setTickets] = useState<Ticket[]>([]);
   const [raffleState, setRaffleState] = useState<RaffleState | null>(null);
-  const [drawHistory, setDrawHistory] = useState<DrawHistoryEntry[]>([]);
   const [selectedNumbers, setSelectedNumbers] = useState<string[]>([]);
   const [paymentMethod, setPaymentMethod] = useState<"WOMPI" | "TRANSFER">("TRANSFER");
   const [receiptFile, setReceiptFile] = useState<File | null>(null);
@@ -140,7 +126,10 @@ export default function Dashboard() {
     const stored = localStorage.getItem("lottocien_selected_numbers");
     if (stored) {
       try {
-        setSelectedNumbers(JSON.parse(stored));
+        const parsed = JSON.parse(stored);
+        setTimeout(() => {
+          setSelectedNumbers(parsed);
+        }, 0);
       } catch (e) {
         console.error("Error al cargar números seleccionados:", e);
       }
@@ -208,9 +197,10 @@ export default function Dashboard() {
       
       // Refresh claim status from server
       await fetchClaimStatus();
-    } catch (err: any) {
+    } catch (err) {
       console.error(err);
-      setClaimError(err.message || "Error al procesar el reclamo de premio.");
+      const errorMessage = err instanceof Error ? err.message : "Error al procesar el reclamo de premio.";
+      setClaimError(errorMessage);
     } finally {
       setClaimLoading(false);
     }
@@ -245,9 +235,10 @@ export default function Dashboard() {
       setClarifyNoteInput("");
       // Refresh claim status to display the updated clientNote
       await fetchClaimStatus();
-    } catch (err: any) {
+    } catch (err) {
       console.error(err);
-      setClarifyError(err.message || "Error al procesar el envío de la aclaración.");
+      const errorMessage = err instanceof Error ? err.message : "Error al procesar el envío de la aclaración.";
+      setClarifyError(errorMessage);
     } finally {
       setClarifyLoading(false);
     }
@@ -268,7 +259,6 @@ export default function Dashboard() {
         const data = await response.json();
         setTickets(data.tickets);
         setRaffleState(data.raffleState);
-        setDrawHistory(data.drawHistory || []);
         if (data.raffleState && !data.raffleState.wompiEnabled) {
           setPaymentMethod("TRANSFER");
         }
@@ -309,17 +299,24 @@ export default function Dashboard() {
 
   // Poll for tickets status and claim status updates every 15 seconds to sync other users' actions
   useEffect(() => {
-    fetchTickets();
-    if (token) {
-      fetchClaimStatus();
-    }
+    const timer = setTimeout(() => {
+      fetchTickets();
+      if (token) {
+        fetchClaimStatus();
+      }
+    }, 0);
+
     const interval = setInterval(() => {
       fetchTickets();
       if (token) {
         fetchClaimStatus();
       }
     }, 15000);
-    return () => clearInterval(interval);
+
+    return () => {
+      clearTimeout(timer);
+      clearInterval(interval);
+    };
   }, [fetchTickets, fetchClaimStatus, token]);
 
   // Handle number click selection (toggling multi-selection)
@@ -419,8 +416,9 @@ export default function Dashboard() {
         const publicKey = process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY || "pub_test_Q5yDA9zJzUph7szkth4Z15Wv12H29Z4s";
 
         // 3. Open Wompi checkout widget
-        if (typeof window !== "undefined" && (window as any).WidgetCheckout) {
-          const checkout = new (window as any).WidgetCheckout({
+        const customWindow = typeof window !== "undefined" ? (window as unknown as CustomWindow) : null;
+        if (customWindow && customWindow.WidgetCheckout) {
+          const checkout = new customWindow.WidgetCheckout({
             currency: "COP",
             amountInCents,
             reference: transactionRef,
@@ -432,7 +430,7 @@ export default function Dashboard() {
             },
           });
 
-          checkout.open(async (result: any) => {
+          checkout.open(async (result) => {
             const tx = result?.transaction;
             console.log("Transacción de Wompi finalizada en el widget:", tx);
             await fetchTickets();
@@ -491,8 +489,9 @@ export default function Dashboard() {
         setSuccessMessage("¡Comprobante enviado con éxito! El administrador validará tu transferencia pronto.");
       }
 
-    } catch (err: any) {
-      setError(err.message || "Error al procesar el pago.");
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Error al procesar el pago.";
+      setError(errorMessage);
       fetchTickets();
     } finally {
       setPaymentLoading(false);

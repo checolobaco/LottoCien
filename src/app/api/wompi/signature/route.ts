@@ -22,7 +22,7 @@ export async function POST(req: Request) {
       .digest("hex");
 
     return NextResponse.json({ signature }, { status: 200 });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al generar firma de integridad:", error);
     return NextResponse.json(
       { error: "Error interno al generar la firma de integridad." },

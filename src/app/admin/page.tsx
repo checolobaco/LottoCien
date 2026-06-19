@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
-import { useRouter } from "next/navigation";
 import { useAuth } from "@/context/AuthContext";
 import Link from "next/link";
 import { 
@@ -70,7 +69,7 @@ const formatCOP = (val: number): string => {
 const parseWinners = (winnersStr: string): Winner[] => {
   try {
     return JSON.parse(winnersStr) || [];
-  } catch (e) {
+  } catch {
     return [];
   }
 };
@@ -88,7 +87,6 @@ const formatForDateTimeLocal = (dateString: string | null) => {
 
 export default function AdminDashboard() {
   const { user, token, loading: authLoading } = useAuth();
-  const router = useRouter();
 
   // State
   const [tickets, setTickets] = useState<Ticket[]>([]);
@@ -252,8 +250,9 @@ export default function AdminDashboard() {
 
       setSuccess(data.message || "Reclamación actualizada con éxito.");
       fetchClaims();
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Error al actualizar la reclamación.";
+      setError(errorMessage);
     } finally {
       setActionLoading(false);
     }
@@ -311,7 +310,7 @@ export default function AdminDashboard() {
       }
       
       processGroupedApprovals(data.tickets);
-    } catch (err) {
+    } catch {
       setError("Error al cargar la información del panel.");
     } finally {
       setLoading(false);
@@ -322,9 +321,12 @@ export default function AdminDashboard() {
     if (!authLoading && (!user || user.role !== "ADMIN")) {
       // Handled below in render guard
     } else {
-      fetchData();
-      fetchClaims();
-      fetchDrawHistory();
+      const timer = setTimeout(() => {
+        fetchData();
+        fetchClaims();
+        fetchDrawHistory();
+      }, 0);
+      return () => clearTimeout(timer);
     }
   }, [user, authLoading, fetchData, fetchClaims, fetchDrawHistory]);
 
@@ -361,7 +363,6 @@ export default function AdminDashboard() {
 
   // Calculate statistics
   const totalSold = tickets.filter(t => t.status === "SOLD").length;
-  const totalPending = tickets.filter(t => t.status === "PENDING").length;
   const totalPendingApproval = tickets.filter(t => t.status === "PENDING_APPROVAL").length;
   const totalAvailable = tickets.filter(t => t.status === "AVAILABLE").length;
   const estimatedRevenue = totalSold * TICKET_PRICE;
@@ -415,8 +416,9 @@ export default function AdminDashboard() {
         setAccountTypeInput(data.raffleState.accountType ?? "Ahorros");
         setAccountHolderInput(data.raffleState.accountHolder ?? "Lottocien SAS");
       }
-    } catch (err: any) {
-      setError(err.message || "Error al conectar con el servidor.");
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Error al conectar con el servidor.";
+      setError(errorMessage);
     } finally {
       setActionLoading(false);
       setConfigSaving(false);
@@ -458,8 +460,9 @@ export default function AdminDashboard() {
       setRaffleState(data.raffleState);
       fetchData(); // Refresh tickets data
       fetchDrawHistory(); // Refresh history
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Error al calcular ganadores.";
+      setError(errorMessage);
     } finally {
       setActionLoading(false);
     }
@@ -495,8 +498,9 @@ export default function AdminDashboard() {
       setRaffleState(data.raffleState);
       fetchData();
       fetchDrawHistory(); // Refresh history
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Error al reiniciar el sorteo.";
+      setError(errorMessage);
     } finally {
       setActionLoading(false);
     }
@@ -545,8 +549,9 @@ export default function AdminDashboard() {
           : "Reserva rechazada. Se han liberado los números y enviado correo explicativo al cliente."
       );
       fetchData();
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Fallo al procesar la acción del recibo.";
+      setError(errorMessage);
     } finally {
       setActionLoading(false);
     }
@@ -584,8 +589,9 @@ export default function AdminDashboard() {
       setSimResult(`Simulación enviada. ${data.message}`);
       setSimSelectedRef("");
       fetchData();
-    } catch (err: any) {
-      setSimResult(`Error: ${err.message}`);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "La llamada al webhook falló.";
+      setSimResult(`Error: ${errorMessage}`);
     }
   };
 

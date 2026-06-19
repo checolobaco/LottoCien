@@ -29,7 +29,7 @@ export async function GET(req: Request) {
     });
 
     return NextResponse.json({ claims }, { status: 200 });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al obtener reclamaciones (admin):", error);
     return NextResponse.json(
       { error: "Error interno del servidor al obtener reclamaciones." },
@@ -86,7 +86,7 @@ export async function POST(req: Request) {
       },
       { status: 200 }
     );
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al actualizar reclamación (admin):", error);
     return NextResponse.json(
       { error: "Error interno del servidor al actualizar la reclamación." },

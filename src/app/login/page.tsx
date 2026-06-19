@@ -15,8 +15,15 @@ export default function LoginPage() {
   const { user, login } = useAuth();
   const router = useRouter();
 
+  interface ConfigData {
+    termsAndConditions: string;
+    wompiEnabled: boolean;
+    ticketPrice: number;
+    prizeMayor: number;
+  }
+
   // Terms Acceptance State
-  const [configData, setConfigData] = useState<any>(null);
+  const [configData, setConfigData] = useState<ConfigData | null>(null);
   const [acceptedTerms, setAcceptedTerms] = useState(false);
   const [showTermsModal, setShowTermsModal] = useState(false);
 
@@ -88,8 +95,9 @@ export default function LoginPage() {
       } else {
         router.push("/");
       }
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Algo salió mal.";
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }

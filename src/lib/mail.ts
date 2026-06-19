@@ -32,9 +32,10 @@ export async function sendEmail({
       html,
     });
     return { success: true, data };
-  } catch (error: any) {
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
     console.error("Error al enviar correo vía Resend API:", error);
-    return { success: false, error: error.message };
+    return { success: false, error: errorMessage };
   }
 }
 

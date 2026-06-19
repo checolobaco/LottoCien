@@ -1,8 +1,7 @@
 import { sendClientDrawWarningEmail } from "./mail";
+import { PrismaClient } from "@prisma/client";
 
-let schedulerInterval: NodeJS.Timeout | null = null;
-
-export function initScheduler(prisma: any) {
+export function initScheduler(prisma: PrismaClient) {
   if (typeof window !== "undefined") return;
 
   // Prevent running background threads during the Next.js static build phase
@@ -10,7 +9,7 @@ export function initScheduler(prisma: any) {
     return;
   }
 
-  const g = globalThis as any;
+  const g = globalThis as unknown as { __drawSchedulerRunning?: boolean };
   if (g.__drawSchedulerRunning) {
     return;
   }
@@ -24,14 +23,14 @@ export function initScheduler(prisma: any) {
   });
 
   // Check every 2 minutes (120000 ms)
-  schedulerInterval = setInterval(() => {
+  setInterval(() => {
     checkDrawWarning(prisma).catch(err => {
       console.error("[Scheduler] Error en ejecución de scheduler:", err);
     });
   }, 120000);
 }
 
-export async function checkDrawWarning(prisma: any) {
+export async function checkDrawWarning(prisma: PrismaClient) {
   try {
     const state = await prisma.raffleState.findUnique({
       where: { id: "current" },

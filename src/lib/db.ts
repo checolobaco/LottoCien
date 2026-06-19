@@ -16,7 +16,7 @@ const prismaClientSingleton = () => {
     if (schemaParam) {
       schema = schemaParam;
     }
-  } catch (e) {
+  } catch {
     // Fallback to default schema if URL parsing fails
   }
 

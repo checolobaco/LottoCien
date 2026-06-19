@@ -55,7 +55,7 @@ export async function POST(req: Request) {
       },
       token,
     }, { status: 201 });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error en registro:", error);
     return NextResponse.json(
       { error: "Error interno del servidor al registrar el usuario." },

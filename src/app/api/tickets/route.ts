@@ -50,7 +50,7 @@ export async function GET() {
     });
 
     return NextResponse.json({ tickets, raffleState, drawHistory }, { status: 200 });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al obtener tickets:", error);
     return NextResponse.json(
       { error: "Error interno del servidor al obtener los números." },

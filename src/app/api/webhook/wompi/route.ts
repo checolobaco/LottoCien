@@ -100,7 +100,7 @@ export async function POST(req: Request) {
     }
 
     return NextResponse.json({ success: true }, { status: 200 });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error en webhook de Wompi:", error);
     return NextResponse.json(
       { error: "Error interno en el procesamiento del webhook." },

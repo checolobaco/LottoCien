@@ -15,7 +15,7 @@ try {
   if (schemaParam) {
     schema = schemaParam;
   }
-} catch (e) {
+} catch {
   // Fallback
 }
 

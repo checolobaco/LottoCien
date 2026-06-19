@@ -126,15 +126,16 @@ export async function POST(req: Request) {
       ticketCount: tickets.length,
     }, { status: 200 });
 
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al procesar comprobante de pago:", error);
-    if (error.message === "TRANSACTION_NOT_FOUND") {
+    const err = error as Error;
+    if (err.message === "TRANSACTION_NOT_FOUND") {
       return NextResponse.json(
         { error: "No se encontraron registros activos para la referencia de pago proporcionada." },
         { status: 404 }
       );
     }
-    if (error.message === "INVALID_TICKET_STATUS") {
+    if (err.message === "INVALID_TICKET_STATUS") {
       return NextResponse.json(
         { error: "Los números de esta transacción ya han sido procesados, aprobados o su tiempo expiró." },
         { status: 400 }

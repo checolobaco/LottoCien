@@ -25,7 +25,7 @@ export async function GET(req: Request) {
       history,
     }, { status: 200 });
 
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al obtener el historial de sorteos:", error);
     return NextResponse.json(
       { error: "Error interno del servidor al obtener el historial." },

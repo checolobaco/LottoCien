@@ -79,7 +79,7 @@ export async function POST(req: Request) {
       message: `Webhook de Wompi simulado con éxito. El ticket ahora está marcado como ${status}.`,
     }, { status: 200 });
 
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error en simulación de webhook:", error);
     return NextResponse.json(
       { error: "Error interno del servidor en el simulador." },

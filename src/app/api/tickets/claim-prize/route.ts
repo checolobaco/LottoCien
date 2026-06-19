@@ -35,7 +35,7 @@ export async function GET(req: Request) {
     });
 
     return NextResponse.json({ claim }, { status: 200 });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error al obtener reclamación:", error);
     return NextResponse.json(
       { error: "Error interno del servidor." },
@@ -217,7 +217,7 @@ export async function POST(req: Request) {
       },
       { status: 200 }
     );
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error en endpoint de reclamo de premio:", error);
     return NextResponse.json(
       { error: "Error interno del servidor al procesar el reclamo de premio." },

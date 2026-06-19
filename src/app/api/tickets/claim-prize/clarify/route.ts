@@ -104,7 +104,7 @@ export async function POST(req: Request) {
       },
       { status: 200 }
     );
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error en endpoint de aclaración de premio:", error);
     return NextResponse.json(
       { error: "Error interno del servidor al procesar la aclaración." },

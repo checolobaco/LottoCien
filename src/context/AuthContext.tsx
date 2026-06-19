@@ -33,14 +33,21 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     if (storedToken && storedUser) {
       try {
-        setToken(storedToken);
-        setUser(JSON.parse(storedUser));
-      } catch (e) {
+        const parsedUser = JSON.parse(storedUser);
+        setTimeout(() => {
+          setToken(storedToken);
+          setUser(parsedUser);
+          setLoading(false);
+        }, 0);
+        return;
+      } catch {
         localStorage.removeItem("auth_token");
         localStorage.removeItem("auth_user");
       }
     }
-    setLoading(false);
+    setTimeout(() => {
+      setLoading(false);
+    }, 0);
   }, []);
 
   const login = (newToken: string, newUser: User) => {

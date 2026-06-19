@@ -46,6 +46,13 @@ model RaffleState {
   showDrawWarning    Boolean   @default(true)
   showDrawHistory    Boolean   @default(true)
   termsAndConditions String    @default("TÉRMINOS Y CONDICIONES DE USO Y PARTICIPACIÓN – LOTTOCIEN\n\n1. ACEPTACIÓN DE TÉRMINOS: Al registrarse en Lottocien, el usuario declara ser mayor de edad y aceptar en su totalidad estos términos y condiciones.\n2. DINÁMICA DEL JUEGO: La rifa consta de 100 números (del 00 al 99). El número ganador se determinará a partir del sorteo oficial de la lotería de referencia.\n3. PREMIOS: El Premio Mayor requiere acertar las dos últimas cifras, el Premio Secundario las dos primeras cifras, y el Premio de Consolación las dos cifras centrales. Cada número comprado tiene derecho a participar en las 3 modalidades.\n4. RECLAMO DE PREMIOS: Los ganadores serán contactados vía correo electrónico y deberán presentar su documento de identidad original y el comprobante de compra verificado.")
+  
+  // Datos bancarios del administrador para recibir transferencias
+  bankName           String    @default("Bancolombia")
+  accountNumber      String    @default("123-456789-01")
+  accountType        String    @default("Ahorros")
+  accountHolder      String    @default("Lottocien SAS")
+
   updatedAt          DateTime  @updatedAt
 }
 

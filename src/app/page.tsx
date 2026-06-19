@@ -49,6 +49,10 @@ interface RaffleState {
   drawWarningMessage: string;
   showDrawWarning: boolean;
   showDrawHistory: boolean;
+  bankName: string;
+  accountNumber: string;
+  accountType: string;
+  accountHolder: string;
 }
 
 interface Winner {
@@ -1256,19 +1260,19 @@ export default function Dashboard() {
                         <tbody>
                           <tr>
                             <td className="text-slate-500 py-0.5">Banco:</td>
-                            <td className="font-semibold text-slate-200">Bancolombia</td>
+                            <td className="font-semibold text-slate-200">{raffleState?.bankName || "Bancolombia"}</td>
                           </tr>
                           <tr>
                             <td className="text-slate-500 py-0.5">N° de Cuenta:</td>
-                            <td className="font-mono font-semibold text-slate-200">123-456789-01</td>
+                            <td className="font-mono font-semibold text-slate-200">{raffleState?.accountNumber || "123-456789-01"}</td>
                           </tr>
                           <tr>
                             <td className="text-slate-500 py-0.5">Tipo:</td>
-                            <td className="font-semibold text-slate-200">Ahorros</td>
+                            <td className="font-semibold text-slate-200">{raffleState?.accountType || "Ahorros"}</td>
                           </tr>
                           <tr>
                             <td className="text-slate-500 py-0.5">Titular:</td>
-                            <td className="font-semibold text-slate-200">Lottocien SAS</td>
+                            <td className="font-semibold text-slate-200">{raffleState?.accountHolder || "Lottocien SAS"}</td>
                           </tr>
                         </tbody>
                       </table>

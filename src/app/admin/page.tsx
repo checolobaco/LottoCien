@@ -107,6 +107,10 @@ export default function AdminDashboard() {
     drawWarningSent: boolean;
     showDrawWarning: boolean;
     showDrawHistory: boolean;
+    bankName: string;
+    accountNumber: string;
+    accountType: string;
+    accountHolder: string;
   } | null>(null);
   const [winners, setWinners] = useState<Winner[]>([]);
   const [groupedApprovals, setGroupedApprovals] = useState<GroupedApproval[]>([]);
@@ -152,6 +156,10 @@ export default function AdminDashboard() {
   const [drawWarningMessageInput, setDrawWarningMessageInput] = useState("");
   const [showDrawWarningInput, setShowDrawWarningInput] = useState(true);
   const [showDrawHistoryInput, setShowDrawHistoryInput] = useState(true);
+  const [bankNameInput, setBankNameInput] = useState("Bancolombia");
+  const [accountNumberInput, setAccountNumberInput] = useState("123-456789-01");
+  const [accountTypeInput, setAccountTypeInput] = useState("Ahorros");
+  const [accountHolderInput, setAccountHolderInput] = useState("Lottocien SAS");
   const [configSaving, setConfigSaving] = useState(false);
 
   // UI states
@@ -296,6 +304,10 @@ export default function AdminDashboard() {
         setDrawWarningMessageInput(data.raffleState.drawWarningMessage ?? "");
         setShowDrawWarningInput(data.raffleState.showDrawWarning ?? true);
         setShowDrawHistoryInput(data.raffleState.showDrawHistory ?? true);
+        setBankNameInput(data.raffleState.bankName ?? "Bancolombia");
+        setAccountNumberInput(data.raffleState.accountNumber ?? "123-456789-01");
+        setAccountTypeInput(data.raffleState.accountType ?? "Ahorros");
+        setAccountHolderInput(data.raffleState.accountHolder ?? "Lottocien SAS");
       }
       
       processGroupedApprovals(data.tickets);
@@ -381,6 +393,10 @@ export default function AdminDashboard() {
           drawWarningMessage: drawWarningMessageInput,
           showDrawWarning: showDrawWarningInput,
           showDrawHistory: showDrawHistoryInput,
+          bankName: bankNameInput,
+          accountNumber: accountNumberInput,
+          accountType: accountTypeInput,
+          accountHolder: accountHolderInput,
         }),
       });
 
@@ -394,6 +410,10 @@ export default function AdminDashboard() {
         setDrawWarningMessageInput(data.raffleState.drawWarningMessage ?? "");
         setShowDrawWarningInput(data.raffleState.showDrawWarning ?? true);
         setShowDrawHistoryInput(data.raffleState.showDrawHistory ?? true);
+        setBankNameInput(data.raffleState.bankName ?? "Bancolombia");
+        setAccountNumberInput(data.raffleState.accountNumber ?? "123-456789-01");
+        setAccountTypeInput(data.raffleState.accountType ?? "Ahorros");
+        setAccountHolderInput(data.raffleState.accountHolder ?? "Lottocien SAS");
       }
     } catch (err: any) {
       setError(err.message || "Error al conectar con el servidor.");
@@ -1114,6 +1134,72 @@ export default function AdminDashboard() {
                     <p className="text-[11px] text-slate-500 leading-relaxed mt-0.5">
                       Si está marcado, los clientes verán el cuadro de advertencia en la página principal cuando las ventas estén por debajo del 80%.
                     </p>
+                  </div>
+                </div>
+
+                {/* CONFIGURACIÓN DE DATOS BANCARIOS DE RECAUDO */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t border-slate-900 pt-6">
+                  <div className="md:col-span-2">
+                    <h4 className="font-bold text-sm text-indigo-400 mb-1">Datos Bancarios para Transferencias de Clientes</h4>
+                    <p className="text-[11px] text-slate-500 mb-2">
+                      Configura la cuenta a la cual los clientes deben realizar la transferencia para comprar sus números.
+                    </p>
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
+                      Nombre del Banco
+                    </label>
+                    <input
+                      type="text"
+                      value={bankNameInput}
+                      onChange={(e) => setBankNameInput(e.target.value)}
+                      placeholder="Ej: Bancolombia, Nequi..."
+                      className="block w-full px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
+                      Número de Cuenta
+                    </label>
+                    <input
+                      type="text"
+                      value={accountNumberInput}
+                      onChange={(e) => setAccountNumberInput(e.target.value)}
+                      placeholder="Ej: 123-456789-01"
+                      className="block w-full px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all font-mono"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
+                      Tipo de Cuenta
+                    </label>
+                    <input
+                      type="text"
+                      value={accountTypeInput}
+                      onChange={(e) => setAccountTypeInput(e.target.value)}
+                      placeholder="Ej: Ahorros, Corriente, Depósito..."
+                      className="block w-full px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
+                      Nombre del Titular
+                    </label>
+                    <input
+                      type="text"
+                      value={accountHolderInput}
+                      onChange={(e) => setAccountHolderInput(e.target.value)}
+                      placeholder="Ej: Lottocien SAS"
+                      className="block w-full px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
+                      required
+                    />
                   </div>
                 </div>
 

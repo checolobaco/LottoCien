@@ -25,6 +25,10 @@ export async function POST(req: Request) {
       drawWarningMessage,
       showDrawWarning,
       showDrawHistory,
+      bankName,
+      accountNumber,
+      accountType,
+      accountHolder,
     } = await req.json();
 
     // Validate inputs
@@ -37,10 +41,14 @@ export async function POST(req: Request) {
       !termsAndConditions || !termsAndConditions.trim() ||
       typeof wompiEnabled !== "boolean" ||
       typeof showDrawWarning !== "boolean" ||
-      typeof showDrawHistory !== "boolean"
+      typeof showDrawHistory !== "boolean" ||
+      typeof bankName !== "string" || !bankName.trim() ||
+      typeof accountNumber !== "string" || !accountNumber.trim() ||
+      typeof accountType !== "string" || !accountType.trim() ||
+      typeof accountHolder !== "string" || !accountHolder.trim()
     ) {
       return NextResponse.json(
-        { error: "Todos los campos son obligatorios y deben contener valores válidos." },
+        { error: "Todos los campos son obligatorios (incluyendo los datos bancarios) y deben contener valores válidos." },
         { status: 400 }
       );
     }
@@ -93,6 +101,10 @@ export async function POST(req: Request) {
         drawWarningSent,
         showDrawWarning,
         showDrawHistory,
+        bankName: bankName.trim(),
+        accountNumber: accountNumber.trim(),
+        accountType: accountType.trim(),
+        accountHolder: accountHolder.trim(),
       },
     });
 

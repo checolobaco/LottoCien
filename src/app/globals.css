@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+:root {
+  --background: #020617; /* slate-950 */
+  --foreground: #f8fafc; /* slate-50 */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Glassmorphism panel styling */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.45); /* slate-900 with opacity */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* High-end glow classes for ticket statuses */
+.glow-available {
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.glow-available:hover {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.45);
+  border: 1px solid rgba(16, 185, 129, 0.6);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.glow-selected {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.6);
+  border: 1px solid rgba(245, 158, 11, 0.8);
+  animation: pulse-glow-amber 2s infinite;
+}
+
+.glow-pending {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.4);
+  border: 1px solid rgba(139, 92, 246, 0.5);
+  animation: pulse-glow-purple 2s infinite;
+}
+
+.glow-pending-approval {
+  box-shadow: 0 0 15px rgba(249, 115, 22, 0.4);
+  border: 1px solid rgba(249, 115, 22, 0.5);
+  animation: pulse-glow-orange 2s infinite;
+}
+
+.glow-sold {
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  opacity: 0.8;
+}
+
+.glow-winner {
+  box-shadow: 0 0 25px rgba(234, 179, 8, 0.8);
+  border: 1px solid rgba(234, 179, 8, 1);
+  animation: scale-bounce 1.5s infinite alternate;
+}
+
+/* Keyframe animations */
+@keyframes pulse-glow-amber {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(245, 158, 11, 0.85);
+  }
+}
+
+@keyframes pulse-glow-purple {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.65);
+  }
+}
+
+@keyframes pulse-glow-orange {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(249, 115, 22, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(249, 115, 22, 0.7);
+  }
+}
+
+@keyframes scale-bounce {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+/* Custom Scrollbar for sleek panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

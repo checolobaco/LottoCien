@@ -1,0 +1,86 @@
+datasource db {
+  provider = "postgresql"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String       @id @default(uuid())
+  email        String       @unique
+  passwordHash String
+  role         String       @default("CLIENT") // "CLIENT" | "ADMIN"
+  createdAt    DateTime     @default(now())
+  tickets      Ticket[]
+  prizeClaims  PrizeClaim[]
+}
+
+model Ticket {
+  number         String    @id // "00" a "99"
+  status         String    @default("AVAILABLE") // "AVAILABLE" | "PENDING" | "PENDING_APPROVAL" | "SOLD"
+  userId         String?
+  user           User?     @relation(fields: [userId], references: [id])
+  reservedAt     DateTime?
+  transactionRef String?   // Quitamos @unique para agrupar múltiples números en una sola transacción
+  paymentMethod  String?   // "WOMPI" | "TRANSFER"
+  receiptUrl     String?   // URL del comprobante de transferencia en Cloudflare R2
+  updatedAt      DateTime  @updatedAt
+
+  @@index([transactionRef])
+}
+
+model RaffleState {
+  id                 String    @id @default("current")
+  winningNumber      String?   // "0000" a "9999"
+  drawnAt            DateTime?
+  ticketPrice        Int       @default(15000)
+  prizeMayor         Int       @default(700000)
+  prizeSecundario    Int       @default(200000)
+  prizeConsolacion   Int       @default(100000)
+  lotteryName        String    @default("Lotería de Medellín")
+  wompiEnabled       Boolean   @default(true)
+  drawDate           DateTime?
+  drawWarningMessage String    @default("El sorteo no ha alcanzado el 80% mínimo de ventas. Se requiere el 80% de los números vendidos para jugar.")
+  drawWarningSent    Boolean   @default(false)
+  showDrawWarning    Boolean   @default(true)
+  showDrawHistory    Boolean   @default(true)
+  termsAndConditions String    @default("TÉRMINOS Y CONDICIONES DE USO Y PARTICIPACIÓN – LOTTOCIEN\n\n1. ACEPTACIÓN DE TÉRMINOS: Al registrarse en Lottocien, el usuario declara ser mayor de edad y aceptar en su totalidad estos términos y condiciones.\n2. DINÁMICA DEL JUEGO: La rifa consta de 100 números (del 00 al 99). El número ganador se determinará a partir del sorteo oficial de la lotería de referencia.\n3. PREMIOS: El Premio Mayor requiere acertar las dos últimas cifras, el Premio Secundario las dos primeras cifras, y el Premio de Consolación las dos cifras centrales. Cada número comprado tiene derecho a participar en las 3 modalidades.\n4. RECLAMO DE PREMIOS: Los ganadores serán contactados vía correo electrónico y deberán presentar su documento de identidad original y el comprobante de compra verificado.")
+  updatedAt          DateTime  @updatedAt
+}
+
+model PrizeClaim {
+  id             String   @id @default(uuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id])
+  raffleId       String   // Identifies the draw using draw timestamp (drawnAt)
+  winningNumber  String   // The winning number when this claim was made
+  tickets        String   // Comma-separated list of winning ticket numbers (e.g. "89,18")
+  prizes         String   // Comma-separated list of prizes (e.g. "Premio Mayor, Premio Secundario")
+  totalAmount    Int      // Total amount claimed
+  bankName       String
+  accountNumber  String
+  accountType    String
+  accountHolder  String
+  documentNumber String
+  status          String   @default("PENDING") // "PENDING" | "PAID" | "REJECTED"
+  rejectionReason String?
+  clientNote      String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@unique([userId, raffleId]) // Enforces exactly 1 claim per user per draw
+}
+
+model DrawHistory {
+  id               String   @id @default(uuid())
+  winningNumber    String
+  drawnAt          DateTime
+  lotteryName      String
+  ticketPrice      Int
+  prizeMayor       Int
+  prizeSecundario  Int
+  prizeConsolacion Int
+  winners          String   // JSON string representing winners array
+  createdAt        DateTime @default(now())
+}

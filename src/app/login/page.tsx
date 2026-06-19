@@ -110,10 +110,8 @@ export default function LoginPage() {
       <div className="absolute bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl" />
 
       <div className="w-full max-w-md z-10">
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-emerald-400 via-teal-300 to-indigo-500 bg-clip-text text-transparent">
-            LOTTOCIEN
-          </h1>
+        <div className="text-center mb-8 animate-fade-in">
+          <img src="https://cdn.lottocien.com/logo%20moderno.png" alt="Lottocien Logo" className="h-12 w-auto mx-auto object-contain mb-2" />
           <p className="mt-2 text-sm text-slate-400">
             {isLogin
               ? "Ingresa a tu cuenta para comprar y ver tus números"

@@ -562,9 +562,7 @@ export default function Dashboard() {
       <header className="glass-panel border-b border-slate-900 sticky top-0 z-50 px-4 py-3 sm:px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2">
-            <span className="font-extrabold text-2xl tracking-wider bg-gradient-to-r from-emerald-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">
-              LOTTOCIEN
-            </span>
+            <img src="https://cdn.lottocien.com/logo%20moderno.png" alt="Lottocien Logo" className="h-8 w-auto object-contain" />
           </Link>
 
           <div className="flex items-center gap-3">
@@ -611,24 +609,35 @@ export default function Dashboard() {
         
         {/* LEFT COLUMN: RAFFLE BANNER & 10X10 GRID (8 COLS) */}
         <section className="lg:col-span-8 space-y-6">
+          {/* HERO BANNER IMAGE */}
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-900 aspect-[21/9] sm:aspect-[3/1] bg-slate-950">
+            <img
+              src="https://pub-d95ed340d76246ea8bea59c54320eb54.r2.dev/Banner%20Hero.png"
+              alt="Lottocien Banner"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
           {/* WINNER CONGRATULATIONS & CLAIM FORM */}
           {hasWon && (
             <div className="glass-panel rounded-2xl p-6 border-2 border-emerald-500/30 relative overflow-hidden shadow-2xl bg-gradient-to-r from-slate-950 via-emerald-950/10 to-slate-950 animate-scale-up">
               <div className="absolute -right-10 -top-10 w-40 h-40 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none" />
               
-              <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 rounded-xl bg-emerald-500/20 text-emerald-400">
-                  <Trophy size={28} className="animate-bounce" />
-                </div>
-                <div>
-                  <h2 className="text-xl font-bold text-slate-100 flex items-center gap-2">
-                    ¡Felicitaciones! Eres Ganador 🎉
-                  </h2>
-                  <p className="text-xs text-slate-400">
-                    Has acertado los números del sorteo con tus tickets de la suerte.
-                  </p>
-                </div>
-              </div>
+              <div className="flex flex-col md:flex-row items-stretch gap-6">
+                <div className="flex-1 w-full space-y-4">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-3 rounded-xl bg-emerald-500/20 text-emerald-400">
+                      <Trophy size={28} className="animate-bounce" />
+                    </div>
+                    <div>
+                      <h2 className="text-xl font-bold text-slate-100 flex items-center gap-2">
+                        ¡Felicitaciones! Eres Ganador 🎉
+                      </h2>
+                      <p className="text-xs text-slate-400">
+                        Has acertado los números del sorteo con tus tickets de la suerte.
+                      </p>
+                    </div>
+                  </div>
 
               {/* Winnings details table */}
               <div className="bg-slate-900/60 rounded-xl p-4 border border-slate-800/80 mb-6 text-sm">
@@ -922,6 +931,26 @@ export default function Dashboard() {
                   </div>
                 </form>
               )}
+                </div>
+
+                {/* Right Column: Floating Trophy Illustration */}
+                <div className="hidden md:flex flex-col items-center justify-center w-52 shrink-0 self-center bg-slate-900/40 rounded-2xl border border-emerald-500/10 p-5 gap-3">
+                  <div className="relative w-36 h-36">
+                    <div className="absolute inset-0 bg-emerald-500/10 rounded-full blur-xl animate-pulse" />
+                    <img
+                      src="https://cdn.lottocien.com/Ilustraci%C3%B3n%20de%20Premio.png"
+                      alt="Trofeo Ganador"
+                      className="w-full h-full object-contain relative z-10 animate-pulse"
+                    />
+                  </div>
+                  <span className="text-xs font-black text-emerald-400 uppercase tracking-widest text-center">
+                    ¡Felicidades!
+                  </span>
+                  <span className="text-[10px] text-slate-400 font-bold text-center leading-normal">
+                    Tu premio está listo para ser transferido
+                  </span>
+                </div>
+              </div>
             </div>
           )}
 

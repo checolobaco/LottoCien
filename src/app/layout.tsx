@@ -17,6 +17,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Lottocien | Rifa Semanal de Lotería",
   description: "Participa en la rifa semanal basada en el resultado de la lotería de 4 cifras. ¡Tres oportunidades de ganar con el mismo número!",
+  icons: {
+    icon: "https://cdn.lottocien.com/Icono%20Isotipo%20Redondo.png",
+    apple: "https://cdn.lottocien.com/Icono%20Isotipo%20Redondo.png",
+  },
 };
 
 export default function RootLayout({

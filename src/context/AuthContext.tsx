@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 
 interface User {
@@ -57,13 +57,49 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUser(newUser);
   };
 
-  const logout = () => {
+  const logout = useCallback(() => {
     localStorage.removeItem("auth_token");
     localStorage.removeItem("auth_user");
     setToken(null);
     setUser(null);
     router.push("/");
-  };
+  }, [router]);
+
+  // Global inactivity logout after 15 minutes of inactivity
+  useEffect(() => {
+    if (!token) return;
+
+    let inactivityTimer: NodeJS.Timeout;
+    const INACTIVITY_TIMEOUT = 15 * 60 * 1000; // 15 minutes
+
+    const logoutUser = () => {
+      console.log("[AuthContext] Cierre de sesión automático por 15 minutos de inactividad.");
+      logout();
+      if (typeof window !== "undefined") {
+        alert("Tu sesión ha sido cerrada automáticamente debido a 15 minutos de inactividad.");
+      }
+    };
+
+    const resetTimer = () => {
+      clearTimeout(inactivityTimer);
+      inactivityTimer = setTimeout(logoutUser, INACTIVITY_TIMEOUT);
+    };
+
+    const activityEvents = ["mousemove", "mousedown", "keydown", "scroll", "touchstart", "click"];
+    activityEvents.forEach((event) => {
+      window.addEventListener(event, resetTimer);
+    });
+
+    // Initialize timer
+    resetTimer();
+
+    return () => {
+      activityEvents.forEach((event) => {
+        window.removeEventListener(event, resetTimer);
+      });
+      clearTimeout(inactivityTimer);
+    };
+  }, [token, logout]);
 
   return (
     <AuthContext.Provider value={{ user, token, loading, login, logout }}>

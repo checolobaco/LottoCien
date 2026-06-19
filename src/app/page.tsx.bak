@@ -573,9 +573,11 @@ export default function Dashboard() {
               <span className="font-extrabold text-2xl sm:text-3xl tracking-wider bg-gradient-to-r from-emerald-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent transition-all duration-300 group-hover:brightness-110">
                 Lottocien
               </span>
+			  {/*
               <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.2em] text-slate-400 font-semibold mt-0.5">
                 Rifa Semanal
               </span>
+			  */}
             </div>
           </Link>
 

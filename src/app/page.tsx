@@ -1474,7 +1474,7 @@ export default function Dashboard() {
 
       {/* FOOTER */}
       <footer className="glass-panel border-t border-slate-900 mt-12 py-6 text-center text-xs text-slate-500 space-y-2">
-        <p>© 2026 Lottocien. Todos los derechos reservados. Sistema desarrollado bajo Sandbox de Wompi.</p>
+        <p>© 2026 Lottocien. Todos los derechos reservados.</p>
         <p>
           <button 
             onClick={() => setShowTermsModal(true)} 

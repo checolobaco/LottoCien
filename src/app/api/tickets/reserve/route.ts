@@ -65,35 +65,26 @@ export async function POST(req: Request) {
 
     // 2. Perform atomic reservation transaction
     const result = await prisma.$transaction(async (tx) => {
-      // Find all target tickets
-      const tickets = await tx.ticket.findMany({
+      // 1. Verify existence of all requested tickets
+      const ticketsCount = await tx.ticket.count({
         where: { number: { in: numbers } },
       });
 
-      if (tickets.length !== numbers.length) {
+      if (ticketsCount !== numbers.length) {
         throw new Error("TICKET_NOT_FOUND");
       }
 
-      const tenMinutesAgo = new Date(Date.now() - 10 * 60 * 1000);
+      // Generate a unique transaction reference covering all selected numbers
+      const timestamp = Date.now();
+      const numbersSuffix = numbers.join("-");
+      const transactionRef = `rifa-${numbersSuffix.slice(0, 15)}-${user.id.slice(0, 8)}-${timestamp}`;
 
-      // Verify that every requested ticket is actually available
-      for (const ticket of tickets) {
-        const isAvailable = ticket.status === "AVAILABLE";
-        const isExpiredPending =
-          ticket.status === "PENDING" &&
-          ticket.reservedAt &&
-          ticket.reservedAt < tenMinutesAgo;
-
-        if (!isAvailable && !isExpiredPending) {
-          throw new Error("TICKET_TAKEN");
-        }
-      }
-
-      // Enforce limits: Free up any previously pending temporary ticket checkouts for this user
+      // 2. Free up other PENDING tickets for this user that are NOT in the current numbers selection
       await tx.ticket.updateMany({
         where: {
           status: "PENDING",
           userId: user.id,
+          number: { notIn: numbers }
         },
         data: {
           status: "AVAILABLE",
@@ -105,14 +96,24 @@ export async function POST(req: Request) {
         },
       });
 
-      // Generate a unique transaction reference covering all selected numbers
-      const timestamp = Date.now();
-      const numbersSuffix = numbers.join("-");
-      const transactionRef = `rifa-${numbersSuffix.slice(0, 15)}-${user.id.slice(0, 8)}-${timestamp}`;
-
-      // Update all selected tickets to PENDING state
-      await tx.ticket.updateMany({
-        where: { number: { in: numbers } },
+      // 3. Atomically attempt to reserve the requested numbers.
+      // We check that they are either AVAILABLE, or PENDING but expired (older than 10 mins), or PENDING by this same user.
+      const tenMinutesAgo = new Date(Date.now() - 10 * 60 * 1000);
+      const updateResult = await tx.ticket.updateMany({
+        where: {
+          number: { in: numbers },
+          OR: [
+            { status: "AVAILABLE" },
+            {
+              status: "PENDING",
+              reservedAt: { lt: tenMinutesAgo }
+            },
+            {
+              status: "PENDING",
+              userId: user.id
+            }
+          ]
+        },
         data: {
           status: "PENDING",
           userId: user.id,
@@ -120,6 +121,11 @@ export async function POST(req: Request) {
           transactionRef,
         },
       });
+
+      // If the number of updated tickets is less than requested, it means someone else took one or more of them
+      if (updateResult.count !== numbers.length) {
+        throw new Error("TICKET_TAKEN");
+      }
 
       // Retrieve the updated rows to return to the client
       const updatedTickets = await tx.ticket.findMany({

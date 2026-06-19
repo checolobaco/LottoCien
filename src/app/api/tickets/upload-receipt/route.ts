@@ -105,11 +105,11 @@ export async function POST(req: Request) {
     }
 
     const preCheckNumbers = preCheckTickets.map(t => t.number);
-    const cleanEmail = user.email.replace(/[^a-zA-Z0-9]/g, "_");
+    const emailPrefix = user.email.split("@")[0].replace(/[^a-zA-Z0-9]/g, "_").slice(0, 20);
     const numbersStr = preCheckNumbers.join("-");
     const fileExtension = file.name.includes(".") ? file.name.split(".").pop() : "bin";
     const cleanExtension = fileExtension?.replace(/[^a-zA-Z0-9]/g, "") || "bin";
-    const descriptiveFileName = `comprobante_cliente_${cleanEmail}_tickets_${numbersStr}.${cleanExtension}`;
+    const descriptiveFileName = `c_${emailPrefix}_t_${numbersStr}.${cleanExtension}`;
 
     // 5. Upload to Cloudflare R2
     console.log(`Subiendo comprobante para transacción: ${transactionRef} a Cloudflare R2...`);

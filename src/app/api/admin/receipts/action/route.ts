@@ -48,8 +48,9 @@ export async function POST(req: Request) {
         throw new Error("TRANSACTION_NOT_FOUND");
       }
 
-      // Verify they are in PENDING_APPROVAL status
-      const needsApproval = tickets.every(t => t.status === "PENDING_APPROVAL");
+      // Verify they are in PENDING_APPROVAL or PENDING status
+      const validStatuses = ["PENDING", "PENDING_APPROVAL"];
+      const needsApproval = tickets.every(t => validStatuses.includes(t.status));
       if (!needsApproval) {
         throw new Error("TICKETS_NOT_PENDING_APPROVAL");
       }
@@ -121,7 +122,7 @@ export async function POST(req: Request) {
     }
     if (err.message === "TICKETS_NOT_PENDING_APPROVAL") {
       return NextResponse.json(
-        { error: "Los números de esta transacción no están esperando aprobación (ya fueron procesados o expiraron)." },
+        { error: "Los números de esta transacción no están en estado PENDING o PENDING_APPROVAL (ya fueron procesados o expiraron)." },
         { status: 400 }
       );
     }

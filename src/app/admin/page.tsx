@@ -48,6 +48,7 @@ interface GroupedApproval {
   numbers: string[];
   receiptUrl: string;
   reservedAt: string;
+  status: string;
 }
 
 interface DrawHistoryEntry {
@@ -273,7 +274,7 @@ export default function AdminDashboard() {
     const approvalsMap: { [ref: string]: GroupedApproval } = {};
     
     ticketsList.forEach((t) => {
-      if (t.status === "PENDING_APPROVAL" && t.transactionRef) {
+      if ((t.status === "PENDING_APPROVAL" || t.status === "PENDING") && t.transactionRef) {
         if (!approvalsMap[t.transactionRef]) {
           approvalsMap[t.transactionRef] = {
             transactionRef: t.transactionRef,
@@ -281,6 +282,7 @@ export default function AdminDashboard() {
             numbers: [],
             receiptUrl: t.receiptUrl || "",
             reservedAt: t.reservedAt || "",
+            status: t.status,
           };
         }
         approvalsMap[t.transactionRef].numbers.push(t.number);
@@ -371,7 +373,7 @@ export default function AdminDashboard() {
 
   // Calculate statistics
   const totalSold = tickets.filter(t => t.status === "SOLD").length;
-  const totalPendingApproval = tickets.filter(t => t.status === "PENDING_APPROVAL").length;
+  const totalPendingApproval = tickets.filter(t => t.status === "PENDING_APPROVAL" || t.status === "PENDING").length;
   const totalAvailable = tickets.filter(t => t.status === "AVAILABLE").length;
   const estimatedRevenue = totalSold * TICKET_PRICE;
 
@@ -766,13 +768,25 @@ export default function AdminDashboard() {
                           <span className="text-slate-500 block mb-0.5">Usuario Cliente:</span>
                           <span className="font-bold text-slate-200 text-sm">{approval.email}</span>
                         </div>
-                        <div className="flex flex-wrap gap-1.5 items-center">
-                          <span className="text-slate-500">Tickets:</span>
-                          {approval.numbers.map(num => (
-                            <span key={num} className="px-2 py-0.5 rounded-lg bg-orange-500/10 text-orange-400 border border-orange-500/20 font-bold">
-                              {num}
+                        <div className="flex flex-wrap gap-3 items-center">
+                          <div className="flex flex-wrap gap-1.5 items-center">
+                            <span className="text-slate-500">Tickets:</span>
+                            {approval.numbers.map(num => (
+                              <span key={num} className="px-2 py-0.5 rounded-lg bg-orange-500/10 text-orange-400 border border-orange-500/20 font-bold">
+                                {num}
+                              </span>
+                            ))}
+                          </div>
+                          <div className="flex items-center gap-1.5">
+                            <span className="text-slate-500">Estado:</span>
+                            <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
+                              approval.status === "PENDING_APPROVAL" 
+                                ? "bg-orange-500/10 text-orange-400 border border-orange-500/20" 
+                                : "bg-violet-500/10 text-violet-400 border border-violet-500/20"
+                            }`}>
+                              {approval.status === "PENDING_APPROVAL" ? "Comprobante Subido" : "Pendiente de Pago"}
                             </span>
-                          ))}
+                          </div>
                         </div>
                         <div className="text-[10px] text-slate-600">
                           Ref: <span className="font-mono">{approval.transactionRef}</span>
@@ -780,14 +794,20 @@ export default function AdminDashboard() {
                       </div>
 
                       <div className="flex flex-wrap items-center gap-2.5 self-end md:self-center">
-                        <a 
-                          href={approval.receiptUrl} 
-                          target="_blank" 
-                          rel="noreferrer"
-                          className="px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold transition-all border border-slate-700"
-                        >
-                          Ver Recibo
-                        </a>
+                        {approval.receiptUrl ? (
+                          <a 
+                            href={approval.receiptUrl} 
+                            target="_blank" 
+                            rel="noreferrer"
+                            className="px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold transition-all border border-slate-700"
+                          >
+                            Ver Recibo
+                          </a>
+                        ) : (
+                          <span className="px-3 py-2 rounded-lg bg-slate-900/40 text-slate-600 border border-slate-950 font-bold cursor-not-allowed text-[10px]">
+                            Sin Recibo
+                          </span>
+                        )}
                         <button
                           onClick={() => handleReceiptAction(approval.transactionRef, "APPROVE")}
                           disabled={actionLoading}

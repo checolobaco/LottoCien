@@ -123,9 +123,11 @@ export default function LoginPage() {
               <span className="font-extrabold text-3xl sm:text-4xl tracking-wider bg-gradient-to-r from-emerald-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">
                 Lottocien
               </span>
+			  {/*
               <span className="text-[10px] uppercase tracking-[0.25em] text-slate-400 font-bold mt-0.5">
                 Rifa Semanal
               </span>
+			  */}
             </div>
           </div>
           <p className="mt-4 text-sm text-slate-400 max-w-sm">

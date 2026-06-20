@@ -14,7 +14,7 @@ export default function LoginPage() {
   const [phone, setPhone] = useState("");
   const { user, login } = useAuth();
   const router = useRouter();
-
+  
   interface ConfigData {
     termsAndConditions: string;
     wompiEnabled: boolean;

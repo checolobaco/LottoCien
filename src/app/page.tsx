@@ -1131,7 +1131,7 @@ export default function Dashboard() {
                 <h2 className="text-2xl font-bold text-slate-500 font-sans">
                   Selecciona tus números de la Cuadricula inferior. 
                   <span className="text-slate-100 block mt-1">
-                    ¡Tienes 3 formas de ganar por cada ticket de {raffleState?.ticketPrice ? `$${formatCOP(raffleState.ticketPrice)}` : "$15.000"} Pesos!
+                    ¡Tienes 3 formas de ganar por cada ticket de {raffleState?.ticketPrice ? `$${formatCOP(raffleState.ticketPrice)}`} Pesos!
                   </span>
                 </h2>
 				 <h2 className="text-2xl font-bold text-slate-500 font-sans">

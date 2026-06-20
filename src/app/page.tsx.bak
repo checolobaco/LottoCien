@@ -20,7 +20,9 @@ import {
   CheckCircle,
   XCircle,
   X,
-  Copy
+  Copy,
+  MessageSquare,
+  Mail
 } from "lucide-react";
 
 interface WompiWidget {
@@ -92,6 +94,7 @@ export default function Dashboard() {
   const [successMessage, setSuccessMessage] = useState("");
   const [copySuccess, setCopySuccess] = useState(false);
   const [showTermsModal, setShowTermsModal] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   // Claim prize states
   const [currentClaim, setCurrentClaim] = useState<{
@@ -115,6 +118,15 @@ export default function Dashboard() {
   const [claimSuccess, setClaimSuccess] = useState(false);
   const [claimError, setClaimError] = useState("");
 
+  // Contact States
+  const [showContactModal, setShowContactModal] = useState(false);
+  const [contactEmail, setContactEmail] = useState("");
+  const [contactPhone, setContactPhone] = useState("");
+  const [contactMessage, setContactMessage] = useState("");
+  const [contactLoading, setContactLoading] = useState(false);
+  const [contactSuccess, setContactSuccess] = useState("");
+  const [contactError, setContactError] = useState("");
+
   // Clarification States
   const [clarifyNoteInput, setClarifyNoteInput] = useState("");
   const [clarifyLoading, setClarifyLoading] = useState(false);
@@ -134,6 +146,60 @@ export default function Dashboard() {
 
     return diff >= -oneHour && diff <= oneHour;
   }, [raffleState]);
+
+  // Prefill contact details when user state loads
+  useEffect(() => {
+    if (user) {
+      setContactEmail(user.email);
+    }
+  }, [user]);
+
+  // Handle contact form submission
+  const handleContactSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setContactLoading(true);
+    setContactError("");
+    setContactSuccess("");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
+        body: JSON.stringify({
+          email: contactEmail,
+          phone: contactPhone,
+          message: contactMessage,
+        }),
+      });
+
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Ocurrió un error al enviar el mensaje.");
+      }
+
+      setContactSuccess(data.message);
+      setContactMessage("");
+      // If not logged in, reset inputs
+      if (!user) {
+        setContactEmail("");
+        setContactPhone("");
+      }
+
+      // Close modal after delay
+      setTimeout(() => {
+        setShowContactModal(false);
+        setContactSuccess("");
+      }, 2500);
+
+    } catch (err) {
+      setContactError(err instanceof Error ? err.message : "Error al enviar el mensaje");
+    } finally {
+      setContactLoading(false);
+    }
+  };
 
   // Persist selected numbers in localStorage so they survive login redirection
   useEffect(() => {
@@ -311,6 +377,55 @@ export default function Dashboard() {
     setLoading(false);
   }, []);
 
+  // Track page visibility and user activity to optimize API calls and conserve Railway credits
+  useEffect(() => {
+    // 1. Page Visibility API Handler
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        fetchTickets();
+        if (token) fetchClaimStatus();
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    // 2. User Inactivity Tracker (5 minutes)
+    let inactivityTimer: NodeJS.Timeout;
+    const INACTIVITY_TIMEOUT = 5 * 60 * 1000; // 5 minutes
+
+    const resetInactivityTimer = () => {
+      setIsActive((prev) => {
+        if (!prev) {
+          // Immediately fetch once when returning from inactivity
+          fetchTickets();
+          if (token) fetchClaimStatus();
+        }
+        return true;
+      });
+      clearTimeout(inactivityTimer);
+      inactivityTimer = setTimeout(() => {
+        setIsActive(false);
+        console.log("[Lottocien] Inactividad detectada. Polling pausado.");
+      }, INACTIVITY_TIMEOUT);
+    };
+
+    // User activity events
+    const activityEvents = ["mousemove", "mousedown", "keydown", "scroll", "touchstart", "click"];
+    activityEvents.forEach((event) => {
+      window.addEventListener(event, resetInactivityTimer);
+    });
+
+    // Initialize timer
+    resetInactivityTimer();
+
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      activityEvents.forEach((event) => {
+        window.removeEventListener(event, resetInactivityTimer);
+      });
+      clearTimeout(inactivityTimer);
+    };
+  }, [fetchTickets, fetchClaimStatus, token]);
+
   // Poll for tickets status and claim status updates every 15 seconds to sync other users' actions
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -321,9 +436,12 @@ export default function Dashboard() {
     }, 0);
 
     const interval = setInterval(() => {
-      fetchTickets();
-      if (token) {
-        fetchClaimStatus();
+      const isTabVisible = typeof document !== "undefined" && document.visibilityState === "visible";
+      if (isActive && isTabVisible) {
+        fetchTickets();
+        if (token) {
+          fetchClaimStatus();
+        }
       }
     }, 15000);
 
@@ -331,7 +449,7 @@ export default function Dashboard() {
       clearTimeout(timer);
       clearInterval(interval);
     };
-  }, [fetchTickets, fetchClaimStatus, token]);
+  }, [fetchTickets, fetchClaimStatus, token, isActive]);
 
   // Handle number click selection (toggling multi-selection)
   const handleSelectNumber = (number: string, ticketStatus: string) => {
@@ -1017,7 +1135,7 @@ export default function Dashboard() {
                   </span>
                 </h2>
 				 <h2 className="text-2xl font-bold text-slate-500 font-sans">
-                     Juegan el <span>{formattedDrawDate}</span> con la <span className="text-emerald-400 font-semibold">{raffleState?.lotteryName || "Lotería de Medellín"}</span> 
+                     Juegan el <span>{formattedDrawDate}</span> con la <span>{raffleState?.lotteryName || "Lotería de Medellín"}</span> 
                  </h2>
               </div>
             )}
@@ -1552,6 +1670,117 @@ export default function Dashboard() {
                 Cerrar
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* FLOATING SUPPORT BUTTON */}
+      <button
+        onClick={() => setShowContactModal(true)}
+        className="fixed bottom-6 right-6 z-40 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 p-4 rounded-full shadow-2xl shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all hover:scale-110 active:scale-95 group flex items-center gap-2 cursor-pointer font-bold text-sm"
+        title="Contactar al Administrador"
+      >
+        <MessageSquare size={20} className="transition-transform group-hover:rotate-12" />
+        <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap">
+          Soporte / Contacto
+        </span>
+      </button>
+
+      {/* CONTACT MODAL */}
+      {showContactModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm">
+          <div className="glass-panel w-full max-w-md flex flex-col rounded-2xl shadow-2xl overflow-hidden border border-slate-800 animate-scale-up">
+            <div className="p-6 border-b border-slate-800 flex justify-between items-center bg-slate-900/40">
+              <h3 className="font-extrabold text-lg text-slate-100 flex items-center gap-2">
+                <Mail className="text-emerald-400" size={20} />
+                Contactar Soporte
+              </h3>
+              <button
+                onClick={() => {
+                  setShowContactModal(false);
+                  setContactError("");
+                  setContactSuccess("");
+                }}
+                className="text-slate-400 hover:text-slate-200 transition-colors p-1.5 rounded-lg hover:bg-slate-800"
+              >
+                <X size={18} />
+              </button>
+            </div>
+            
+            <form onSubmit={handleContactSubmit} className="p-6 space-y-4">
+              {contactError && (
+                <div className="bg-rose-500/10 border border-rose-500/30 rounded-xl p-3 flex items-start gap-2.5 text-rose-400 text-xs">
+                  <XCircle size={16} className="shrink-0 mt-0.5" />
+                  <span>{contactError}</span>
+                </div>
+              )}
+
+              {contactSuccess && (
+                <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-3 flex items-start gap-2.5 text-emerald-400 text-xs">
+                  <CheckCircle2 size={16} className="shrink-0 mt-0.5" />
+                  <span>{contactSuccess}</span>
+                </div>
+              )}
+
+              <div className="space-y-1.5">
+                <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                  Tu Correo Electrónico
+                </label>
+                <input
+                  type="email"
+                  required
+                  disabled={!!user || contactLoading}
+                  value={contactEmail}
+                  onChange={(e) => setContactEmail(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-emerald-500 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+                  placeholder="ejemplo@correo.com"
+                />
+              </div>
+
+              <div className="space-y-1.5">
+                <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                  Teléfono / WhatsApp (Opcional)
+                </label>
+                <input
+                  type="tel"
+                  disabled={contactLoading}
+                  value={contactPhone}
+                  onChange={(e) => setContactPhone(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-emerald-500 transition-colors"
+                  placeholder="Ej: +57 300 123 4567"
+                />
+              </div>
+
+              <div className="space-y-1.5">
+                <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                  Mensaje / Consulta
+                </label>
+                <textarea
+                  required
+                  rows={4}
+                  disabled={contactLoading}
+                  value={contactMessage}
+                  onChange={(e) => setContactMessage(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-emerald-500 transition-colors resize-none"
+                  placeholder="Escribe aquí tu consulta o inconveniente en detalle..."
+                />
+              </div>
+
+              <button
+                type="submit"
+                disabled={contactLoading || contactSuccess !== ""}
+                className="w-full mt-2 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 disabled:opacity-50 text-slate-950 font-bold py-3 px-4 rounded-xl text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-emerald-500/10 active:scale-98"
+              >
+                {contactLoading ? (
+                  <div className="w-5 h-5 border-2 border-slate-950 border-t-transparent rounded-full animate-spin" />
+                ) : (
+                  <>
+                    <MessageSquare size={16} />
+                    Enviar Mensaje
+                  </>
+                )}
+              </button>
+            </form>
           </div>
         </div>
       )}

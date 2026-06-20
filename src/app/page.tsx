@@ -1135,7 +1135,7 @@ export default function Dashboard() {
                   </span>
                 </h2>
 				 <h2 className="text-2xl font-bold text-slate-500 font-sans">
-                     Juegan el <span>{formattedDrawDate}</span> con la <span>{raffleState?.lotteryName || "Lotería de Medellín"}</span> 
+                     Juegan el <span>{formattedDrawDate}</span> con la <span>{raffleState?.lotteryName}</span> 
                  </h2>
               </div>
             )}

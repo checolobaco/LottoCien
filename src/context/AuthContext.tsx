@@ -26,6 +26,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
+  // Inactivity timeout states
+  const [showTimeoutModal, setShowTimeoutModal] = useState(false);
+  const [countdown, setCountdown] = useState(60);
+  const [lastActivity, setLastActivity] = useState<number>(Date.now());
+
   useEffect(() => {
     // Restore session from localStorage on load
     const storedToken = localStorage.getItem("auth_token");
@@ -55,6 +60,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem("auth_user", JSON.stringify(newUser));
     setToken(newToken);
     setUser(newUser);
+    setLastActivity(Date.now());
   };
 
   const logout = useCallback(() => {
@@ -65,45 +71,103 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     router.push("/");
   }, [router]);
 
-  // Global inactivity logout after 15 minutes of inactivity
+  // 1. Detect user activity to reset the 10-minute inactivity timer
   useEffect(() => {
-    if (!token) return;
-
-    let inactivityTimer: NodeJS.Timeout;
-    const INACTIVITY_TIMEOUT = 15 * 60 * 1000; // 15 minutes
-
-    const logoutUser = () => {
-      console.log("[AuthContext] Cierre de sesión automático por 15 minutos de inactividad.");
-      logout();
-      if (typeof window !== "undefined") {
-        alert("Tu sesión ha sido cerrada automáticamente debido a 15 minutos de inactividad.");
-      }
-    };
-
-    const resetTimer = () => {
-      clearTimeout(inactivityTimer);
-      inactivityTimer = setTimeout(logoutUser, INACTIVITY_TIMEOUT);
-    };
+    if (!token || showTimeoutModal) return;
 
     const activityEvents = ["mousemove", "mousedown", "keydown", "scroll", "touchstart", "click"];
-    activityEvents.forEach((event) => {
-      window.addEventListener(event, resetTimer);
-    });
+    
+    const handleUserActivity = () => {
+      setLastActivity(Date.now());
+    };
 
-    // Initialize timer
-    resetTimer();
+    activityEvents.forEach((event) => {
+      window.addEventListener(event, handleUserActivity);
+    });
 
     return () => {
       activityEvents.forEach((event) => {
-        window.removeEventListener(event, resetTimer);
+        window.removeEventListener(event, handleUserActivity);
       });
-      clearTimeout(inactivityTimer);
     };
-  }, [token, logout]);
+  }, [token, showTimeoutModal]);
+
+  // 2. Schedule the warning modal after 10 minutes of inactivity
+  useEffect(() => {
+    if (!token) return;
+
+    const INACTIVITY_TIMEOUT = 10 * 60 * 1000; // 10 minutes
+    const timeSinceLastActivity = Date.now() - lastActivity;
+    const remainingTime = Math.max(0, INACTIVITY_TIMEOUT - timeSinceLastActivity);
+
+    const inactivityTimer = setTimeout(() => {
+      setShowTimeoutModal(true);
+      setCountdown(60);
+    }, remainingTime);
+
+    return () => clearTimeout(inactivityTimer);
+  }, [token, lastActivity]);
+
+  // 3. Countdown warning modal timer (1 minute / 60 seconds)
+  useEffect(() => {
+    if (!showTimeoutModal || !token) return;
+
+    const interval = setInterval(() => {
+      setCountdown((prev) => {
+        if (prev <= 1) {
+          clearInterval(interval);
+          setShowTimeoutModal(false);
+          logout();
+          if (typeof window !== "undefined") {
+            alert("Tu sesión ha sido cerrada automáticamente debido a inactividad.");
+          }
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [showTimeoutModal, token, logout]);
+
+  const handleExtendSession = () => {
+    setShowTimeoutModal(false);
+    setLastActivity(Date.now());
+  };
+
+  const handleLogoutNow = () => {
+    setShowTimeoutModal(false);
+    logout();
+  };
 
   return (
     <AuthContext.Provider value={{ user, token, loading, login, logout }}>
       {children}
+      {showTimeoutModal && (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4">
+          <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-2xl max-w-sm w-full text-center space-y-4 text-slate-100">
+            <h3 className="text-slate-100 font-extrabold text-lg">¿Sigues ahí?</h3>
+            <p className="text-slate-300 text-xs leading-relaxed">
+              Tu sesión está a punto de cerrarse por inactividad. Si no respondes en{" "}
+              <span className="font-bold text-indigo-400">{countdown} segundos</span>, se cerrará por completo y deberás volver a iniciar sesión para realizar compras.
+            </p>
+            <div className="flex gap-3 justify-center pt-2">
+              <button
+                onClick={handleExtendSession}
+                className="px-4 py-2 bg-indigo-500 hover:bg-indigo-400 text-slate-100 font-bold rounded-xl text-xs transition-all active:scale-95 cursor-pointer shadow-lg shadow-indigo-500/20"
+              >
+                Mantener sesión abierta
+              </button>
+              <button
+                onClick={handleLogoutNow}
+                className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-xl text-xs transition-all cursor-pointer"
+              >
+                Cerrar sesión
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </AuthContext.Provider>
   );
 }

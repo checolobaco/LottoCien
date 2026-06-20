@@ -145,21 +145,21 @@ export default function AdminDashboard() {
   const [simSelectedRef, setSimSelectedRef] = useState("");
   
   // Config Form States
-  const [ticketPriceInput, setTicketPriceInput] = useState(15000);
-  const [prizeMayorInput, setPrizeMayorInput] = useState(700000);
-  const [prizeSecundarioInput, setPrizeSecundarioInput] = useState(200000);
-  const [prizeConsolacionInput, setPrizeConsolacionInput] = useState(100000);
-  const [lotteryNameInput, setLotteryNameInput] = useState("Lotería de Medellín");
+  const [ticketPriceInput, setTicketPriceInput] = useState(0);
+  const [prizeMayorInput, setPrizeMayorInput] = useState(0);
+  const [prizeSecundarioInput, setPrizeSecundarioInput] = useState(0);
+  const [prizeConsolacionInput, setPrizeConsolacionInput] = useState(0);
+  const [lotteryNameInput, setLotteryNameInput] = useState(" ");
   const [termsInput, setTermsInput] = useState("");
   const [wompiEnabledInput, setWompiEnabledInput] = useState(true);
   const [drawDateInput, setDrawDateInput] = useState("");
   const [drawWarningMessageInput, setDrawWarningMessageInput] = useState("");
   const [showDrawWarningInput, setShowDrawWarningInput] = useState(true);
   const [showDrawHistoryInput, setShowDrawHistoryInput] = useState(true);
-  const [bankNameInput, setBankNameInput] = useState("Bancolombia");
-  const [accountNumberInput, setAccountNumberInput] = useState("123-456789-01");
-  const [accountTypeInput, setAccountTypeInput] = useState("Ahorros");
-  const [accountHolderInput, setAccountHolderInput] = useState("Lottocien SAS");
+  const [bankNameInput, setBankNameInput] = useState(" ");
+  const [accountNumberInput, setAccountNumberInput] = useState(" ");
+  const [accountTypeInput, setAccountTypeInput] = useState(" ");
+  const [accountHolderInput, setAccountHolderInput] = useState(" ");
   const [configSaving, setConfigSaving] = useState(false);
 
   // Resend tickets states
@@ -302,11 +302,11 @@ export default function AdminDashboard() {
       setRaffleState(data.raffleState);
       
       if (data.raffleState) {
-        setTicketPriceInput(data.raffleState.ticketPrice ?? 15000);
-        setPrizeMayorInput(data.raffleState.prizeMayor ?? 700000);
-        setPrizeSecundarioInput(data.raffleState.prizeSecundario ?? 200000);
-        setPrizeConsolacionInput(data.raffleState.prizeConsolacion ?? 100000);
-        setLotteryNameInput(data.raffleState.lotteryName ?? "Lotería de Medellín");
+        setTicketPriceInput(data.raffleState.ticketPrice ?? 0);
+        setPrizeMayorInput(data.raffleState.prizeMayor ?? 0);
+        setPrizeSecundarioInput(data.raffleState.prizeSecundario ?? 0);
+        setPrizeConsolacionInput(data.raffleState.prizeConsolacion ?? 0);
+        setLotteryNameInput(data.raffleState.lotteryName ?? " ");
         setTermsInput(data.raffleState.termsAndConditions ?? "");
         setWompiEnabledInput(data.raffleState.wompiEnabled ?? true);
         setDrawDateInput(formatForDateTimeLocal(data.raffleState.drawDate));

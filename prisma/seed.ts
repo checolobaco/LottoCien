@@ -82,11 +82,11 @@ async function main() {
         id: "current",
         winningNumber: null,
         drawnAt: null,
-        ticketPrice: 15000,
-        prizeMayor: 700000,
-        prizeSecundario: 200000,
-        prizeConsolacion: 100000,
-        lotteryName: "Lotería de Medellín",
+        ticketPrice: 0,
+        prizeMayor: 0,
+        prizeSecundario: 0,
+        prizeConsolacion: 0,
+        lotteryName: " ",
       },
     });
     console.log("Raffle state initialized with default prizes and lottery.");

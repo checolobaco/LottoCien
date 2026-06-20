@@ -35,11 +35,11 @@ model RaffleState {
   id                 String    @id @default("current")
   winningNumber      String?   // "0000" a "9999"
   drawnAt            DateTime?
-  ticketPrice        Int       @default(15000)
-  prizeMayor         Int       @default(700000)
-  prizeSecundario    Int       @default(200000)
-  prizeConsolacion   Int       @default(100000)
-  lotteryName        String    @default("Lotería de Medellín")
+  ticketPrice        Int       @default(0)
+  prizeMayor         Int       @default(0)
+  prizeSecundario    Int       @default(0)
+  prizeConsolacion   Int       @default(0)
+  lotteryName        String    @default(" ")
   wompiEnabled       Boolean   @default(true)
   drawDate           DateTime?
   drawWarningMessage String    @default("El sorteo no ha alcanzado el 80% mínimo de ventas. Se requiere el 80% de los números vendidos para jugar.")

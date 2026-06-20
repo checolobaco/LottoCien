@@ -324,7 +324,7 @@ export default function Dashboard() {
     }
   };
 
-  const TICKET_PRICE_COP = raffleState?.ticketPrice || 15000;
+  const TICKET_PRICE_COP = raffleState?.ticketPrice;
 
   // Fetch all tickets from API (with automatic retry for cold starts)
   const fetchTickets = useCallback(async () => {
@@ -1604,7 +1604,7 @@ export default function Dashboard() {
               ¿Cómo funcionan los 3 Premios?
             </h4>
             <p className="text-slate-400 leading-relaxed">
-              Basado en los resultados semanales de la <span className="text-emerald-400 font-semibold">{raffleState?.lotteryName || "Lotería de Medellín"}</span> de 4 cifras (ej. número ganador <span className="text-slate-300 font-semibold">4789</span>):
+              Basado en los resultados semanales de la <span className="text-emerald-400 font-semibold">{raffleState?.lotteryName}</span> de 4 cifras (ej. número ganador <span className="text-slate-300 font-semibold">4789</span>):
             </p>
             <ul className="space-y-3 pl-1 text-slate-400">
               <li className="flex items-start gap-2">

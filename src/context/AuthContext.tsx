@@ -71,7 +71,57 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     router.push("/");
   }, [router]);
 
-  // 1. Detect user activity to reset the 10-minute inactivity timer
+  // 1. Persist lastActivity to localStorage so it survives tab freezing/sleep on mobile
+  useEffect(() => {
+    if (!token) return;
+    localStorage.setItem("last_activity_time", lastActivity.toString());
+  }, [token, lastActivity]);
+
+  // 2. Helper to check absolute elapsed time since last activity
+  const checkAbsoluteInactivity = useCallback(() => {
+    if (!token) return;
+    const storedLastActivity = localStorage.getItem("last_activity_time");
+    if (storedLastActivity) {
+      const elapsed = Date.now() - Number(storedLastActivity);
+      const INACTIVITY_TIMEOUT = 10 * 60 * 1000; // 10 minutes
+      const COUNTDOWN_TIMEOUT = 60 * 1000; // 1 minute warning
+
+      if (elapsed >= INACTIVITY_TIMEOUT + COUNTDOWN_TIMEOUT) {
+        setShowTimeoutModal(false);
+        logout();
+        if (typeof window !== "undefined") {
+          alert("Tu sesión ha sido cerrada automáticamente debido a inactividad.");
+        }
+      } else if (elapsed >= INACTIVITY_TIMEOUT) {
+        const remainingCountdown = Math.ceil((INACTIVITY_TIMEOUT + COUNTDOWN_TIMEOUT - elapsed) / 1000);
+        setCountdown(remainingCountdown > 0 ? remainingCountdown : 1);
+        setShowTimeoutModal(true);
+      } else {
+        setLastActivity(Number(storedLastActivity));
+      }
+    }
+  }, [token, logout]);
+
+  // 3. Check elapsed time immediately on visibility or focus change (wakes up mobile background threads)
+  useEffect(() => {
+    if (!token) return;
+
+    checkAbsoluteInactivity();
+
+    const handleWakeUp = () => {
+      checkAbsoluteInactivity();
+    };
+
+    window.addEventListener("focus", handleWakeUp);
+    document.addEventListener("visibilitychange", handleWakeUp);
+
+    return () => {
+      window.removeEventListener("focus", handleWakeUp);
+      document.removeEventListener("visibilitychange", handleWakeUp);
+    };
+  }, [token, checkAbsoluteInactivity]);
+
+  // 4. Detect user activity to reset the 10-minute inactivity timer
   useEffect(() => {
     if (!token || showTimeoutModal) return;
 
@@ -92,7 +142,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
   }, [token, showTimeoutModal]);
 
-  // 2. Schedule the warning modal after 10 minutes of inactivity
+  // 5. Schedule the warning modal after 10 minutes of inactivity
   useEffect(() => {
     if (!token) return;
 
@@ -108,7 +158,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     return () => clearTimeout(inactivityTimer);
   }, [token, lastActivity]);
 
-  // 3. Countdown warning modal timer (1 minute / 60 seconds)
+  // 6. Countdown warning modal timer (1 minute / 60 seconds)
   useEffect(() => {
     if (!showTimeoutModal || !token) return;
 

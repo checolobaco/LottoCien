@@ -324,7 +324,7 @@ export default function Dashboard() {
     }
   };
 
-  const TICKET_PRICE_COP = raffleState?.ticketPrice;
+  const TICKET_PRICE_COP = raffleState?.ticketPrice || 15000;
 
   // Fetch all tickets from API (with automatic retry for cold starts)
   const fetchTickets = useCallback(async () => {
@@ -1131,11 +1131,11 @@ export default function Dashboard() {
                 <h2 className="text-2xl font-bold text-slate-500 font-sans">
                   Selecciona tus números de la Cuadricula inferior. 
                   <span className="text-slate-100 block mt-1">
-                    ¡Tienes 3 formas de ganar por cada ticket de {raffleState?.ticketPrice ? `$${formatCOP(raffleState.ticketPrice)}`} Pesos!
+                    ¡Tienes 3 formas de ganar por cada ticket de {raffleState ? `$${formatCOP(raffleState.ticketPrice)}` : "..."} Pesos!
                   </span>
                 </h2>
 				 <h2 className="text-2xl font-bold text-slate-500 font-sans">
-                     Juegan el <span>{formattedDrawDate}</span> con la <span>{raffleState?.lotteryName}</span> 
+                     Juegan el <span>{formattedDrawDate || "..."}</span> con la <span>{raffleState ? raffleState.lotteryName : "..."}</span> 
                  </h2>
               </div>
             )}
@@ -1147,21 +1147,21 @@ export default function Dashboard() {
               <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1">Premio Mayor</p>
               <p className="text-xs font-extrabold text-slate-200">2 Últimas cifras</p>
               <p className="text-[10px] text-emerald-400 font-bold mt-1">
-                Gana {raffleState?.prizeMayor ? `$${formatCOP(raffleState.prizeMayor)}` : "70%"}
+                Gana {raffleState ? `$${formatCOP(raffleState.prizeMayor)}` : "..."}
               </p>
             </div>
             <div className="glass-panel p-3 rounded-xl border-l-4 border-l-indigo-500 text-center">
               <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1">Premio Secundario</p>
               <p className="text-xs font-extrabold text-slate-200">2 Primeras cifras</p>
               <p className="text-[10px] text-indigo-400 font-bold mt-1">
-                Gana {raffleState?.prizeSecundario ? `$${formatCOP(raffleState.prizeSecundario)}` : "20%"}
+                Gana {raffleState ? `$${formatCOP(raffleState.prizeSecundario)}` : "..."}
               </p>
             </div>
             <div className="glass-panel p-3 rounded-xl border-l-4 border-l-violet-500 text-center">
               <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1">Consolación</p>
               <p className="text-xs font-extrabold text-slate-200">2 Cifras del medio</p>
               <p className="text-[10px] text-violet-400 font-bold mt-1">
-                Gana {raffleState?.prizeConsolacion ? `$${formatCOP(raffleState.prizeConsolacion)}` : "10%"}
+                Gana {raffleState ? `$${formatCOP(raffleState.prizeConsolacion)}` : "..."}
               </p>
             </div>
           </div>
@@ -1287,9 +1287,9 @@ export default function Dashboard() {
                 </p>
               ) : (
                 <div className="space-y-1.5">
-                  {raffleState?.showDrawWarning !== false && (
+                  {raffleState && raffleState.showDrawWarning !== false && (
                     <p className="text-[10px] text-amber-500/90 leading-relaxed italic bg-amber-500/5 p-2 rounded border border-amber-500/10">
-                      <strong>Aviso:</strong> {raffleState?.drawWarningMessage || "Se requiere el 80% de los números vendidos para jugar."}
+                      <strong>Aviso:</strong> {raffleState.drawWarningMessage}
                     </p>
                   )}
                   {formattedDrawDate && (
@@ -1465,22 +1465,23 @@ export default function Dashboard() {
                         <tbody>
                           <tr>
                             <td className="text-slate-500 py-0.5">Banco:</td>
-                            <td className="font-semibold text-slate-200">{raffleState?.bankName || "Bancolombia"}</td>
+                            <td className="font-semibold text-slate-200">{raffleState ? raffleState.bankName : "..."}</td>
                           </tr>
                           <tr>
                             <td className="text-slate-500 py-0.5">N° de Cuenta:</td>
                             <td className="font-mono font-semibold text-slate-200 flex items-center justify-end gap-1.5">
-                              <span>{raffleState?.accountNumber || "123-456789-01"}</span>
+                              <span>{raffleState ? raffleState.accountNumber : "..."}</span>
                               <button
                                 type="button"
                                 onClick={() => {
-                                  if (typeof window !== "undefined") {
-                                    navigator.clipboard.writeText(raffleState?.accountNumber || "123-456789-01");
+                                  if (typeof window !== "undefined" && raffleState) {
+                                    navigator.clipboard.writeText(raffleState.accountNumber);
                                     setCopySuccess(true);
                                     setTimeout(() => setCopySuccess(false), 2000);
                                   }
                                 }}
-                                className="p-1 rounded hover:bg-slate-800 text-indigo-400 hover:text-indigo-300 transition-all flex items-center justify-center cursor-pointer"
+                                disabled={!raffleState}
+                                className="p-1 rounded hover:bg-slate-800 text-indigo-400 hover:text-indigo-300 transition-all flex items-center justify-center cursor-pointer disabled:opacity-30"
                                 title="Copiar número de cuenta"
                               >
                                 {copySuccess ? (
@@ -1493,11 +1494,11 @@ export default function Dashboard() {
                           </tr>
                           <tr>
                             <td className="text-slate-500 py-0.5">Tipo:</td>
-                            <td className="font-semibold text-slate-200">{raffleState?.accountType || "Ahorros"}</td>
+                            <td className="font-semibold text-slate-200">{raffleState ? raffleState.accountType : "..."}</td>
                           </tr>
                           <tr>
                             <td className="text-slate-500 py-0.5">Titular:</td>
-                            <td className="font-semibold text-slate-200">{raffleState?.accountHolder || "Lottocien SAS"}</td>
+                            <td className="font-semibold text-slate-200">{raffleState ? raffleState.accountHolder : "..."}</td>
                           </tr>
                         </tbody>
                       </table>
@@ -1604,25 +1605,25 @@ export default function Dashboard() {
               ¿Cómo funcionan los 3 Premios?
             </h4>
             <p className="text-slate-400 leading-relaxed">
-              Basado en los resultados semanales de la <span className="text-emerald-400 font-semibold">{raffleState?.lotteryName}</span> de 4 cifras (ej. número ganador <span className="text-slate-300 font-semibold">4789</span>):
+              Basado en los resultados semanales de la <span className="text-emerald-400 font-semibold">{raffleState ? raffleState.lotteryName : "..."}</span> de 4 cifras (ej. número ganador <span className="text-slate-300 font-semibold">4789</span>):
             </p>
             <ul className="space-y-3 pl-1 text-slate-400">
               <li className="flex items-start gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mt-1.5 shrink-0" />
                 <span>
-                  <strong className="text-slate-200">Premio Mayor ({raffleState?.prizeMayor ? `$${formatCOP(raffleState.prizeMayor)}` : "70%"}):</strong> Acierta las últimas 2 cifras (<span className="text-amber-400 font-semibold">89</span>).
+                  <strong className="text-slate-200">Premio Mayor ({raffleState ? `$${formatCOP(raffleState.prizeMayor)}` : "..."}):</strong> Acierta las últimas 2 cifras (<span className="text-amber-400 font-semibold">89</span>).
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 mt-1.5 shrink-0" />
                 <span>
-                  <strong className="text-slate-200">Premio Secundario ({raffleState?.prizeSecundario ? `$${formatCOP(raffleState.prizeSecundario)}` : "20%"}):</strong> Acierta las primeras 2 cifras (<span className="text-indigo-400 font-semibold">47</span>).
+                  <strong className="text-slate-200">Premio Secundario ({raffleState ? `$${formatCOP(raffleState.prizeSecundario)}` : "..."}):</strong> Acierta las primeras 2 cifras (<span className="text-indigo-400 font-semibold">47</span>).
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-violet-500 mt-1.5 shrink-0" />
                 <span>
-                  <strong className="text-slate-200">Premio de Consolación ({raffleState?.prizeConsolacion ? `$${formatCOP(raffleState.prizeConsolacion)}` : "10%"}):</strong> Acierta las 2 cifras centrales (<span className="text-violet-400 font-semibold">78</span>).
+                  <strong className="text-slate-200">Premio de Consolación ({raffleState ? `$${formatCOP(raffleState.prizeConsolacion)}` : "..."}):</strong> Acierta las 2 cifras centrales (<span className="text-violet-400 font-semibold">78</span>).
                 </span>
               </li>
             </ul>

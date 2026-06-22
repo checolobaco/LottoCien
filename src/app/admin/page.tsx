@@ -1073,7 +1073,7 @@ export default function AdminDashboard() {
                       type="text"
                       value={lotteryNameInput}
                       onChange={(e) => setLotteryNameInput(e.target.value)}
-                      placeholder="Ej: Lotería de Medellín"
+                      placeholder="Ej: Lotería"
                       className="block w-full px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
                       required
                     />
@@ -1087,7 +1087,7 @@ export default function AdminDashboard() {
                       type="number"
                       value={ticketPriceInput}
                       onChange={(e) => setTicketPriceInput(Math.max(1, parseInt(e.target.value) || 0))}
-                      placeholder="Ej: 15000"
+                      placeholder="Ej: 0"
                       className="block w-full px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all font-mono"
                       required
                       min={1}

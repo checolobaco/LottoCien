@@ -150,7 +150,9 @@ export default function Dashboard() {
   // Prefill contact details when user state loads
   useEffect(() => {
     if (user) {
-      setContactEmail(user.email);
+      setTimeout(() => {
+        setContactEmail(user.email);
+      }, 0);
     }
   }, [user]);
 

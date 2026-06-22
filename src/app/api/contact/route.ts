@@ -6,7 +6,8 @@ import { getCurrentUser } from "@/lib/jwt";
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    let { email, phone, message } = body;
+    let { email, phone } = body;
+    const { message } = body;
 
     // Optional authentication check to prefill or override email/phone
     const user = getCurrentUser(req);

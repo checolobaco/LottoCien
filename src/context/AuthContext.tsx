@@ -29,7 +29,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   // Inactivity timeout states
   const [showTimeoutModal, setShowTimeoutModal] = useState(false);
   const [countdown, setCountdown] = useState(60);
-  const [lastActivity, setLastActivity] = useState<number>(Date.now());
+  const [lastActivity, setLastActivity] = useState<number>(() => {
+    if (typeof window !== "undefined") {
+      const stored = localStorage.getItem("last_activity_time");
+      return stored ? Number(stored) : Date.now();
+    }
+    return Date.now();
+  });
 
   useEffect(() => {
     // Restore session from localStorage on load
@@ -39,6 +45,25 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (storedToken && storedUser) {
       try {
         const parsedUser = JSON.parse(storedUser);
+        
+        // Before restoring, check if session is already expired
+        const storedLastActivity = localStorage.getItem("last_activity_time");
+        if (storedLastActivity) {
+          const elapsed = Date.now() - Number(storedLastActivity);
+          const INACTIVITY_TIMEOUT = 10 * 60 * 1000; // 10 minutes
+          const COUNTDOWN_TIMEOUT = 60 * 1000; // 1 minute warning
+
+          if (elapsed >= INACTIVITY_TIMEOUT + COUNTDOWN_TIMEOUT) {
+            localStorage.removeItem("auth_token");
+            localStorage.removeItem("auth_user");
+            localStorage.removeItem("last_activity_time");
+            setTimeout(() => {
+              setLoading(false);
+            }, 0);
+            return;
+          }
+        }
+
         setTimeout(() => {
           setToken(storedToken);
           setUser(parsedUser);
@@ -48,6 +73,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       } catch {
         localStorage.removeItem("auth_token");
         localStorage.removeItem("auth_user");
+        localStorage.removeItem("last_activity_time");
       }
     }
     setTimeout(() => {
@@ -58,6 +84,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const login = (newToken: string, newUser: User) => {
     localStorage.setItem("auth_token", newToken);
     localStorage.setItem("auth_user", JSON.stringify(newUser));
+    localStorage.setItem("last_activity_time", Date.now().toString());
     setToken(newToken);
     setUser(newUser);
     setLastActivity(Date.now());
@@ -66,6 +93,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const logout = useCallback(() => {
     localStorage.removeItem("auth_token");
     localStorage.removeItem("auth_user");
+    localStorage.removeItem("last_activity_time");
     setToken(null);
     setUser(null);
     router.push("/");
@@ -102,11 +130,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }, [token, logout]);
 
-  // 3. Check elapsed time immediately on visibility or focus change (wakes up mobile background threads)
+  // 3. Check elapsed time immediately on visibility, focus, or pageshow change (wakes up mobile background threads)
   useEffect(() => {
     if (!token) return;
 
-    checkAbsoluteInactivity();
+    const timer = setTimeout(() => {
+      checkAbsoluteInactivity();
+    }, 0);
 
     const handleWakeUp = () => {
       checkAbsoluteInactivity();
@@ -114,10 +144,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     window.addEventListener("focus", handleWakeUp);
     document.addEventListener("visibilitychange", handleWakeUp);
+    window.addEventListener("pageshow", handleWakeUp);
 
     return () => {
+      clearTimeout(timer);
       window.removeEventListener("focus", handleWakeUp);
       document.removeEventListener("visibilitychange", handleWakeUp);
+      window.removeEventListener("pageshow", handleWakeUp);
     };
   }, [token, checkAbsoluteInactivity]);
 
@@ -127,8 +160,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     const activityEvents = ["mousemove", "mousedown", "keydown", "scroll", "touchstart", "click"];
     
+    let lastSaved = Date.now();
     const handleUserActivity = () => {
-      setLastActivity(Date.now());
+      const now = Date.now();
+      // Throttle: only update lastActivity state and localStorage at most once every 10 seconds
+      if (now - lastSaved > 10000) {
+        lastSaved = now;
+        setLastActivity(now);
+      }
     };
 
     activityEvents.forEach((event) => {

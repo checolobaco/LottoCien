@@ -48,3 +48,9 @@ next-env.d.ts
 *.sqlite
 dev.db
 twilio_2FA_recovery_code.txt
+
+# videos
+/videos
+
+iniciar.bat
+iniciar_NGROK_ftn.bat

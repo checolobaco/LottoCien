@@ -3,6 +3,16 @@ import prisma from "@/lib/db";
 import crypto from "crypto";
 import { sendClientConfirmationEmail } from "@/lib/mail";
 
+function getValueByPath(obj: Record<string, unknown> | null | undefined, path: string): unknown {
+  const parts = path.split(".");
+  let current: unknown = obj;
+  for (const part of parts) {
+    if (current == null || typeof current !== "object") return undefined;
+    current = (current as Record<string, unknown>)[part];
+  }
+  return current;
+}
+
 export async function POST(req: Request) {
   try {
     const payload = await req.json();
@@ -24,17 +34,29 @@ export async function POST(req: Request) {
     // 1. Check signature if configured
     const eventsSecret = process.env.WOMPI_EVENTS_SECRET;
     if (eventsSecret && signature && signature.checksum) {
-      // Wompi checksum format: SHA256 of transaction.id + transaction.status + transaction.amount_in_cents + timestamp + events_secret
-      const concatString = `${transactionId}${status}${amount_in_cents}${timestamp}${eventsSecret}`;
+      let concatString = "";
+      if (signature.properties && Array.isArray(signature.properties)) {
+        for (const propPath of signature.properties) {
+          const value = getValueByPath(payload.data, propPath);
+          concatString += value !== undefined ? String(value) : "";
+        }
+      } else {
+        // Fallback structure
+        concatString = `${transactionId}${status}${amount_in_cents}`;
+      }
+      concatString += `${timestamp}${eventsSecret}`;
+
       const calculatedChecksum = crypto
         .createHash("sha256")
         .update(concatString)
         .digest("hex");
 
       if (calculatedChecksum !== signature.checksum) {
-        console.warn("Firma del webhook de Wompi inválida. Posible spoofing.");
-        // En producción retornaríamos 401, pero en desarrollo loggeamos la advertencia
-        // y permitimos la ejecución si se simula o configuramos un modo laxo.
+        console.warn(`Firma del webhook de Wompi inválida. Calculada: ${calculatedChecksum}, Recibida: ${signature.checksum}`);
+        return NextResponse.json(
+          { error: "Firma inválida. Posible intento de suplantación." },
+          { status: 401 }
+        );
       }
     }
 

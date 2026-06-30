@@ -49,7 +49,12 @@ export async function GET() {
       },
     });
 
-    return NextResponse.json({ tickets, raffleState, drawHistory }, { status: 200 });
+    const publicConfig = {
+      wompiPublicKey: process.env.WOMPI_PUBLIC_KEY || "pub_test_Q5yDA9zJzUph7szkth4Z15Wv12H29Z4s",
+      wompiRedirectUrl: process.env.WOMPI_REDIRECT_URL || "",
+    };
+
+    return NextResponse.json({ tickets, raffleState, drawHistory, publicConfig }, { status: 200 });
   } catch (error) {
     console.error("Error al obtener tickets:", error);
     return NextResponse.json(

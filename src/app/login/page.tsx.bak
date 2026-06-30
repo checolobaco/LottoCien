@@ -48,7 +48,7 @@ export default function LoginPage() {
       if (user.role === "ADMIN") {
         router.push("/admin");
       } else {
-        router.push("/#codigos-grid");
+        router.push("/");
       }
     }
   }, [user, router]);
@@ -93,7 +93,7 @@ export default function LoginPage() {
       if (data.user.role === "ADMIN") {
         router.push("/admin");
       } else {
-        router.push("/#codigos-grid");
+        router.push("/");
       }
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : "Algo salió mal.";
@@ -120,7 +120,7 @@ export default function LoginPage() {
               />
             </div>
             <img 
-              src="https://cdn.lottocien.com/Lotto100.png" 
+              src="https://cdn.lottocien.com/Lotto100.png"
               alt="Lotto100 Logo Principal" 
               className="h-9 sm:h-11 w-auto object-contain select-none"
               //className="h-9 sm:h-11 w-auto object-contain select-none bg-transparent -my-8 sm:-my-12 -mx-8 sm:-mx-12 relative -top-[3.5px] shrink-0"

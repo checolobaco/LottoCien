@@ -770,7 +770,7 @@ export default function AdminDashboard() {
                         </div>
                         <div className="flex flex-wrap gap-3 items-center">
                           <div className="flex flex-wrap gap-1.5 items-center">
-                            <span className="text-slate-500">Tickets:</span>
+                            <span className="text-slate-500">Codigos:</span>
                             {approval.numbers.map(num => (
                               <span key={num} className="px-2 py-0.5 rounded-lg bg-orange-500/10 text-orange-400 border border-orange-500/20 font-bold">
                                 {num}
@@ -885,14 +885,14 @@ export default function AdminDashboard() {
                   </h4>
 
                   {winners.length === 0 ? (
-                    <p className="text-slate-500 text-sm py-2">Ninguno de los tickets vendidos acertó los premios del sorteo de esta semana.</p>
+                    <p className="text-slate-500 text-sm py-2">Ninguno de los codigos vendidos acertó los premios del sorteo de esta semana.</p>
                   ) : (
                     <div className="divide-y divide-slate-900">
                       {winners.map((winner, idx) => (
                         <div key={idx} className="py-3 flex justify-between items-center text-sm">
                           <div>
                             <span className="font-bold text-slate-200 block">{winner.email}</span>
-                            <span className="text-xs text-slate-500">Ticket comprado: #{winner.number}</span>
+                            <span className="text-xs text-slate-500">Codigo comprado: #{winner.number}</span>
                           </div>
                           <div className="flex flex-col items-end gap-1">
                             {winner.prizes.map((p, pIdx) => (
@@ -970,7 +970,7 @@ export default function AdminDashboard() {
                           <table className="w-full text-slate-300">
                             <tbody>
                               <tr>
-                                <td className="text-slate-500 py-0.5">Tickets Ganadores:</td>
+                                <td className="text-slate-500 py-0.5">Codigos Ganadores:</td>
                                 <td className="font-bold text-slate-200 text-right">{claim.tickets}</td>
                               </tr>
                               <tr>
@@ -1081,7 +1081,7 @@ export default function AdminDashboard() {
 
                   <div>
                     <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
-                      Valor del Ticket (COP)
+                      Valor del Codigo (COP)
                     </label>
                     <input
                       type="number"
@@ -1184,7 +1184,7 @@ export default function AdminDashboard() {
                       Habilitar Pasarela de Pagos Wompi
                     </label>
                     <p className="text-[11px] text-slate-500 leading-relaxed mt-0.5">
-                      Si se desactiva, los clientes únicamente podrán comprar tickets adjuntando comprobante de transferencia bancaria manual.
+                      Si se desactiva, los clientes únicamente podrán comprar codigos adjuntando comprobante de transferencia bancaria manual.
                     </p>
                   </div>
                 </div>
@@ -1275,7 +1275,7 @@ export default function AdminDashboard() {
 
                 <div>
                   <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
-                    Términos y Condiciones de Uso y Participación
+                    Términos y Condiciones
                   </label>
                   <textarea
                     value={termsInput}
@@ -1303,7 +1303,7 @@ export default function AdminDashboard() {
             <div className="glass-panel rounded-2xl p-6 shadow-2xl space-y-6">
               <h3 className="font-extrabold text-lg flex items-center gap-2 border-b border-slate-900 pb-4">
                 <Send className="text-emerald-400" size={20} />
-                Reenviar Comprobantes de Tickets a Clientes
+                Reenviar Comprobantes de Codigos a Clientes
               </h3>
               
               <p className="text-xs text-slate-400 leading-relaxed">
@@ -1340,14 +1340,14 @@ export default function AdminDashboard() {
                       }}
                       className="block w-full px-4 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all text-sm"
                     >
-                      <option value="number">Por Número de Ticket</option>
+                      <option value="number">Por Número de Codigo</option>
                       <option value="email">Por Correo de Cliente</option>
                     </select>
                   </div>
 
                   <div className="space-y-1.5 sm:col-span-2">
                     <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider">
-                      {resendType === "number" ? "Número de Ticket (2 cifras)" : "Correo Electrónico del Cliente"}
+                      {resendType === "number" ? "Número de Codigo (2 cifras)" : "Correo Electrónico del Cliente"}
                     </label>
                     <div className="flex gap-3">
                       <input
@@ -1398,7 +1398,7 @@ export default function AdminDashboard() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
-                      Seleccionar Ticket Pendiente
+                      Seleccionar Codigo Pendiente
                     </label>
                     <select
                       value={simSelectedRef}
@@ -1406,10 +1406,10 @@ export default function AdminDashboard() {
                       className="block w-full px-3 py-3 border border-slate-800 rounded-xl bg-slate-900/50 text-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                       required
                     >
-                      <option value="">-- Elige un ticket en pago --</option>
+                      <option value="">-- Elige un codigo en pago --</option>
                       {pendingTickets.map((t) => (
                         <option key={t.number} value={t.transactionRef || ""}>
-                          Ticket #{t.number} ({t.user?.email || "Sin email"})
+                          Codigo #{t.number} ({t.user?.email || "Sin email"})
                         </option>
                       ))}
                     </select>
@@ -1493,7 +1493,7 @@ export default function AdminDashboard() {
                         >
                           <div className="space-y-1">
                             <div className="flex items-center gap-1.5">
-                              <span className="font-bold text-slate-200">Ticket #{t.number}</span>
+                              <span className="font-bold text-slate-200">Codigo #{t.number}</span>
                               <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${statusBadge}`}>
                                 {statusText}
                               </span>
@@ -1580,7 +1580,7 @@ export default function AdminDashboard() {
                             <p className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Configuración:</p>
                             <div className="text-slate-300">
                               <div className="flex justify-between">
-                                <span className="text-slate-500">Precio Ticket:</span>
+                                <span className="text-slate-500">Precio Codigo:</span>
                                 <span className="font-semibold">${formatCOP(draw.ticketPrice)}</span>
                               </div>
                             </div>
@@ -1617,7 +1617,7 @@ export default function AdminDashboard() {
                                     <span className="font-semibold text-slate-300 block truncate max-w-[150px]" title={winner.email}>
                                       {winner.email}
                                     </span>
-                                    <span className="text-[10px] text-slate-500">Ticket: #{winner.number}</span>
+                                    <span className="text-[10px] text-slate-500">Codigo: #{winner.number}</span>
                                   </div>
                                   <div className="flex flex-col items-end gap-0.5">
                                     {winner.prizes.map((p, pIdx) => (

@@ -1,0 +1,3362 @@
+[
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 1)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 2)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 3)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 4)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 5)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 6)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 7)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 8)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 9)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 10)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 11)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 12)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 13)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 14)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 15)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 16)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 17)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 18)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 19)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 20)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 21)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 22)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 23)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 24)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 25)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 26)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 27)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 28)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 29)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 30)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 31)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 32)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 33)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 34)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 35)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 36)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 37)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 38)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 39)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 40)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 41)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 42)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 43)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 44)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 45)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 46)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 47)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 48)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 49)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 50)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 51)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 52)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 53)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 54)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 55)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 56)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 57)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 58)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 59)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 60)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 61)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 62)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 63)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 64)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 65)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 66)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 67)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 68)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 69)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 70)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 71)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 72)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 73)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 74)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 75)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 76)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 77)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 78)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 79)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 80)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 81)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 82)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 83)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 84)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 85)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 86)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 87)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 88)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 89)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 90)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 91)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 92)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 93)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 94)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 95)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 96)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 97)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 98)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 99)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 100)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 101)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 102)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 103)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 104)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 105)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 106)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 107)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 108)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 109)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 110)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 111)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 112)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 113)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 114)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 115)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 116)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 117)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 118)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 119)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 120)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 121)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 122)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 123)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 124)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 125)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 126)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 127)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 128)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 129)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 130)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 131)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 132)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 133)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 134)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 135)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 136)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 137)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 138)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 139)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 140)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 141)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 142)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 143)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 144)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 145)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 146)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 147)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 148)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 149)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 150)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 151)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 152)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 153)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 154)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 155)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 156)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 157)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 158)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 159)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 160)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 161)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 162)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 163)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 164)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 165)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 166)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 167)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 168)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 169)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 170)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 171)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 172)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 173)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 174)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 175)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 176)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 177)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 178)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 179)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 180)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 181)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 182)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 183)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 184)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 185)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 186)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 187)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 188)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 189)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 190)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 191)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 192)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 193)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 194)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  },
+  {
+    "h1": "MONO",
+    "h3": "GORILA",
+    "v1": "MAPA",
+    "v2": "ORCO",
+    "clues": {
+      "horizontal": [
+        "1.  Primate pequeño y juguetón. (Opción 195)",
+        "2. El primate más grande y fuerte del mundo."
+      ],
+      "vertical": [
+        "1. Dibujo que representa la Tierra.",
+        "2. Monstruo de fantasía mitológica."
+      ]
+    }
+  },
+  {
+    "h1": "PEZ",
+    "h3": "RANA",
+    "v1": "PATAS",
+    "v2": "ZONA",
+    "clues": {
+      "horizontal": [
+        "1.  Animal acuático que respira por branquias. (Opción 196)",
+        "2. Anfibio que salta y vive en charcos."
+      ],
+      "vertical": [
+        "1. Extremidades usadas para caminar.",
+        "2. Espacio o sector delimitado."
+      ]
+    }
+  },
+  {
+    "h1": "COCO",
+    "h3": "PUMA",
+    "v1": "CASA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1.  Fruto tropical o monstruo infantil. (Opción 197)",
+        "2. Gran felino de color pardo de América."
+      ],
+      "vertical": [
+        "1. Lugar donde vive una familia.",
+        "2. Sentimiento afectivo intenso."
+      ]
+    }
+  },
+  {
+    "h1": "TORO",
+    "h3": "VACA",
+    "v1": "TAPA",
+    "v2": "ORCA",
+    "clues": {
+      "horizontal": [
+        "1.  Macho de la vaca con grandes cuernos. (Opción 198)",
+        "2. Mamífero hembra productor de leche."
+      ],
+      "vertical": [
+        "1. Cubierta que cierra un recipiente.",
+        "2. Gran mamífero marino blanco y negro."
+      ]
+    }
+  },
+  {
+    "h1": "MESSI",
+    "h3": "COPA",
+    "v1": "METRO",
+    "v2": "IDOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) Apellido del 10 argentino campeón en Qatar 2022. (Opción 199)",
+        "2. Premio dorado que busca toda selección."
+      ],
+      "vertical": [
+        "1. Medida de longitud o transporte subterráneo.",
+        "2. Persona muy admirada por el público."
+      ]
+    }
+  },
+  {
+    "h1": "BALON",
+    "h3": "ARCO",
+    "v1": "BOTA",
+    "v2": "NETS",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) El esférico con el que se juega al fútbol. (Opción 200)",
+        "2. Estructura donde se anotan los goles."
+      ],
+      "vertical": [
+        "1. Premio al goleador: ___ de Oro.",
+        "2. Redes de la portería (en inglés)."
+      ]
+    }
+  },
+  {
+    "h1": "QATAR",
+    "h3": "SEDE",
+    "v1": "QUEMA",
+    "v2": "RADA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País organizador del mundial del año 2022. (Opción 201)",
+        "2. Lugar o país donde se celebra un evento."
+      ],
+      "vertical": [
+        "1. Acción de consuming con fuego.",
+        "2. Bahía pequeña donde fondean barcos."
+      ]
+    }
+  },
+  {
+    "h1": "RUSIA",
+    "h3": "FASE",
+    "v1": "ROMA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País que albergó la Copa del Mundo en 2018. (Opción 202)",
+        "2. Etapa de grupos en un torneo."
+      ],
+      "vertical": [
+        "1. Capital de Italia.",
+        "2. Sentimiento profundo de cariño."
+      ]
+    }
+  },
+  {
+    "h1": "BRASIL",
+    "h3": "CHILE",
+    "v1": "BARRAS",
+    "v2": "LIMA",
+    "clues": {
+      "horizontal": [
+        "1. (Mundial) País con más títulos mundiales de la historia (5). (Opción 203)",
+        "2. País sudamericano con forma larga y delgada."
+      ],
+      "vertical": [
+        "1. Grupos de hinchas organizados.",
+        "2. Capital de Perú o fruta ácida."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "PERU",
+    "v1": "ROCA",
+    "v2": "AMOR",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Ciudad eterna y capital de Italia. (Opción 204)",
+        "2. País de los Incas en Sudamérica."
+      ],
+      "vertical": [
+        "1. Piedra grande y dura.",
+        "2. Sentimiento afectivo universal."
+      ]
+    }
+  },
+  {
+    "h1": "ARTE",
+    "h3": "CINE",
+    "v1": "ACTO",
+    "v2": "EDÉN",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Expresión creativa humana como la pintura. (Opción 205)",
+        "2. El séptimo arte de las películas."
+      ],
+      "vertical": [
+        "1. Parte en la que se divide una obra teatral.",
+        "2. El paraíso terrenal según la Biblia."
+      ]
+    }
+  },
+  {
+    "h1": "LUNA",
+    "h3": "SOL",
+    "v1": "LAZO",
+    "v2": "AZUL",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Satélite natural que ilumina la noche. (Opción 206)",
+        "2. Estrella central de nuestro sistema planetario."
+      ],
+      "vertical": [
+        "1. Atadura o unión de cuerda.",
+        "2. El color del cielo despejado."
+      ]
+    }
+  },
+  {
+    "h1": "INCA",
+    "h3": "MAYA",
+    "v1": "IMÁN",
+    "v2": "ALBA",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Antiguo soberano o imperio de los Andes. (Opción 207)",
+        "2. Civilización prehispánica de Centroamérica."
+      ],
+      "vertical": [
+        "1. Objeto que atrae al hierro.",
+        "2. Primera luz del día antes de salir el sol."
+      ]
+    }
+  },
+  {
+    "h1": "PARÍS",
+    "h3": "LIMA",
+    "v1": "PIPA",
+    "v2": "SOLO",
+    "clues": {
+      "horizontal": [
+        "1. (Cultura General) Capital de Francia, ciudad de la luz. (Opción 208)",
+        "2. Capital de la república del Perú."
+      ],
+      "vertical": [
+        "1. Objeto para fumar tabaco.",
+        "2. Que no tiene compañía."
+      ]
+    }
+  },
+  {
+    "h1": "PERRO",
+    "h3": "GATO",
+    "v1": "PUNTOS",
+    "v2": "RATON",
+    "clues": {
+      "horizontal": [
+        "1.  Mascota leal considerada el mejor amigo del hombre. (Opción 209)",
+        "2. Felino doméstico que caza ratones."
+      ],
+      "vertical": [
+        "1. Señales o marcas redondas.",
+        "2. Roedor pequeño que come queso."
+      ]
+    }
+  },
+  {
+    "h1": "LORO",
+    "h3": "AVES",
+    "v1": "LUNA",
+    "v2": "OSOS",
+    "clues": {
+      "horizontal": [
+        "1.  Ave de plumas verdes que puede imitar el habla humana. (Opción 210)",
+        "2. Animales con plumas y alas que vuelan."
+      ],
+      "vertical": [
+        "1. Satélite que brilla por la noche.",
+        "2. Mamíferos corpulentos que comen miel."
+      ]
+    }
+  }
+]

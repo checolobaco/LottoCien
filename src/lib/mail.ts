@@ -62,7 +62,7 @@ export async function sendAdminNewTransferAlert({
   const html = `
     <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;">
       <h2 style="color: #6366f1; margin-bottom: 20px;">🔔 Nueva Reserva por Transferencia Bancaria</h2>
-      <p>Se ha registrado una solicitud de compra de tickets esperando verificación administrativa:</p>
+      <p>Se ha registrado una solicitud de compra esperando verificación administrativa:</p>
       
       <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
         <tr style="background: #f8fafc;">
@@ -70,7 +70,7 @@ export async function sendAdminNewTransferAlert({
           <td style="padding: 10px; border: 1px solid #e2e8f0;">${clientEmail}</td>
         </tr>
         <tr>
-          <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold;">Tickets Elegidos:</td>
+          <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold;">Codigos Elegidos:</td>
           <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold; color: #10b981;">${numbersStr}</td>
         </tr>
         <tr style="background: #f8fafc;">
@@ -95,7 +95,7 @@ export async function sendAdminNewTransferAlert({
 
   return sendEmail({
     to: finalAdminEmail,
-    subject: `🔔 Pago por Validar: Tickets [${numbersStr}] - Rifa Semanal`,
+    subject: `🔔 Pago por Validar: Codigos [${numbersStr}] `,
     html,
   });
 }
@@ -110,7 +110,7 @@ export async function sendClientConfirmationEmail({
   const numbersStr = numbers.join(", ");
   const html = `
     <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;">
-      <h2 style="color: #10b981; margin-bottom: 20px;">🎉 ¡Tus Tickets han sido Confirmados!</h2>
+      <h2 style="color: #10b981; margin-bottom: 20px;">🎉 ¡Tus Codigos han sido Confirmados!</h2>
       <p>Hola,</p>
       <p>Queremos informarte que tu comprobante de pago por transferencia ha sido verificado con éxito por nuestro equipo.</p>
       
@@ -119,7 +119,7 @@ export async function sendClientConfirmationEmail({
         <p style="margin: 10px 0 0 0; font-size: 28px; font-weight: bold; letter-spacing: 2px; color: #047857;">${numbersStr}</p>
       </div>
 
-      <p>Recuerda que con cada ticket tienes 3 oportunidades de ganar basadas en los resultados semanales de la lotería:</p>
+      <p>Recuerda que con cada Codigo tienes 3 oportunidades de ganar basadas en los resultados semanales de la lotería:</p>
       <ul style="color: #475569;">
         <li><strong>Premio Mayor:</strong> Dos últimas cifras del número ganador.</li>
         <li><strong>Premio Secundario:</strong> Dos primeras cifras del número ganador.</li>
@@ -129,13 +129,13 @@ export async function sendClientConfirmationEmail({
       <p style="margin-top: 30px;">¡Mucho éxito en el sorteo de esta semana!</p>
       
       <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;" />
-      <p style="font-size: 11px; color: #64748b; text-align: center;">Lottocien - Rifa Semanal de Lotería</p>
+      <p style="font-size: 11px; color: #64748b; text-align: center;">LottoCien</p>
     </div>
   `;
 
   return sendEmail({
     to: clientEmail,
-    subject: `🎉 Compra Confirmada: Tickets [${numbersStr}] - Rifa Semanal`,
+    subject: `🎉 Compra Confirmada: Codigos [${numbersStr}]`,
     html,
   });
 }
@@ -161,17 +161,17 @@ export async function sendClientRejectionEmail({
         <p style="margin: 5px 0 0 0; color: #7f1d1d; font-style: italic;">"${reason}"</p>
       </div>
 
-      <p>Debido a esto, los tickets han sido liberados y puestos a disposición del público nuevamente.</p>
+      <p>Debido a esto, los Codigos han sido liberados y puestos a disposición del público nuevamente.</p>
       <p>Si consideras que esto es un error, por favor realiza una nueva compra o ponte en contacto con nuestro equipo.</p>
       
       <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;" />
-      <p style="font-size: 11px; color: #64748b; text-align: center;">Lottocien - Soporte de Rifa Semanal</p>
+      <p style="font-size: 11px; color: #64748b; text-align: center;">LottoCien</p>
     </div>
   `;
 
   return sendEmail({
     to: clientEmail,
-    subject: `⚠️ Actualización sobre tu reserva: Tickets [${numbersStr}]`,
+    subject: `⚠️ Actualización sobre tu reserva: Codigos [${numbersStr}]`,
     html,
   });
 }
@@ -243,7 +243,7 @@ export async function sendAdminPrizeClaimAlert({
       <table style="width: 100%; border-collapse: collapse; margin: 10px 0;">
         <thead>
           <tr style="background: #e2e8f0;">
-            <th style="padding: 10px; border: 1px solid #cbd5e1; text-align: center;">Ticket</th>
+            <th style="padding: 10px; border: 1px solid #cbd5e1; text-align: center;">Codigo</th>
             <th style="padding: 10px; border: 1px solid #cbd5e1; text-align: left;">Categorías Ganadas</th>
             <th style="padding: 10px; border: 1px solid #cbd5e1; text-align: right;">Valor Premio</th>
           </tr>
@@ -333,7 +333,7 @@ export async function sendAdminPrizeClarificationAlert({
           <td style="padding: 10px; border: 1px solid #e2e8f0;">${clientEmail}</td>
         </tr>
         <tr>
-          <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold;">Tickets Ganadores:</td>
+          <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold;">Codigos Ganadores:</td>
           <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold; color: #4f46e5;">${tickets}</td>
         </tr>
         <tr style="background: #f8fafc;">
@@ -382,9 +382,9 @@ export async function sendClientDrawWarningEmail({
 
   const html = `
     <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;">
-      <h2 style="color: #f59e0b; margin-bottom: 20px;">⚠️ Aviso Importante: Sorteo de Rifa Semanal</h2>
+      <h2 style="color: #f59e0b; margin-bottom: 20px;">⚠️ Aviso Importante: Sorteo Semanal</h2>
       <p>Hola,</p>
-      <p>Te escribimos para informarte sobre el estado del próximo sorteo de la rifa semanal:</p>
+      <p>Te escribimos para informarte sobre el estado del próximo sorteo semanal:</p>
       
       <div style="background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px; padding: 15px; margin: 25px 0;">
         <p style="margin: 0; font-weight: bold; color: #b45309; font-size: 13px;">Mensaje Informativo:</p>
@@ -408,11 +408,11 @@ export async function sendClientDrawWarningEmail({
       </table>
 
       <p style="margin-top: 25px; font-size: 13px; color: #475569;">
-        Agradecemos enormemente tu participación y apoyo. Te invitamos a adquirir tus números de la suerte restantes o a compartir la rifa para alcanzar el porcentaje requerido y poder jugar en la fecha señalada.
+        Agradecemos enormemente tu participación y apoyo. Te invitamos a adquirir codigos restantes o a compartir link para alcanzar el porcentaje requerido para el sorteo.
       </p>
       
       <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;" />
-      <p style="font-size: 11px; color: #64748b; text-align: center;">Lottocien - Rifa Semanal de Lotería</p>
+      <p style="font-size: 11px; color: #64748b; text-align: center;">LottoCien</p>
     </div>
   `;
 
@@ -459,7 +459,7 @@ export async function sendClientWinnerNotificationEmail({
       <table style="width: 100%; border-collapse: collapse; margin: 10px 0;">
         <thead>
           <tr style="background: #f8fafc;">
-            <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; width: 40%;">Ticket</th>
+            <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; width: 40%;">Codigo</th>
             <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: left;">Premio Obtenido</th>
           </tr>
         </thead>
@@ -481,7 +481,7 @@ export async function sendClientWinnerNotificationEmail({
       <p>Si tienes alguna pregunta o inconveniente, por favor responde a este correo.</p>
       
       <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;" />
-      <p style="font-size: 11px; color: #64748b; text-align: center;">Lottocien - Rifa Semanal de Lotería</p>
+      <p style="font-size: 11px; color: #64748b; text-align: center;">LottoCien</p>
     </div>
   `;
 

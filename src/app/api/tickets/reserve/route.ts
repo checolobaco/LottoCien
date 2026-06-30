@@ -77,7 +77,7 @@ export async function POST(req: Request) {
       // Generate a unique transaction reference covering all selected numbers
       const timestamp = Date.now();
       const numbersSuffix = numbers.join("-");
-      const transactionRef = `rifa-${numbersSuffix.slice(0, 15)}-${user.id.slice(0, 8)}-${timestamp}`;
+      const transactionRef = `LC-DIGI-${numbersSuffix.slice(0, 15)}-${user.id.slice(0, 8)}-${timestamp}`;
 
       // 2. Free up other PENDING tickets for this user that are NOT in the current numbers selection
       await tx.ticket.updateMany({

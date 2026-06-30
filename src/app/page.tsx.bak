@@ -1346,7 +1346,7 @@ export default function Dashboard() {
           </div>
 
           {/* 10X10 GRID CARD */}
-          <div id="codigos-grid" className="glass-panel rounded-2xl p-6 shadow-2xl">
+          <div className="glass-panel rounded-2xl p-6 shadow-2xl">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
               <h3 className="font-bold text-lg text-slate-200 flex items-center gap-2">
                 Códigos de Acceso Disponibles
@@ -1755,7 +1755,7 @@ export default function Dashboard() {
                         {paymentMethod === "WOMPI" ? (
                           <>
                             <CreditCard size={18} />
-                            Pagar con Wompi
+                            Pagar con Wompi (Pruebas)
                           </>
                         ) : (
                           <>

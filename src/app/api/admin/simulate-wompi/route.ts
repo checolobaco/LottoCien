@@ -53,7 +53,10 @@ export async function POST(req: Request) {
     };
 
     // Post to the webhook endpoint locally
-    const origin = new URL(req.url).origin;
+    let origin = new URL(req.url).origin;
+    if (origin.startsWith("https://localhost:") || origin.startsWith("https://127.0.0.1:")) {
+      origin = origin.replace("https://", "http://");
+    }
     const webhookUrl = `${origin}/api/webhook/wompi`;
     
     console.log(`Llamando al webhook localmente: ${webhookUrl}`);

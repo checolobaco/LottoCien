@@ -18,15 +18,16 @@ model User {
 }
 
 model Ticket {
-  number         String    @id // "00" a "99"
-  status         String    @default("AVAILABLE") // "AVAILABLE" | "PENDING" | "PENDING_APPROVAL" | "SOLD"
-  userId         String?
-  user           User?     @relation(fields: [userId], references: [id])
-  reservedAt     DateTime?
-  transactionRef String?   // Quitamos @unique para agrupar múltiples números en una sola transacción
-  paymentMethod  String?   // "WOMPI" | "TRANSFER"
-  receiptUrl     String?   // URL del comprobante de transferencia en Cloudflare R2
-  updatedAt      DateTime  @updatedAt
+  number              String    @id // "00" a "99"
+  status              String    @default("AVAILABLE") // "AVAILABLE" | "PENDING" | "PENDING_APPROVAL" | "SOLD"
+  userId              String?
+  user                User?     @relation(fields: [userId], references: [id])
+  reservedAt          DateTime?
+  transactionRef      String?   // Quitamos @unique para agrupar múltiples números en una sola transacción
+  paymentMethod       String?   // "WOMPI" | "TRANSFER"
+  receiptUrl          String?   // URL del comprobante de transferencia en Cloudflare R2
+  pasatiempoConsumido Boolean   @default(false)
+  updatedAt           DateTime  @updatedAt
 
   @@index([transactionRef])
 }

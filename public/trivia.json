@@ -1,0 +1,2052 @@
+[
+  {
+    "q": "¿Qué país ganó el primer mundial de fútbol en 1930?",
+    "options": [
+      "Uruguay",
+      "Argentina",
+      "Brasil",
+      "Italia"
+    ],
+    "correct": "Uruguay"
+  },
+  {
+    "q": "¿Qué jugador tiene el récord de más goles en la historia de los mundiales?",
+    "options": [
+      "Miroslav Klose",
+      "Ronaldo Nazário",
+      "Pelé",
+      "Just Fontaine"
+    ],
+    "correct": "Miroslav Klose"
+  },
+  {
+    "q": "¿Quién es el único futbolista que ha ganado 3 Copas del Mundo?",
+    "options": [
+      "Pelé",
+      "Maradona",
+      "Garrincha",
+      "Cafú"
+    ],
+    "correct": "Pelé"
+  },
+  {
+    "q": "¿En qué mundial Diego Maradona anotó el famoso gol de 'La Mano de Dios'?",
+    "options": [
+      "México 1986",
+      "España 1982",
+      "Italia 1990",
+      "Estados Unidos 1994"
+    ],
+    "correct": "México 1986"
+  },
+  {
+    "q": "¿Qué selección ha ganado más Copas del Mundo hasta la fecha?",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Italia",
+      "Argentina"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿En qué país se celebró la Copa del Mundo de 2010?",
+    "options": [
+      "Sudáfrica",
+      "Alemania",
+      "Brasil",
+      "Catar"
+    ],
+    "correct": "Sudáfrica"
+  },
+  {
+    "q": "¿Qué arquero ganó el Balón de Oro en el mundial de Corea-Japón 2002?",
+    "options": [
+      "Oliver Kahn",
+      "Gianluigi Buffon",
+      "Iker Casillas",
+      "Marcos"
+    ],
+    "correct": "Oliver Kahn"
+  },
+  {
+    "q": "¿Quién fue el director técnico de Argentina en el mundial de Catar 2022?",
+    "options": [
+      "Lionel Scaloni",
+      "Jorge Sampaoli",
+      "Diego Maradona",
+      "Alejandro Sabella"
+    ],
+    "correct": "Lionel Scaloni"
+  },
+  {
+    "q": "¿Qué jugador anotó un triplete en la final de Catar 2022?",
+    "options": [
+      "Kylian Mbappé",
+      "Lionel Messi",
+      "Ángel Di María",
+      "Julian Álvarez"
+    ],
+    "correct": "Kylian Mbappé"
+  },
+  {
+    "q": "¿Qué selección ganó el mundial de Rusia 2018?",
+    "options": [
+      "Francia",
+      "Croacia",
+      "Bélgica",
+      "Inglaterra"
+    ],
+    "correct": "Francia"
+  },
+  {
+    "q": "¿Qué país europeo ganó su primer mundial en Sudáfrica 2010?",
+    "options": [
+      "España",
+      "Países Bajos",
+      "Alemania",
+      "Portugal"
+    ],
+    "correct": "España"
+  },
+  {
+    "q": "¿Quién anotó el gol de la victoria para España en la final de 2010?",
+    "options": [
+      "Andrés Iniesta",
+      "David Villa",
+      "Xavi Hernández",
+      "Fernando Torres"
+    ],
+    "correct": "Andrés Iniesta"
+  },
+  {
+    "q": "¿Qué selección fue la subcampeona del mundial de Rusia 2018?",
+    "options": [
+      "Croacia",
+      "Francia",
+      "Bélgica",
+      "Inglaterra"
+    ],
+    "correct": "Croacia"
+  },
+  {
+    "q": "¿En qué año se jugó el mundial de fútbol femenino por primera vez?",
+    "options": [
+      "1991",
+      "1985",
+      "1995",
+      "1999"
+    ],
+    "correct": "1991"
+  },
+  {
+    "q": "¿Qué país organizó el mundial de 1994?",
+    "options": [
+      "Estados Unidos",
+      "México",
+      "Italia",
+      "Francia"
+    ],
+    "correct": "Estados Unidos"
+  },
+  {
+    "q": "¿Qué jugador tiene el récord de más goles en un solo mundial?",
+    "options": [
+      "Just Fontaine",
+      "Sandor Kocsis",
+      "Gerd Müller",
+      "Pelé"
+    ],
+    "correct": "Just Fontaine"
+  },
+  {
+    "q": "¿Cuál es el estadio con mayor capacidad que albergó la final de Catar 2022?",
+    "options": [
+      "Estadio de Lusail",
+      "Estadio Al Bayt",
+      "Estadio 974",
+      "Estadio Áhmad bin Ali"
+    ],
+    "correct": "Estadio de Lusail"
+  },
+  {
+    "q": "¿Qué selección africana fue la primera en llegar a una semifinal de un mundial?",
+    "options": [
+      "Marruecos",
+      "Camerún",
+      "Senegal",
+      "Ghana"
+    ],
+    "correct": "Marruecos"
+  },
+  {
+    "q": "¿En qué mundial se utilizó el sistema VAR por primera vez?",
+    "options": [
+      "Rusia 2018",
+      "Brasil 2014",
+      "Catar 2022",
+      "Sudáfrica 2010"
+    ],
+    "correct": "Rusia 2018"
+  },
+  {
+    "q": "¿Qué jugador uruguayo ganó el Balón de Oro en el mundial de 2010?",
+    "options": [
+      "Diego Forlán",
+      "Luis Suárez",
+      "Edinson Cavani",
+      "Sebastián Abreu"
+    ],
+    "correct": "Diego Forlán"
+  },
+  {
+    "q": "¿Qué selección ganó el mundial de Alemania 2006?",
+    "options": [
+      "Italia",
+      "Francia",
+      "Alemania",
+      "Portugal"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué jugador francés fue expulsado en la final de 2006 por un cabezazo?",
+    "options": [
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "Patrick Vieira",
+      "David Trezeguet"
+    ],
+    "correct": "Zinedine Zidane"
+  },
+  {
+    "q": "¿Qué país albergó el mundial de 1998?",
+    "options": [
+      "Francia",
+      "Italia",
+      "Corea del Sur",
+      "Estados Unidos"
+    ],
+    "correct": "Francia"
+  },
+  {
+    "q": "¿Qué selección sudamericana no ha clasificado nunca a un mundial de la FIFA?",
+    "options": [
+      "Venezuela",
+      "Ecuador",
+      "Bolivia",
+      "Perú"
+    ],
+    "correct": "Venezuela"
+  },
+  {
+    "q": "¿Cuántas selecciones participaron en el mundial de Catar 2022?",
+    "options": [
+      "32",
+      "24",
+      "48",
+      "16"
+    ],
+    "correct": "32"
+  },
+  {
+    "q": "¿Qué país albergará el mundial de 2026 junto a México y Estados Unidos?",
+    "options": [
+      "Canadá",
+      "Costa Rica",
+      "Honduras",
+      "Panamá"
+    ],
+    "correct": "Canadá"
+  },
+  {
+    "q": "¿Cuál fue el resultado de la final del mundial de Brasil 2014 entre Alemania y Argentina?",
+    "options": [
+      "Alemania 1-0 Argentina",
+      "Alemania 2-1 Argentina",
+      "Alemania 0-0 Argentina",
+      "Alemania 2-0 Argentina"
+    ],
+    "correct": "Alemania 1-0 Argentina"
+  },
+  {
+    "q": "¿Qué jugador anotó el gol de Alemania en la prórroga de la final de 2014?",
+    "options": [
+      "Mario Götze",
+      "Miroslav Klose",
+      "Thomas Müller",
+      "Toni Kroos"
+    ],
+    "correct": "Mario Götze"
+  },
+  {
+    "q": "¿En qué país se disputó el mundial de 1982?",
+    "options": [
+      "España",
+      "Argentina",
+      "México",
+      "Alemania"
+    ],
+    "correct": "España"
+  },
+  {
+    "q": "¿Qué país ganó el mundial de 1978 como anfitrión?",
+    "options": [
+      "Argentina",
+      "Brasil",
+      "Países Bajos",
+      "Alemania"
+    ],
+    "correct": "Argentina"
+  },
+  {
+    "q": "¿Quién era el capitán de la selección argentina campeona en México 1986?",
+    "options": [
+      "Diego Maradona",
+      "Daniel Passarella",
+      "Jorge Valdano",
+      "Oscar Ruggeri"
+    ],
+    "correct": "Diego Maradona"
+  },
+  {
+    "q": "¿Qué país organizó y ganó el mundial de 1966?",
+    "options": [
+      "Inglaterra",
+      "Alemania",
+      "Brasil",
+      "Italia"
+    ],
+    "correct": "Inglaterra"
+  },
+  {
+    "q": "¿Qué selección tiene el récord de más finales de mundiales disputadas?",
+    "options": [
+      "Alemania",
+      "Brasil",
+      "Italia",
+      "Argentina"
+    ],
+    "correct": "Alemania"
+  },
+  {
+    "q": "¿En qué mundial se introdujeron por primera vez las tarjetas amarilla y roja?",
+    "options": [
+      "México 1970",
+      "Inglaterra 1966",
+      "Alemania 1974",
+      "España 1982"
+    ],
+    "correct": "México 1970"
+  },
+  {
+    "q": "¿Qué apodo recibe tradicionalmente la selección de Brasil?",
+    "options": [
+      "La Canarinha",
+      "La Albiceleste",
+      "La Roja",
+      "La Azzurra"
+    ],
+    "correct": "La Canarinha"
+  },
+  {
+    "q": "¿Qué selección eliminó a Brasil en el histórico 'Mineirazo' de 2014 con un marcador de 7-1?",
+    "options": [
+      "Alemania",
+      "Argentina",
+      "Países Bajos",
+      "Colombia"
+    ],
+    "correct": "Alemania"
+  },
+  {
+    "q": "¿Qué jugador colombiano ganó la Bota de Oro en el mundial de Brasil 2014?",
+    "options": [
+      "James Rodríguez",
+      "Radamel Falcao",
+      "Teófilo Gutiérrez",
+      "Juan Cuadrado"
+    ],
+    "correct": "James Rodríguez"
+  },
+  {
+    "q": "¿En qué año se disputó el mundial de Suecia donde debutó Pelé?",
+    "options": [
+      "1958",
+      "1954",
+      "1962",
+      "1950"
+    ],
+    "correct": "1958"
+  },
+  {
+    "q": "¿Qué país ganó el mundial de Suiza 1954 derrotando a los 'Magos Húngaros'?",
+    "options": [
+      "Alemania Federal",
+      "Hungría",
+      "Suiza",
+      "Austria"
+    ],
+    "correct": "Alemania Federal"
+  },
+  {
+    "q": "¿Qué país sudamericano organizó el mundial de 1962?",
+    "options": [
+      "Chile",
+      "Perú",
+      "Ecuador",
+      "Colombia"
+    ],
+    "correct": "Chile"
+  },
+  {
+    "q": "¿A qué leyenda del fútbol se le asocia el histórico 'Gol del Siglo' contra Inglaterra?",
+    "options": [
+      "Diego Maradona",
+      "Pelé",
+      "Johan Cruyff",
+      "Eusébio"
+    ],
+    "correct": "Diego Maradona"
+  },
+  {
+    "q": "¿Cuál fue el balón oficial utilizado en el mundial de México 1970?",
+    "options": [
+      "Telstar",
+      "Tango",
+      "Azteca",
+      "Questra"
+    ],
+    "correct": "Telstar"
+  },
+  {
+    "q": "¿Qué país albergó el primer mundial en el continente asiático en 2002?",
+    "options": [
+      "Corea del Sur y Japón",
+      "Japón y China",
+      "Catar",
+      "Corea del Sur únicamente"
+    ],
+    "correct": "Corea del Sur y Japón"
+  },
+  {
+    "q": "¿Qué selección ganó la Copa del Mundo de Chile 1962?",
+    "options": [
+      "Brasil",
+      "Checoslovaquia",
+      "Chile",
+      "Yugoslavia"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿Qué jugador inglés anotó un 'hat-trick' en la final de 1966?",
+    "options": [
+      "Geoff Hurst",
+      "Bobby Charlton",
+      "Bobby Moore",
+      "Jimmy Greaves"
+    ],
+    "correct": "Geoff Hurst"
+  },
+  {
+    "q": "¿Qué país caribeño participó en el mundial de Francia 1938 logrando llegar a cuartos?",
+    "options": [
+      "Cuba",
+      "Haití",
+      "Jamaica",
+      "Trinidad y Tobago"
+    ],
+    "correct": "Cuba"
+  },
+  {
+    "q": "¿Qué selección de Europa Occidental viste tradicionalmente de color naranja?",
+    "options": [
+      "Países Bajos",
+      "Bélgica",
+      "Dinamarca",
+      "Austria"
+    ],
+    "correct": "Países Bajos"
+  },
+  {
+    "q": "¿Qué selección eliminó a la campeona del mundo España en la fase de grupos en 2014?",
+    "options": [
+      "Chile",
+      "Países Bajos",
+      "Australia",
+      "Croacia"
+    ],
+    "correct": "Chile"
+  },
+  {
+    "q": "¿Qué jugador italiano falló el penal decisivo en la final de EE.UU. 1994 ante Brasil?",
+    "options": [
+      "Roberto Baggio",
+      "Franco Baresi",
+      "Daniele Massaro",
+      "Gianluca Pagliuca"
+    ],
+    "correct": "Roberto Baggio"
+  },
+  {
+    "q": "¿Cuál de las siguientes selecciones ganó la Copa del Mundo en 1998 por primera vez?",
+    "options": [
+      "Francia",
+      "Croacia",
+      "Dinamarca",
+      "Japón"
+    ],
+    "correct": "Francia"
+  },
+  {
+    "q": "¿Cuál es la mascota oficial recordada del mundial de México 1986?",
+    "options": [
+      "Pique",
+      "Naranjito",
+      "Footix",
+      "Zakumi"
+    ],
+    "correct": "Pique"
+  },
+  {
+    "q": "¿Quién fue el goleador del mundial de México 1986?",
+    "options": [
+      "Gary Lineker",
+      "Diego Maradona",
+      "Emilio Butragueño",
+      "Jorge Valdano"
+    ],
+    "correct": "Gary Lineker"
+  },
+  {
+    "q": "¿Qué selección africana sorprendió al ganarle a Argentina en el partido inaugural de Italia 1990?",
+    "options": [
+      "Camerún",
+      "Egipto",
+      "Colombia",
+      "Rumania"
+    ],
+    "correct": "Camerún"
+  },
+  {
+    "q": "¿Qué país albergó el mundial de 1990?",
+    "options": [
+      "Italia",
+      "Alemania",
+      "España",
+      "Francia"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué selección ganó la final de Italia 1990 mediante un penal cerca del final?",
+    "options": [
+      "Alemania Federal",
+      "Argentina",
+      "Italia",
+      "Inglaterra"
+    ],
+    "correct": "Alemania Federal"
+  },
+  {
+    "q": "¿Qué jugador camerunés celebró sus goles bailando en el banderín de córner en 1990?",
+    "options": [
+      "Roger Milla",
+      "François Omam-Biyik",
+      "Thomas N'Kono",
+      "Rigobert Song"
+    ],
+    "correct": "Roger Milla"
+  },
+  {
+    "q": "¿Qué selección tiene el récord de más partidos empatados en mundiales?",
+    "options": [
+      "Italia",
+      "Brasil",
+      "Inglaterra",
+      "Alemania"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Cuál es el país más pequeño por superficie en albergar un mundial de fútbol?",
+    "options": [
+      "Catar",
+      "Uruguay",
+      "Suiza",
+      "Corea del Sur"
+    ],
+    "correct": "Catar"
+  },
+  {
+    "q": "¿Qué arquero costarricense destacó en Brasil 2014 llevando a su selección a cuartos de final?",
+    "options": [
+      "Keylor Navas",
+      "Patrick Pemberton",
+      "Esteban Alvarado",
+      "Leonel Moreira"
+    ],
+    "correct": "Keylor Navas"
+  },
+  {
+    "q": "¿Qué selección ganó el mundial de 1974 liderada por Franz Beckenbauer?",
+    "options": [
+      "Alemania Federal",
+      "Países Bajos",
+      "Polonia",
+      "Suecia"
+    ],
+    "correct": "Alemania Federal"
+  },
+  {
+    "q": "¿Qué estilo de juego revolucionario presentó Países Bajos en el mundial de 1974?",
+    "options": [
+      "Fútbol Total",
+      "Catenaccio",
+      "Tiquitaca",
+      "Juego de Posición"
+    ],
+    "correct": "Fútbol Total"
+  },
+  {
+    "q": "¿Quién fue el máximo goleador del mundial de Alemania 1974?",
+    "options": [
+      "Grzegorz Lato",
+      "Johan Cruyff",
+      "Gerd Müller",
+      "Ralf Edström"
+    ],
+    "correct": "Grzegorz Lato"
+  },
+  {
+    "q": "¿Qué país organizó el mundial de 1978?",
+    "options": [
+      "Argentina",
+      "Brasil",
+      "Chile",
+      "Colombia"
+    ],
+    "correct": "Argentina"
+  },
+  {
+    "q": "¿Qué estrella de Países Bajos no viajó al mundial de Argentina 1978?",
+    "options": [
+      "Johan Cruyff",
+      "Johan Neeskens",
+      "Rob Rensenbrink",
+      "Ruud Krol"
+    ],
+    "correct": "Johan Cruyff"
+  },
+  {
+    "q": "¿Qué selección debutó en un mundial en Alemania 2006 representando a África?",
+    "options": [
+      "Angola",
+      "Egipto",
+      "Nigeria",
+      "Camerún"
+    ],
+    "correct": "Angola"
+  },
+  {
+    "q": "¿Qué selección asiática sorprendió llegando al cuarto lugar en su propio mundial en 2002?",
+    "options": [
+      "Corea del Sur",
+      "Japón",
+      "China",
+      "Arabia Saudita"
+    ],
+    "correct": "Corea del Sur"
+  },
+  {
+    "q": "¿Qué jugador brasileño anotó en todos los partidos del mundial de México 1970?",
+    "options": [
+      "Jairzinho",
+      "Pelé",
+      "Tostão",
+      "Rivelino"
+    ],
+    "correct": "Jairzinho"
+  },
+  {
+    "q": "¿Qué selección ganó el mundial de 1950 en el recordado 'Maracanazo'?",
+    "options": [
+      "Uruguay",
+      "Brasil",
+      "Suecia",
+      "España"
+    ],
+    "correct": "Uruguay"
+  },
+  {
+    "q": "¿Qué país organizó el mundial de 1950?",
+    "options": [
+      "Brasil",
+      "Uruguay",
+      "Suiza",
+      "Francia"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿Qué país organizó el mundial de 1954?",
+    "options": [
+      "Suiza",
+      "Suecia",
+      "Francia",
+      "Italia"
+    ],
+    "correct": "Suiza"
+  },
+  {
+    "q": "¿Qué selección europea quedó subcampeona en los mundiales de 1974, 1978 y 2010 sin ganar el título?",
+    "options": [
+      "Países Bajos",
+      "Alemania",
+      "Suecia",
+      "Hungría"
+    ],
+    "correct": "Países Bajos"
+  },
+  {
+    "q": "¿Qué selección nacional tiene el apodo de 'Los Diablos Rojos'?",
+    "options": [
+      "Bélgica",
+      "Alemania",
+      "España",
+      "Portugal"
+    ],
+    "correct": "Bélgica"
+  },
+  {
+    "q": "¿Qué jugador de Croacia ganó la Bota de Oro en el mundial de Francia 1998?",
+    "options": [
+      "Davor Šuker",
+      "Zvonimir Boban",
+      "Robert Prosinečki",
+      "Alen Bokšić"
+    ],
+    "correct": "Davor Šuker"
+  },
+  {
+    "q": "¿Qué país organizó el mundial de 1938?",
+    "options": [
+      "Francia",
+      "Italia",
+      "Alemania",
+      "Uruguay"
+    ],
+    "correct": "Francia"
+  },
+  {
+    "q": "¿Qué selección ganó el mundial de 1934 y 1938 de forma consecutiva?",
+    "options": [
+      "Italia",
+      "Uruguay",
+      "Alemania",
+      "Francia"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué país organizó el mundial de 1934?",
+    "options": [
+      "Italia",
+      "Francia",
+      "Uruguay",
+      "Suiza"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué jugador alemán anotó el gol decisivo en la final del mundial de Suiza 1954?",
+    "options": [
+      "Helmut Rahn",
+      "Max Morlock",
+      "Fritz Walter",
+      "Ottmar Walter"
+    ],
+    "correct": "Helmut Rahn"
+  },
+  {
+    "q": "¿Qué jugador de Portugal anotó 9 goles en el mundial de Inglaterra 1966?",
+    "options": [
+      "Eusébio",
+      "Coluna",
+      "José Augusto",
+      "Torres"
+    ],
+    "correct": "Eusébio"
+  },
+  {
+    "q": "¿Qué país de África Occidental clasificó a su primer mundial en Alemania 2006 y cuenta con Didier Drogba?",
+    "options": [
+      "Costa de Marfil",
+      "Ghana",
+      "Togo",
+      "Angola"
+    ],
+    "correct": "Costa de Marfil"
+  },
+  {
+    "q": "¿Qué selección centroamericana clasificó a su primer mundial en España 1982?",
+    "options": [
+      "Honduras",
+      "Costa Rica",
+      "El Salvador",
+      "Panamá"
+    ],
+    "correct": "Honduras"
+  },
+  {
+    "q": "¿Qué selección centroamericana clasificó por primera vez al mundial en Rusia 2018?",
+    "options": [
+      "Panamá",
+      "Honduras",
+      "Costa Rica",
+      "Guatemala"
+    ],
+    "correct": "Panamá"
+  },
+  {
+    "q": "¿Qué país europeo debutó en la Copa del Mundo en Catar 2022?",
+    "options": [
+      "Ninguno de Europa",
+      "Gales",
+      "Finlandia",
+      "Islandia"
+    ],
+    "correct": "Ninguno de Europa"
+  },
+  {
+    "q": "¿Qué selección debutó en un mundial en Rusia 2018 representando a Europa y siendo una isla muy pequeña?",
+    "options": [
+      "Islandia",
+      "Irlanda del Norte",
+      "Chipre",
+      "Malta"
+    ],
+    "correct": "Islandia"
+  },
+  {
+    "q": "¿En qué mundial de la FIFA debutó la selección de Japón?",
+    "options": [
+      "Francia 1998",
+      "Estados Unidos 1994",
+      "Corea-Japón 2002",
+      "Alemania 2006"
+    ],
+    "correct": "Francia 1998"
+  },
+  {
+    "q": "¿Qué jugador brasileño de renombre era apodado 'El Fenómeno'?",
+    "options": [
+      "Ronaldo Nazário",
+      "Ronaldinho",
+      "Rivaldo",
+      "Romário"
+    ],
+    "correct": "Ronaldo Nazário"
+  },
+  {
+    "q": "¿Cuántos goles anotó Ronaldo Nazário en la final del mundial de Corea-Japón 2002 ante Alemania?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "correct": "2"
+  },
+  {
+    "q": "¿Qué arquero español levantó la copa como capitán en Sudáfrica 2010?",
+    "options": [
+      "Iker Casillas",
+      "Victor Valdés",
+      "Pepe Reina",
+      "David de Gea"
+    ],
+    "correct": "Iker Casillas"
+  },
+  {
+    "q": "¿Qué selección sudamericana fue campeona panamericana y del mundo en 1930 y 1950?",
+    "options": [
+      "Uruguay",
+      "Argentina",
+      "Brasil",
+      "Chile"
+    ],
+    "correct": "Uruguay"
+  },
+  {
+    "q": "¿Qué selección europea viste con camiseta azul y es apodada 'La Azzurra'?",
+    "options": [
+      "Italia",
+      "Francia",
+      "Grecia",
+      "Islandia"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué selección europea es conocida como 'La Selección de las Quinas'?",
+    "options": [
+      "Portugal",
+      "España",
+      "Grecia",
+      "Francia"
+    ],
+    "correct": "Portugal"
+  },
+  {
+    "q": "¿Qué jugador luso lideró a su país en el mundial 2006, 2010, 2014, 2018 y 2022?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Luis Figo",
+      "Deco",
+      "Eusébio"
+    ],
+    "correct": "Cristiano Ronaldo"
+  },
+  {
+    "q": "¿En qué mundial se anotó el gol más rápido de la historia a los 11 segundos?",
+    "options": [
+      "Corea-Japón 2002",
+      "España 1982",
+      "Chile 1962",
+      "Suiza 1954"
+    ],
+    "correct": "Corea-Japón 2002"
+  },
+  {
+    "q": "¿Qué jugador turco anotó el gol más rápido de los mundiales a los 11 segundos?",
+    "options": [
+      "Hakan Şükür",
+      "İlhan Mansız",
+      "Hasan Şaş",
+      "Ümit Davala"
+    ],
+    "correct": "Hakan Şükür"
+  },
+  {
+    "q": "¿Qué selección asiática derrotó a Alemania y España en el mundial de Catar 2022?",
+    "options": [
+      "Japón",
+      "Corea del Sur",
+      "Arabia Saudita",
+      "Irán"
+    ],
+    "correct": "Japón"
+  },
+  {
+    "q": "¿Qué selección de Medio Oriente derrotó a Argentina en la fase de grupos de Catar 2022?",
+    "options": [
+      "Arabia Saudita",
+      "Irán",
+      "Catar",
+      "Túnez"
+    ],
+    "correct": "Arabia Saudita"
+  },
+  {
+    "q": "¿Qué jugador argentino de Catar 2022 anotó un golazo a México en fase de grupos a pase de Messi?",
+    "options": [
+      "Enzo Fernández",
+      "Alexis Mac Allister",
+      "Julián Álvarez",
+      "Ángel Di María"
+    ],
+    "correct": "Enzo Fernández"
+  },
+  {
+    "q": "¿Qué jugador croata ganó la medalla de bronce y fue elegido tercer mejor jugador en Catar 2022?",
+    "options": [
+      "Luka Modrić",
+      "Mateo Kovačić",
+      "Ivan Perišić",
+      "Joško Gvardiol"
+    ],
+    "correct": "Luka Modrić"
+  },
+  {
+    "q": "¿Quién fue el máximo goleador en la Copa Mundial de Rusia 2018?",
+    "options": [
+      "Harry Kane",
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Romelu Lukaku"
+    ],
+    "correct": "Harry Kane"
+  },
+  {
+    "q": "¿Qué selección de Oceanía clasificó por primera vez al mundial en Alemania 1974?",
+    "options": [
+      "Australia",
+      "Nueva Zelanda",
+      "Fiyi",
+      "Samoa"
+    ],
+    "correct": "Australia"
+  },
+  {
+    "q": "¿En qué mundial debutó la selección de Ecuador?",
+    "options": [
+      "Corea-Japón 2002",
+      "Alemania 2006",
+      "Francia 1998",
+      "Estados Unidos 1994"
+    ],
+    "correct": "Corea-Japón 2002"
+  },
+  {
+    "q": "¿Qué selección africana de Catar 2022 era apodada 'Los Leones de la Teranga'?",
+    "options": [
+      "Senegal",
+      "Camerún",
+      "Ghana",
+      "Marruecos"
+    ],
+    "correct": "Senegal"
+  },
+  {
+    "q": "¿Qué selección africana de Catar 2022 era apodada 'Las Estrellas Negras'?",
+    "options": [
+      "Ghana",
+      "Camerún",
+      "Senegal",
+      "Túnez"
+    ],
+    "correct": "Ghana"
+  },
+  {
+    "q": "¿Qué jugador ghanés anotó en mundiales de 2006, 2010 y 2014?",
+    "options": [
+      "Asamoah Gyan",
+      "Sulley Muntari",
+      "André Ayew",
+      "Kevin-Prince Boateng"
+    ],
+    "correct": "Asamoah Gyan"
+  },
+  {
+    "q": "¿Qué país norteamericano fue anfitrión de la Copa del Mundo en 1970 y 1986?",
+    "options": [
+      "México",
+      "Estados Unidos",
+      "Canadá",
+      "Guatemala"
+    ],
+    "correct": "México"
+  },
+  {
+    "q": "¿En qué estadio de la Ciudad de México coronó campeón a Pelé en 1970 y a Maradona en 1986?",
+    "options": [
+      "Estadio Azteca",
+      "Estadio Olímpico Universitario",
+      "Estadio Jalisco",
+      "Estadio Azul"
+    ],
+    "correct": "Estadio Azteca"
+  },
+  {
+    "q": "¿Qué selección europea quedó campeona del mundo en España 1982?",
+    "options": [
+      "Italia",
+      "Alemania Federal",
+      "Francia",
+      "Polonia"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué mítico delantero italiano anotó 6 goles en el mundial de España 1982?",
+    "options": [
+      "Paolo Rossi",
+      "Dino Zoff",
+      "Marco Tardelli",
+      "Bruno Conti"
+    ],
+    "correct": "Paolo Rossi"
+  },
+  {
+    "q": "¿Qué legendario arquero italiano se coronó campeón mundial en 1982 a los 40 años?",
+    "options": [
+      "Dino Zoff",
+      "Gianluigi Buffon",
+      "Walter Zenga",
+      "Francesco Toldo"
+    ],
+    "correct": "Dino Zoff"
+  },
+  {
+    "q": "¿Qué país caribeño clasificó a su único mundial en Alemania 2006?",
+    "options": [
+      "Trinidad y Tobago",
+      "Jamaica",
+      "Haití",
+      "Cuba"
+    ],
+    "correct": "Trinidad y Tobago"
+  },
+  {
+    "q": "¿Qué país caribeño clasificó al mundial de Francia 1998 y era conocido por los 'Reggae Boyz'?",
+    "options": [
+      "Jamaica",
+      "Trinidad y Tobago",
+      "Haití",
+      "Cuba"
+    ],
+    "correct": "Jamaica"
+  },
+  {
+    "q": "¿Qué selección de la Concacaf clasificó a su primer mundial en Alemania 1974?",
+    "options": [
+      "Haití",
+      "El Salvador",
+      "Honduras",
+      "Canadá"
+    ],
+    "correct": "Haití"
+  },
+  {
+    "q": "¿Qué país centroamericano debutó en los mundiales en Italia 1990 bajo la dirección de Bora Milutinović?",
+    "options": [
+      "Costa Rica",
+      "Honduras",
+      "El Salvador",
+      "Guatemala"
+    ],
+    "correct": "Costa Rica"
+  },
+  {
+    "q": "¿Qué jugador brasileño levantó el trofeo como capitán en Estados Unidos 1994?",
+    "options": [
+      "Dunga",
+      "Cafú",
+      "Romário",
+      "Bebeto"
+    ],
+    "correct": "Dunga"
+  },
+  {
+    "q": "¿Qué arquero brasileño fue el titular indiscutible en la final de EE.UU. 1994 y Francia 1998?",
+    "options": [
+      "Taffarel",
+      "Marcos",
+      "Dida",
+      "Rogério Ceni"
+    ],
+    "correct": "Taffarel"
+  },
+  {
+    "q": "¿Qué selección europea venció a Brasil por 3-0 en la final de 1998?",
+    "options": [
+      "Francia",
+      "Alemania",
+      "Italia",
+      "Países Bajos"
+    ],
+    "correct": "Francia"
+  },
+  {
+    "q": "¿Quién anotó dos goles de cabeza para Francia en la final del mundial de 1998?",
+    "options": [
+      "Zinedine Zidane",
+      "Emmanuel Petit",
+      "Thierry Henry",
+      "Didier Deschamps"
+    ],
+    "correct": "Zinedine Zidane"
+  },
+  {
+    "q": "¿Qué jugador colombiano anotó un gol olímpico en el mundial de Chile 1962 ante la Unión Soviética?",
+    "options": [
+      "Marcos Coll",
+      "Adolfo Pedernera",
+      "Francisco Zuluaga",
+      "Delio Gamboa"
+    ],
+    "correct": "Marcos Coll"
+  },
+  {
+    "q": "¿Qué arquero soviético de gran renombre mundial encajó el gol olímpico de Marcos Coll en 1962?",
+    "options": [
+      "Lev Yashin",
+      "Rinat Dasáyev",
+      "Igor Akinfeev",
+      "Vladimir Maslachenko"
+    ],
+    "correct": "Lev Yashin"
+  },
+  {
+    "q": "¿Qué selección fue la subcampeona del primer mundial de fútbol en 1930?",
+    "options": [
+      "Argentina",
+      "Uruguay",
+      "Estados Unidos",
+      "Yugoslavia"
+    ],
+    "correct": "Argentina"
+  },
+  {
+    "q": "¿Qué jugador argentino anotó el primer gol en la historia de los mundiales para su país?",
+    "options": [
+      "Guillermo Stábile",
+      "Francisco Varallo",
+      "Luis Monti",
+      "Adolfo Zumelzú"
+    ],
+    "correct": "Guillermo Stábile"
+  },
+  {
+    "q": "¿Quién anotó el primer gol en la historia de las Copas del Mundo de la FIFA?",
+    "options": [
+      "Lucien Laurent",
+      "Guillermo Stábile",
+      "Preguinho",
+      "Bart McGhee"
+    ],
+    "correct": "Lucien Laurent"
+  },
+  {
+    "q": "¿De qué nacionalidad era Lucien Laurent, autor del primer gol de los mundiales?",
+    "options": [
+      "Francés",
+      "Uruguayo",
+      "Belga",
+      "Estadounidense"
+    ],
+    "correct": "Francés"
+  },
+  {
+    "q": "¿Qué país del norte de Europa albergó la Copa del Mundo en 1958?",
+    "options": [
+      "Suecia",
+      "Noruega",
+      "Finlandia",
+      "Dinamarca"
+    ],
+    "correct": "Suecia"
+  },
+  {
+    "q": "¿Qué selección fue la subcampeona del mundial de Suecia 1958?",
+    "options": [
+      "Suecia",
+      "Brasil",
+      "Francia",
+      "Alemania Federal"
+    ],
+    "correct": "Suecia"
+  },
+  {
+    "q": "¿Qué jugador brasileño anotó un golazo sombrereando a un defensor en la final de 1958 a los 17 años?",
+    "options": [
+      "Pelé",
+      "Garrincha",
+      "Vavá",
+      "Mário Zagallo"
+    ],
+    "correct": "Pelé"
+  },
+  {
+    "q": "¿Qué selección europea quedó en tercer lugar en el mundial de Suecia 1958 gracias a Just Fontaine?",
+    "options": [
+      "Francia",
+      "Alemania Federal",
+      "Suecia",
+      "Unión Soviética"
+    ],
+    "correct": "Francia"
+  },
+  {
+    "q": "¿Qué país sudamericano organizó la Copa del Mundo de 1978?",
+    "options": [
+      "Argentina",
+      "Brasil",
+      "Chile",
+      "Uruguay"
+    ],
+    "correct": "Argentina"
+  },
+  {
+    "q": "¿Qué selección europea perdió la final de 1978 ante Argentina en la prórroga?",
+    "options": [
+      "Países Bajos",
+      "Alemania Federal",
+      "Italia",
+      "Francia"
+    ],
+    "correct": "Países Bajos"
+  },
+  {
+    "q": "¿Qué goleador argentino fue la figura indiscutible y bota de oro de 1978?",
+    "options": [
+      "Mario Alberto Kempes",
+      "Daniel Bertoni",
+      "Leopoldo Luque",
+      "René Houseman"
+    ],
+    "correct": "Mario Alberto Kempes"
+  },
+  {
+    "q": "¿Quién fue el director técnico de la selección argentina en 1978?",
+    "options": [
+      "César Luis Menotti",
+      "Carlos Bilardo",
+      "Alfio Basile",
+      "Marcelo Bielsa"
+    ],
+    "correct": "César Luis Menotti"
+  },
+  {
+    "q": "¿Quién fue el director técnico de la selección argentina en 1986?",
+    "options": [
+      "Carlos Bilardo",
+      "César Luis Menotti",
+      "Alfio Basile",
+      "Daniel Passarella"
+    ],
+    "correct": "Carlos Bilardo"
+  },
+  {
+    "q": "¿Qué jugador de Alemania Occidental anotó el penal de la victoria en la final de Italia 1990?",
+    "options": [
+      "Andreas Brehme",
+      "Lothar Matthäus",
+      "Jürgen Klinsmann",
+      "Rudi Völler"
+    ],
+    "correct": "Andreas Brehme"
+  },
+  {
+    "q": "¿Qué arquero argentino destacó tapando penales en las definiciones contra Yugoslavia e Italia en 1990?",
+    "options": [
+      "Sergio Goycochea",
+      "Nery Pumpido",
+      "Luis Islas",
+      "Ángel Comizzo"
+    ],
+    "correct": "Sergio Goycochea"
+  },
+  {
+    "q": "¿Qué jugador italiano fue el máximo goleador sorpresa del mundial de Italia 1990?",
+    "options": [
+      "Salvatore Schillaci",
+      "Roberto Baggio",
+      "Gianluca Vialli",
+      "Andrea Carnevale"
+    ],
+    "correct": "Salvatore Schillaci"
+  },
+  {
+    "q": "¿Qué país ganó el mundial de 1994 disputado en Estados Unidos?",
+    "options": [
+      "Brasil",
+      "Italia",
+      "Suecia",
+      "Bulgaria"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿Quiénes anotaron por Brasil en los penales de la final de 1994 ante Italia?",
+    "options": [
+      "Romário, Branco y Dunga",
+      "Romário, Bebeto y Dunga",
+      "Romário, Cafú y Leonardo",
+      "Bebeto, Branco y Dunga"
+    ],
+    "correct": "Romário, Branco y Dunga"
+  },
+  {
+    "q": "¿Qué jugador búlgaro fue goleador del mundial 1994 y estrella del Barcelona?",
+    "options": [
+      "Hristo Stoichkov",
+      "Yordan Letchkov",
+      "Emil Kostadinov",
+      "Krasimir Balakov"
+    ],
+    "correct": "Hristo Stoichkov"
+  },
+  {
+    "q": "¿Qué país organizó el mundial del año 2006?",
+    "options": [
+      "Alemania",
+      "Francia",
+      "Italia",
+      "Sudáfrica"
+    ],
+    "correct": "Alemania"
+  },
+  {
+    "q": "¿Qué selección quedó en tercer lugar en el mundial de Alemania 2006?",
+    "options": [
+      "Alemania",
+      "Portugal",
+      "Francia",
+      "Italia"
+    ],
+    "correct": "Alemania"
+  },
+  {
+    "q": "¿Quién anotó el penal definitorio para Italia en la tanda de la final de 2006 ante Francia?",
+    "options": [
+      "Fabio Grosso",
+      "Andrea Pirlo",
+      "Marco Materazzi",
+      "Alessandro Del Piero"
+    ],
+    "correct": "Fabio Grosso"
+  },
+  {
+    "q": "¿Qué defensor italiano fue elegido Balón de Oro y levantó la copa como capitán en 2006?",
+    "options": [
+      "Fabio Cannavaro",
+      "Alessandro Nesta",
+      "Gianluca Zambrotta",
+      "Fabio Grosso"
+    ],
+    "correct": "Fabio Cannavaro"
+  },
+  {
+    "q": "¿Qué selección fue la campeona de la Copa Mundial de la FIFA en Brasil 2014?",
+    "options": [
+      "Alemania",
+      "Argentina",
+      "Países Bajos",
+      "Brasil"
+    ],
+    "correct": "Alemania"
+  },
+  {
+    "q": "¿Qué selección quedó en tercer lugar en el mundial de Brasil 2014?",
+    "options": [
+      "Países Bajos",
+      "Brasil",
+      "Colombia",
+      "Alemania"
+    ],
+    "correct": "Países Bajos"
+  },
+  {
+    "q": "¿Qué jugador alemán es el máximo goleador histórico de los mundiales y se retiró tras ganar en 2014?",
+    "options": [
+      "Miroslav Klose",
+      "Thomas Müller",
+      "Gerd Müller",
+      "Lukas Podolski"
+    ],
+    "correct": "Miroslav Klose"
+  },
+  {
+    "q": "¿Qué jugador argentino ganó el Balón de Oro al mejor jugador en Brasil 2014?",
+    "options": [
+      "Lionel Messi",
+      "Ángel Di María",
+      "Javier Mascherano",
+      "Gonzalo Higuaín"
+    ],
+    "correct": "Lionel Messi"
+  },
+  {
+    "q": "¿Qué selección ganó la Copa Mundial de la FIFA en Catar 2022?",
+    "options": [
+      "Argentina",
+      "Francia",
+      "Croacia",
+      "Marruecos"
+    ],
+    "correct": "Argentina"
+  },
+  {
+    "q": "¿Qué selección quedó en tercer lugar en el mundial de Catar 2022?",
+    "options": [
+      "Croacia",
+      "Marruecos",
+      "Francia",
+      "Argentina"
+    ],
+    "correct": "Croacia"
+  },
+  {
+    "q": "¿Qué arquero argentino ganó el Guante de Oro al mejor portero en Catar 2022?",
+    "options": [
+      "Emiliano Martínez",
+      "Hugo Lloris",
+      "Yassine Bounou",
+      "Dominik Livaković"
+    ],
+    "correct": "Emiliano Martínez"
+  },
+  {
+    "q": "¿Qué joven jugador argentino ganó el premio al Mejor Jugador Joven de Catar 2022?",
+    "options": [
+      "Enzo Fernández",
+      "Julián Álvarez",
+      "Alexis Mac Allister",
+      "Thiago Almada"
+    ],
+    "correct": "Enzo Fernández"
+  },
+  {
+    "q": "¿Qué selección africana sorprendió al mundo al ganarle a España y Portugal eliminándolas de Catar 2022?",
+    "options": [
+      "Marruecos",
+      "Senegal",
+      "Camerún",
+      "Túnez"
+    ],
+    "correct": "Marruecos"
+  },
+  {
+    "q": "¿Qué jugador marroquí anotó el penal decisivo a lo 'Panenka' contra España en Catar 2022?",
+    "options": [
+      "Achraf Hakimi",
+      "Hakim Ziyech",
+      "Sofiane Boufal",
+      "Youssef En-Nesyri"
+    ],
+    "correct": "Achraf Hakimi"
+  },
+  {
+    "q": "¿Qué jugador marroquí anotó de cabeza saltando altísimo ante Portugal en Catar 2022?",
+    "options": [
+      "Youssef En-Nesyri",
+      "Achraf Hakimi",
+      "Sofyan Amrabat",
+      "Abderrazak Hamdallah"
+    ],
+    "correct": "Youssef En-Nesyri"
+  },
+  {
+    "q": "¿Qué selección campeona de Europa no logró clasificar al mundial de Catar 2022 tras perder la repesca ante Macedonia del Norte?",
+    "options": [
+      "Italia",
+      "Portugal",
+      "Suecia",
+      "Turquía"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué selección eliminó a la campeona Alemania en la fase de grupos de Rusia 2018 con una victoria de 2-0?",
+    "options": [
+      "Corea del Sur",
+      "México",
+      "Suecia",
+      "Japón"
+    ],
+    "correct": "Corea del Sur"
+  },
+  {
+    "q": "¿Qué selección sudamericana quedó fuera de Rusia 2018 y Catar 2022 de forma consecutiva siendo bicampeona de América?",
+    "options": [
+      "Chile",
+      "Colombia",
+      "Paraguay",
+      "Perú"
+    ],
+    "correct": "Chile"
+  },
+  {
+    "q": "¿Qué selección asiática empató 3-3 contra Senegal en Rusia 2018 y clasificó a octavos por juego limpio?",
+    "options": [
+      "Japón",
+      "Corea del Sur",
+      "Irán",
+      "Arabia Saudita"
+    ],
+    "correct": "Japón"
+  },
+  {
+    "q": "¿Qué selección europea era dirigida por Roberto Martínez y quedó tercera en Rusia 2018?",
+    "options": [
+      "Bélgica",
+      "Inglaterra",
+      "Croacia",
+      "Francia"
+    ],
+    "correct": "Bélgica"
+  },
+  {
+    "q": "¿Qué jugador de Bélgica brilló como uno de los mejores atacantes en Rusia 2018?",
+    "options": [
+      "Eden Hazard",
+      "Kevin De Bruyne",
+      "Romelu Lukaku",
+      "Dries Mertens"
+    ],
+    "correct": "Eden Hazard"
+  },
+  {
+    "q": "¿Qué selección fue la subcampeona del mundial de Francia 1998?",
+    "options": [
+      "Brasil",
+      "Francia",
+      "Croacia",
+      "Países Bajos"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿Qué delantero estrella brasileño sufrió convulsiones horas antes de la final de 1998?",
+    "options": [
+      "Ronaldo Nazário",
+      "Romário",
+      "Bebeto",
+      "Denílson"
+    ],
+    "correct": "Ronaldo Nazário"
+  },
+  {
+    "q": "¿Qué país ganó la medalla de oro en fútbol masculino en los Juegos Olímpicos de Río 2016?",
+    "options": [
+      "Brasil",
+      "Alemania",
+      "Nigeria",
+      "Honduras"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿Qué estrella de Brasil anotó el penal decisivo en la tanda de Río 2016 ante Alemania?",
+    "options": [
+      "Neymar Jr",
+      "Gabriel Jesus",
+      "Gabigol",
+      "Marquinhos"
+    ],
+    "correct": "Neymar Jr"
+  },
+  {
+    "q": "¿Qué país ganó la medalla de oro en fútbol masculino en Tokio 2020?",
+    "options": [
+      "Brasil",
+      "España",
+      "México",
+      "Japón"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿Qué país del norte de África organizó y ganó la Copa Africana de Naciones 2019?",
+    "options": [
+      "Argelia",
+      "Egipto",
+      "Senegal",
+      "Túnez"
+    ],
+    "correct": "Argelia"
+  },
+  {
+    "q": "¿Qué jugador del Manchester City lideró a Argelia al título africano en 2019?",
+    "options": [
+      "Riyad Mahrez",
+      "Sofiane Feghouli",
+      "Yacine Brahimi",
+      "Baghdad Bounedjah"
+    ],
+    "correct": "Riyad Mahrez"
+  },
+  {
+    "q": "¿Qué selección ganó la Copa América 2021 derrotando a Brasil en el Maracaná?",
+    "options": [
+      "Argentina",
+      "Brasil",
+      "Colombia",
+      "Perú"
+    ],
+    "correct": "Argentina"
+  },
+  {
+    "q": "¿Quién anotó el gol de la victoria para Argentina en la final de la Copa América 2021?",
+    "options": [
+      "Ángel Di María",
+      "Lionel Messi",
+      "Lautaro Martínez",
+      "Rodrigo De Paul"
+    ],
+    "correct": "Ángel Di María"
+  },
+  {
+    "q": "¿Qué selección ganó la Eurocopa 2020 disputada en 2021 tras vencer a Inglaterra en Wembley?",
+    "options": [
+      "Italia",
+      "Inglaterra",
+      "España",
+      "Dinamarca"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué arquero italiano fue elegido mejor jugador de la Eurocopa 2020?",
+    "options": [
+      "Gianluigi Donnarumma",
+      "Gianluigi Buffon",
+      "Alex Meret",
+      "Salvatore Sirigu"
+    ],
+    "correct": "Gianluigi Donnarumma"
+  },
+  {
+    "q": "¿Qué selección ganó la Copa América Centenario 2016 en Estados Unidos?",
+    "options": [
+      "Chile",
+      "Argentina",
+      "Colombia",
+      "Estados Unidos"
+    ],
+    "correct": "Chile"
+  },
+  {
+    "q": "¿Qué selección ganó la Copa América 2015 como anfitriona?",
+    "options": [
+      "Chile",
+      "Argentina",
+      "Perú",
+      "Paraguay"
+    ],
+    "correct": "Chile"
+  },
+  {
+    "q": "¿Qué director técnico dirigía a Chile en la Copa América 2015?",
+    "options": [
+      "Jorge Sampaoli",
+      "Juan Antonio Pizzi",
+      "Marcelo Bielsa",
+      "Claudio Borghi"
+    ],
+    "correct": "Jorge Sampaoli"
+  },
+  {
+    "q": "¿Qué selección ganó la Copa Oro de la Concacaf en 2023?",
+    "options": [
+      "México",
+      "Panamá",
+      "Estados Unidos",
+      "Jamaica"
+    ],
+    "correct": "México"
+  },
+  {
+    "q": "¿Qué jugador mexicano anotó el gol decisivo en la final de la Copa Oro 2023 ante Panamá?",
+    "options": [
+      "Santiago Giménez",
+      "Henry Martín",
+      "Uriel Antuna",
+      "Orbelín Pineda"
+    ],
+    "correct": "Santiago Giménez"
+  },
+  {
+    "q": "¿Qué selección ganó la Copa Confederaciones 2017 disputada en Rusia?",
+    "options": [
+      "Alemania",
+      "Chile",
+      "Portugal",
+      "México"
+    ],
+    "correct": "Alemania"
+  },
+  {
+    "q": "¿Qué selección ganó la Copa Confederaciones de 2013 goleando a España por 3-0 en la final?",
+    "options": [
+      "Brasil",
+      "España",
+      "Italia",
+      "Uruguay"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿Qué jugador brasileño fue la bota de oro y balón de oro de la Copa Confederaciones 2013?",
+    "options": [
+      "Neymar Jr",
+      "Fred",
+      "Paulinho",
+      "Júlio César"
+    ],
+    "correct": "Neymar Jr"
+  },
+  {
+    "q": "¿Quién fue el goleador absoluto de la Copa del Mundo de Catar 2022 con 8 goles?",
+    "options": [
+      "Kylian Mbappé",
+      "Lionel Messi",
+      "Julián Álvarez",
+      "Olivier Giroud"
+    ],
+    "correct": "Kylian Mbappé"
+  },
+  {
+    "q": "¿Qué jugador posee el récord de más mundiales disputados en la historia con un total de 5?",
+    "options": [
+      "Varios (ej. Messi, Cristiano, Ochoa, Guardado, Buffon, Carbajal, Matthäus)",
+      "Lionel Messi únicamente",
+      "Cristiano Ronaldo únicamente",
+      "Lothar Matthäus únicamente"
+    ],
+    "correct": "Varios (ej. Messi, Cristiano, Ochoa, Guardado, Buffon, Carbajal, Matthäus)"
+  },
+  {
+    "q": "¿Qué selección asiática sorprendió llegando a octavos y ganando a Alemania en Rusia 2018?",
+    "options": [
+      "Corea del Sur",
+      "Japón",
+      "Arabia Saudita",
+      "Irán"
+    ],
+    "correct": "Corea del Sur"
+  },
+  {
+    "q": "¿Qué jugador alemán anotó 5 goles en el mundial de 2010 y 5 en 2014?",
+    "options": [
+      "Thomas Müller",
+      "Miroslav Klose",
+      "Lukas Podolski",
+      "Mesut Özil"
+    ],
+    "correct": "Thomas Müller"
+  },
+  {
+    "q": "¿En qué mundial de fútbol debutó Lionel Messi con la selección argentina?",
+    "options": [
+      "Alemania 2006",
+      "Sudáfrica 2010",
+      "Brasil 2014",
+      "Rusia 2018"
+    ],
+    "correct": "Alemania 2006"
+  },
+  {
+    "q": "¿A qué país le anotó Lionel Messi su primer gol en un mundial en 2006?",
+    "options": [
+      "Serbia y Montenegro",
+      "Costa de Marfil",
+      "Países Bajos",
+      "México"
+    ],
+    "correct": "Serbia y Montenegro"
+  },
+  {
+    "q": "¿En qué mundial debutó Cristiano Ronaldo anotando un penal ante Irán?",
+    "options": [
+      "Alemania 2006",
+      "Sudáfrica 2010",
+      "Brasil 2014",
+      "Corea-Japón 2002"
+    ],
+    "correct": "Alemania 2006"
+  },
+  {
+    "q": "¿Qué jugador brasileño anotó el gol 100 en la historia de Brasil en mundiales en 1970?",
+    "options": [
+      "Pelé",
+      "Jairzinho",
+      "Carlos Alberto",
+      "Tostão"
+    ],
+    "correct": "Pelé"
+  },
+  {
+    "q": "¿Qué jugador brasileño anotó el golazo que selló el 4-1 definitivo ante Italia en la final de 1970?",
+    "options": [
+      "Carlos Alberto",
+      "Pelé",
+      "Gerson",
+      "Jairzinho"
+    ],
+    "correct": "Carlos Alberto"
+  },
+  {
+    "q": "¿Qué selección fue la subcampeona del mundial de México 1970?",
+    "options": [
+      "Italia",
+      "Brasil",
+      "Uruguay",
+      "Alemania Federal"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué país de Europa Oriental fue el subcampeón del mundial de Inglaterra 1966?",
+    "options": [
+      "Alemania Federal",
+      "Checoslovaquia",
+      "Unión Soviética",
+      "Portugal"
+    ],
+    "correct": "Alemania Federal"
+  },
+  {
+    "q": "¿Qué selección europea quedó en tercer lugar en el mundial de España 1982?",
+    "options": [
+      "Polonia",
+      "Francia",
+      "Alemania Federal",
+      "Italia"
+    ],
+    "correct": "Polonia"
+  },
+  {
+    "q": "¿Qué jugador polaco fue la figura en España 1982 anotando un triplete ante Bélgica?",
+    "options": [
+      "Zbigniew Boniek",
+      "Grzegorz Lato",
+      "Włodzimierz Smolarek",
+      "Andrzej Szarmach"
+    ],
+    "correct": "Zbigniew Boniek"
+  },
+  {
+    "q": "¿Qué país ganó el mundial de Suecia 1958 y Chile 1962 de forma consecutiva?",
+    "options": [
+      "Brasil",
+      "Italia",
+      "Uruguay",
+      "Alemania Federal"
+    ],
+    "correct": "Brasil"
+  },
+  {
+    "q": "¿Qué jugador brasileño asumió el liderazgo tras la lesión de Pelé en Chile 1962?",
+    "options": [
+      "Garrincha",
+      "Amarildo",
+      "Vavá",
+      "Didi"
+    ],
+    "correct": "Garrincha"
+  },
+  {
+    "q": "¿Qué selección fue la subcampeona en el mundial de Chile 1962?",
+    "options": [
+      "Checoslovaquia",
+      "Yugoslavia",
+      "Brasil",
+      "Chile"
+    ],
+    "correct": "Checoslovaquia"
+  },
+  {
+    "q": "¿Qué selección quedó en tercer lugar como anfitriona de Chile 1962?",
+    "options": [
+      "Chile",
+      "Yugoslavia",
+      "Checoslovaquia",
+      "Brasil"
+    ],
+    "correct": "Chile"
+  },
+  {
+    "q": "¿Qué país de Europa Central fue el subcampeón del mundial de Suiza 1954?",
+    "options": [
+      "Hungría",
+      "Alemania Federal",
+      "Austria",
+      "Uruguay"
+    ],
+    "correct": "Hungría"
+  },
+  {
+    "q": "¿Qué goleador húngaro de renombre mundial lideró al equipo en Suiza 1954?",
+    "options": [
+      "Ferenc Puskás",
+      "Sándor Kocsis",
+      "Nándor Hidegkuti",
+      "József Bozsik"
+    ],
+    "correct": "Ferenc Puskás"
+  },
+  {
+    "q": "¿Qué selección sudamericana quedó en cuarto lugar en el mundial de Suiza 1954?",
+    "options": [
+      "Uruguay",
+      "Brasil",
+      "Argentina",
+      "Chile"
+    ],
+    "correct": "Uruguay"
+  },
+  {
+    "q": "¿Qué país europeo fue subcampeón en el mundial de Brasil 1950?",
+    "options": [
+      "Ninguno, el subcampeón fue Brasil",
+      "España",
+      "Suecia",
+      "Yugoslavia"
+    ],
+    "correct": "Ninguno, el subcampeón fue Brasil"
+  },
+  {
+    "q": "¿Qué selección europea quedó en tercer lugar en el mundial de Brasil 1950?",
+    "options": [
+      "Suecia",
+      "España",
+      "Yugoslavia",
+      "Suiza"
+    ],
+    "correct": "Suecia"
+  },
+  {
+    "q": "¿Qué jugador uruguayo anotó el gol de la victoria definitiva en el Maracanazo de 1950?",
+    "options": [
+      "Alcides Ghiggia",
+      "Juan Alberto Schiaffino",
+      "Obdulio Varela",
+      "Julio Pérez"
+    ],
+    "correct": "Alcides Ghiggia"
+  },
+  {
+    "q": "¿Quién era el capitán legendario de la selección de Uruguay en el mundial de 1950?",
+    "options": [
+      "Obdulio Varela",
+      "Alcides Ghiggia",
+      "Juan Alberto Schiaffino",
+      "Roque Máspoli"
+    ],
+    "correct": "Obdulio Varela"
+  },
+  {
+    "q": "¿Qué selección fue la campeona en el mundial de Francia 1938?",
+    "options": [
+      "Italia",
+      "Hungría",
+      "Brasil",
+      "Suecia"
+    ],
+    "correct": "Italia"
+  },
+  {
+    "q": "¿Qué selección fue la subcampeona del mundial de Francia 1938?",
+    "options": [
+      "Hungría",
+      "Italia",
+      "Brasil",
+      "Suecia"
+    ],
+    "correct": "Hungría"
+  },
+  {
+    "q": "¿Qué selección fue la subcampeona del mundial de Italia 1934?",
+    "options": [
+      "Checoslovaquia",
+      "Italia",
+      "Alemania",
+      "Austria"
+    ],
+    "correct": "Checoslovaquia"
+  },
+  {
+    "q": "¿Qué selección quedó en tercer lugar en el mundial de Uruguay 1930 de forma honorífica?",
+    "options": [
+      "Estados Unidos",
+      "Yugoslavia",
+      "Argentina",
+      "Uruguay"
+    ],
+    "correct": "Estados Unidos"
+  }
+]

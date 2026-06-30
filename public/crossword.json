@@ -1,0 +1,3442 @@
+[
+  {
+    "h1": "MANO",
+    "h3": "IGOR",
+    "v1": "MOIS",
+    "v2": "OTRO",
+    "clues": {
+      "horizontal": [
+        "1. Infraccion al tocar el balon voluntariamente.",
+        "2. Nombre del portero ruso Akinfeev en 2018."
+      ],
+      "vertical": [
+        "1. Caicedo, volante ecuatoriano destacado en Catar.",
+        "2. Grito del publico exigiendo un gol mas."
+      ]
+    }
+  },
+  {
+    "h1": "PASA",
+    "h3": "LOTE",
+    "v1": "PELE",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Accion de ceder la pelota a otro companero.",
+        "2. Bombo de sorteo de los grupos del mundial."
+      ],
+      "vertical": [
+        "1. Leyenda brasilena Edson Arantes, el Rey del Futbol.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "CIMA",
+    "h3": "LEMA",
+    "v1": "COLA",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Primer puesto en la fase de grupos del mundial.",
+        "2. Frase representativa de la copa o de una seleccion."
+      ],
+      "vertical": [
+        "1. Fila de espectadores ingresando al estadio.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "PASA",
+    "h3": "LINE",
+    "v1": "PILA",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Accion de ceder la pelota a otro companero.",
+        "2. Linea de cal que delimita el rectangulo de juego."
+      ],
+      "vertical": [
+        "1. Resistencia o energia de los jugadores de reserva.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "MARC",
+    "h3": "DANI",
+    "v1": "MODA",
+    "v2": "CHIV",
+    "clues": {
+      "horizontal": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Alves, defensor brasileno con record de trofeos."
+      ],
+      "vertical": [
+        "1. Estilo tactico de moda en la copa actual.",
+        "2. Guadalajara, club de Mexico integrado por locales."
+      ]
+    }
+  },
+  {
+    "h1": "PITO",
+    "h3": "AMER",
+    "v1": "PLAY",
+    "v2": "OTRO",
+    "clues": {
+      "horizontal": [
+        "1. Silbato del arbitro con el que dirige el juego.",
+        "2. America de Cali o Mexico, colosos de la Concacaf y Conmebol."
+      ],
+      "vertical": [
+        "1. Accion de jugar o disputar un partido.",
+        "2. Grito del publico exigiendo un gol mas."
+      ]
+    }
+  },
+  {
+    "h1": "CIMA",
+    "h3": "PORT",
+    "v1": "COPA",
+    "v2": "APTO",
+    "clues": {
+      "horizontal": [
+        "1. Primer puesto en la fase de grupos del mundial.",
+        "2. Oporto, club portugues de gran tradicion copera."
+      ],
+      "vertical": [
+        "1. Trofeo dorado entregado al campeon mundial.",
+        "2. Jugador habilitado medicamente para el partido."
+      ]
+    }
+  },
+  {
+    "h1": "CASA",
+    "h3": "RAYA",
+    "v1": "CARD",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Localia o estadio sede de una seleccion nacional.",
+        "2. Linea blanca que delimita la cancha o el arco."
+      ],
+      "vertical": [
+        "1. Tarjeta de amonestacion en ingles.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "MALI",
+    "h3": "LUKA",
+    "v1": "MILA",
+    "v2": "IDAS",
+    "clues": {
+      "horizontal": [
+        "1. Pais africano con gran desempeno juvenil en FIFA.",
+        "2. Modric, capitan croata balon de oro en Rusia 2018."
+      ],
+      "vertical": [
+        "1. Milan, gigante italiano ganador de copas mundiales.",
+        "2. Primeros partidos de llaves de ida y vuelta."
+      ]
+    }
+  },
+  {
+    "h1": "ZONA",
+    "h3": "GAME",
+    "v1": "ZAGA",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Area del campo donde se ejerce marca en zona.",
+        "2. Partido o encuentro disputado en ingles."
+      ],
+      "vertical": [
+        "1. Defensa o linea de fondo encargada de marcar.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "LINE",
+    "h3": "GANA",
+    "v1": "LIGA",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Linea de cal que delimita el rectangulo de juego.",
+        "2. Obtener el triunfo para asegurar la clasificacion."
+      ],
+      "vertical": [
+        "1. Competicion de clubes o equipos nacionales.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "PASA",
+    "h3": "LUKA",
+    "v1": "PALO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Accion de ceder la pelota a otro companero.",
+        "2. Modric, capitan croata balon de oro en Rusia 2018."
+      ],
+      "vertical": [
+        "1. Poste de metal o madera que puede evitar un gol.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "CERO",
+    "h3": "MURO",
+    "v1": "CIMA",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Defensa solida de futbolistas bloqueando el arco."
+      ],
+      "vertical": [
+        "1. Primer puesto en la fase de grupos del mundial.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "LINE",
+    "h3": "TASA",
+    "v1": "LOTE",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Linea de cal que delimita el rectangulo de juego.",
+        "2. Indice o promedio de goles anotados por partido."
+      ],
+      "vertical": [
+        "1. Bombo de sorteo de los grupos del mundial.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "CERO",
+    "h3": "IGOR",
+    "v1": "CHIV",
+    "v2": "OTRO",
+    "clues": {
+      "horizontal": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Nombre del portero ruso Akinfeev en 2018."
+      ],
+      "vertical": [
+        "1. Guadalajara, club de Mexico integrado por locales.",
+        "2. Grito del publico exigiendo un gol mas."
+      ]
+    }
+  },
+  {
+    "h1": "LUTO",
+    "h3": "MUDO",
+    "v1": "LEMA",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Homenaje silencioso por una figura fallecida.",
+        "2. Estadio silenciado tras un gol decisivo del visitante."
+      ],
+      "vertical": [
+        "1. Frase representativa de la copa o de una seleccion.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "VARA",
+    "h3": "LOTE",
+    "v1": "VALE",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Palo de la porteria o nivel de exigencia tactica.",
+        "2. Bombo de sorteo de los grupos del mundial."
+      ],
+      "vertical": [
+        "1. Comprobante de compra o ticket de entrada.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "BEAT",
+    "h3": "LUKA",
+    "v1": "BALE",
+    "v2": "TEAM",
+    "clues": {
+      "horizontal": [
+        "1. Vencer o derrotar al adversario en el partido.",
+        "2. Modric, capitan croata balon de oro en Rusia 2018."
+      ],
+      "vertical": [
+        "1. Gareth, estrella galesa que anoto en Catar 2022.",
+        "2. Equipo o seleccion en el idioma anglosajon."
+      ]
+    }
+  },
+  {
+    "h1": "MARC",
+    "h3": "DUEL",
+    "v1": "MUDO",
+    "v2": "CELT",
+    "clues": {
+      "horizontal": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Duelo individual uno contra uno en la cancha."
+      ],
+      "vertical": [
+        "1. Estadio silenciado tras un gol decisivo del visitante.",
+        "2. Celtic de Glasgow, historico club de Escandinavia/Escocia."
+      ]
+    }
+  },
+  {
+    "h1": "PORT",
+    "h3": "SUMA",
+    "v1": "PASS",
+    "v2": "TEAM",
+    "clues": {
+      "horizontal": [
+        "1. Oporto, club portugues de gran tradicion copera.",
+        "2. Acumular puntos valiosos en la fase grupal."
+      ],
+      "vertical": [
+        "1. Pase de balon en terminologia internacional.",
+        "2. Equipo o seleccion en el idioma anglosajon."
+      ]
+    }
+  },
+  {
+    "h1": "CLUB",
+    "h3": "PASA",
+    "v1": "CUPO",
+    "v2": "BEAT",
+    "clues": {
+      "horizontal": [
+        "1. Equipo o institucion de futbol asociado.",
+        "2. Accion de ceder la pelota a otro companero."
+      ],
+      "vertical": [
+        "1. Boleto o cupo clasificatorio ganado para el mundial.",
+        "2. Vencer o derrotar al adversario en el partido."
+      ]
+    }
+  },
+  {
+    "h1": "PAIS",
+    "h3": "LIMA",
+    "v1": "PALO",
+    "v2": "STAR",
+    "clues": {
+      "horizontal": [
+        "1. Nacion que representa una seleccion nacional.",
+        "2. Capital andina sede de torneos juveniles FIFA."
+      ],
+      "vertical": [
+        "1. Poste de metal o madera que puede evitar un gol.",
+        "2. Astro o figura de la seleccion nacional."
+      ]
+    }
+  },
+  {
+    "h1": "VETA",
+    "h3": "ROCE",
+    "v1": "VARA",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Racha positiva de victorias del equipo.",
+        "2. Friccion fisica constante entre competidores."
+      ],
+      "vertical": [
+        "1. Palo de la porteria o nivel de exigencia tactica.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "RAUL",
+    "h3": "TIRO",
+    "v1": "RITO",
+    "v2": "LION",
+    "clues": {
+      "horizontal": [
+        "1. Legendario delantero y capitan dorsal 7 de Espana.",
+        "2. Disparo potente del balon hacia la porteria."
+      ],
+      "vertical": [
+        "1. Cabala o tradicion de los jugadores al ingresar.",
+        "2. Leon, mascota o representacion de la garra deportiva."
+      ]
+    }
+  },
+  {
+    "h1": "TACO",
+    "h3": "PACH",
+    "v1": "TOPE",
+    "v2": "OCHO",
+    "clues": {
+      "horizontal": [
+        "1. Recurso tecnico golpeando con el talon del pie.",
+        "2. Pachuca, primer equipo mexicano en ganar la Sudamericana."
+      ],
+      "vertical": [
+        "1. Limite maximo de futbolistas en la convocatoria.",
+        "2. Ronda de cuartos donde quedan ocho equipos."
+      ]
+    }
+  },
+  {
+    "h1": "LEMA",
+    "h3": "TOPE",
+    "v1": "LOTE",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Frase representativa de la copa o de una seleccion.",
+        "2. Limite maximo de futbolistas en la convocatoria."
+      ],
+      "vertical": [
+        "1. Bombo de sorteo de los grupos del mundial.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "LUIS",
+    "h3": "OCHO",
+    "v1": "LEON",
+    "v2": "SHOW",
+    "clues": {
+      "horizontal": [
+        "1. Nombre de Suarez, goleador historico de Uruguay.",
+        "2. Ronda de cuartos donde quedan ocho equipos."
+      ],
+      "vertical": [
+        "1. Ciudad de Mexico con gran tradicion y sede en 1986.",
+        "2. Espectaculo futbolistico brindado en la cancha."
+      ]
+    }
+  },
+  {
+    "h1": "FIFA",
+    "h3": "NACE",
+    "v1": "FANS",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Ente rector del futbol profesional a nivel global.",
+        "2. Surgimiento de una nueva promesa en el torneo."
+      ],
+      "vertical": [
+        "1. Hinchas o seguidores alentando en las tribunas.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "TASA",
+    "h3": "MESI",
+    "v1": "TIME",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Indice o promedio de goles anotados por partido.",
+        "2. Messi, astro y capitan campeon de Catar 2022."
+      ],
+      "vertical": [
+        "1. Tiempo reglamentario de juego en ingles.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "MILL",
+    "h3": "NACI",
+    "v1": "MANO",
+    "v2": "LUIS",
+    "clues": {
+      "horizontal": [
+        "1. Millonarios, famoso equipo colombiano de Bogota.",
+        "2. Nacional de Uruguay, campeon mundial de clubes."
+      ],
+      "vertical": [
+        "1. Infraccion al tocar el balon voluntariamente.",
+        "2. Nombre de Suarez, goleador historico de Uruguay."
+      ]
+    }
+  },
+  {
+    "h1": "POST",
+    "h3": "MODA",
+    "v1": "PUMA",
+    "v2": "TEAM",
+    "clues": {
+      "horizontal": [
+        "1. Poste de la porteria que desvia el balon.",
+        "2. Estilo tactico de moda en la copa actual."
+      ],
+      "vertical": [
+        "1. Pumas de la UNAM, gran cantera del futbol mexicano.",
+        "2. Equipo o seleccion en el idioma anglosajon."
+      ]
+    }
+  },
+  {
+    "h1": "COLA",
+    "h3": "BALE",
+    "v1": "CUBA",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Fila de espectadores ingresando al estadio.",
+        "2. Gareth, estrella galesa que anoto en Catar 2022."
+      ],
+      "vertical": [
+        "1. Nacion del Caribe participante en el mundial 1938.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "SINO",
+    "h3": "MURO",
+    "v1": "SUMA",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Destino final decidido en tanda de penales.",
+        "2. Defensa solida de futbolistas bloqueando el arco."
+      ],
+      "vertical": [
+        "1. Acumular puntos valiosos en la fase grupal.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "CUBA",
+    "h3": "RIVE",
+    "v1": "CARD",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Nacion del Caribe participante en el mundial 1938.",
+        "2. River Plate, historico club argentino semillero de cracks."
+      ],
+      "vertical": [
+        "1. Tarjeta de amonestacion en ingles.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "CELT",
+    "h3": "LAHM",
+    "v1": "COLA",
+    "v2": "TEMA",
+    "clues": {
+      "horizontal": [
+        "1. Celtic de Glasgow, historico club de Escandinavia/Escocia.",
+        "2. Philipp, capitan aleman campeon en Brasil 2014."
+      ],
+      "vertical": [
+        "1. Fila de espectadores ingresando al estadio.",
+        "2. Cancion oficial himno del mundial de futbol."
+      ]
+    }
+  },
+  {
+    "h1": "POST",
+    "h3": "SENA",
+    "v1": "PASS",
+    "v2": "TEAM",
+    "clues": {
+      "horizontal": [
+        "1. Poste de la porteria que desvia el balon.",
+        "2. Gesto o indicacion tactica del capitan del equipo."
+      ],
+      "vertical": [
+        "1. Pase de balon en terminologia internacional.",
+        "2. Equipo o seleccion en el idioma anglosajon."
+      ]
+    }
+  },
+  {
+    "h1": "ONCE",
+    "h3": "ORBE",
+    "v1": "OJOS",
+    "v2": "EDEN",
+    "clues": {
+      "horizontal": [
+        "1. Equipo titular inicial que salta a la cancha.",
+        "2. El planeta entero pendiente del juego mundial."
+      ],
+      "vertical": [
+        "1. Miradas fijas de los arbitros en las pantallas del VAR.",
+        "2. Eden Hazard, capitan de la seleccion de Belgica."
+      ]
+    }
+  },
+  {
+    "h1": "MURO",
+    "h3": "SINO",
+    "v1": "MESI",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Defensa solida de futbolistas bloqueando el arco.",
+        "2. Destino final decidido en tanda de penales."
+      ],
+      "vertical": [
+        "1. Messi, astro y capitan campeon de Catar 2022.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "PENA",
+    "h3": "RUTA",
+    "v1": "PORT",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Sentencia de penal por infraccion en el area.",
+        "2. Camino de partidos para clasificar a la final."
+      ],
+      "vertical": [
+        "1. Oporto, club portugues de gran tradicion copera.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "TOPE",
+    "h3": "LUKA",
+    "v1": "TELA",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Limite maximo de futbolistas en la convocatoria.",
+        "2. Modric, capitan croata balon de oro en Rusia 2018."
+      ],
+      "vertical": [
+        "1. Tejido de las banderas gigantes de la hinchada.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "CUPO",
+    "h3": "ROJO",
+    "v1": "CERO",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Boleto o cupo clasificatorio ganado para el mundial.",
+        "2. Color del uniforme de Chile o Espana (La Roja)."
+      ],
+      "vertical": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "HUGO",
+    "h3": "TONO",
+    "v1": "HITO",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Nombre de Sanchez, legendario goleador mexicano.",
+        "2. Condicion fisica optima del jugador en el torneo."
+      ],
+      "vertical": [
+        "1. Logro historico en la trayectoria mundialista.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "OCHO",
+    "h3": "BAJA",
+    "v1": "ORBE",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Ronda de cuartos donde quedan ocho equipos.",
+        "2. Futbolista descartado para el partido por lesion."
+      ],
+      "vertical": [
+        "1. El planeta entero pendiente del juego mundial.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "ASIS",
+    "h3": "TONO",
+    "v1": "APTO",
+    "v2": "SHOW",
+    "clues": {
+      "horizontal": [
+        "1. Asistencia o pase previo a la anotacion.",
+        "2. Condicion fisica optima del jugador en el torneo."
+      ],
+      "vertical": [
+        "1. Jugador habilitado medicamente para el partido.",
+        "2. Espectaculo futbolistico brindado en la cancha."
+      ]
+    }
+  },
+  {
+    "h1": "PASS",
+    "h3": "CITA",
+    "v1": "PACH",
+    "v2": "STAR",
+    "clues": {
+      "horizontal": [
+        "1. Pase de balon en terminologia internacional.",
+        "2. Compromiso o encuentro crucial en el torneo."
+      ],
+      "vertical": [
+        "1. Pachuca, primer equipo mexicano en ganar la Sudamericana.",
+        "2. Astro o figura de la seleccion nacional."
+      ]
+    }
+  },
+  {
+    "h1": "OJOS",
+    "h3": "REAL",
+    "v1": "OTRO",
+    "v2": "SOLA",
+    "clues": {
+      "horizontal": [
+        "1. Miradas fijas de los arbitros en las pantallas del VAR.",
+        "2. Gigante de Madrid campeon de campeones europeos."
+      ],
+      "vertical": [
+        "1. Grito del publico exigiendo un gol mas.",
+        "2. Corrida o jugada individual en solitario de un extremo."
+      ]
+    }
+  },
+  {
+    "h1": "META",
+    "h3": "RAUL",
+    "v1": "MARC",
+    "v2": "ATLA",
+    "clues": {
+      "horizontal": [
+        "1. Porteria que defiende cada equipo en el campo.",
+        "2. Legendario delantero y capitan dorsal 7 de Espana."
+      ],
+      "vertical": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Atlas de Guadalajara, rojinegro historico mexicano."
+      ]
+    }
+  },
+  {
+    "h1": "MILL",
+    "h3": "RUSH",
+    "v1": "MARC",
+    "v2": "LAHM",
+    "clues": {
+      "horizontal": [
+        "1. Millonarios, famoso equipo colombiano de Bogota.",
+        "2. Contraataque rapido hacia la porteria rival."
+      ],
+      "vertical": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Philipp, capitan aleman campeon en Brasil 2014."
+      ]
+    }
+  },
+  {
+    "h1": "PASS",
+    "h3": "AZUL",
+    "v1": "PLAY",
+    "v2": "SOLA",
+    "clues": {
+      "horizontal": [
+        "1. Pase de balon en terminologia internacional.",
+        "2. Color del uniforme tradicional de Italia o Francia."
+      ],
+      "vertical": [
+        "1. Accion de jugar o disputar un partido.",
+        "2. Corrida o jugada individual en solitario de un extremo."
+      ]
+    }
+  },
+  {
+    "h1": "PASS",
+    "h3": "LION",
+    "v1": "PALO",
+    "v2": "SENA",
+    "clues": {
+      "horizontal": [
+        "1. Pase de balon en terminologia internacional.",
+        "2. Leon, mascota o representacion de la garra deportiva."
+      ],
+      "vertical": [
+        "1. Poste de metal o madera que puede evitar un gol.",
+        "2. Gesto o indicacion tactica del capitan del equipo."
+      ]
+    }
+  },
+  {
+    "h1": "ASIS",
+    "h3": "CASA",
+    "v1": "ARCO",
+    "v2": "STAR",
+    "clues": {
+      "horizontal": [
+        "1. Asistencia o pase previo a la anotacion.",
+        "2. Localia o estadio sede de una seleccion nacional."
+      ],
+      "vertical": [
+        "1. Porteria defendida por el guardameta en la cancha.",
+        "2. Astro o figura de la seleccion nacional."
+      ]
+    }
+  },
+  {
+    "h1": "CITA",
+    "h3": "RAUL",
+    "v1": "CERO",
+    "v2": "ATLA",
+    "clues": {
+      "horizontal": [
+        "1. Compromiso o encuentro crucial en el torneo.",
+        "2. Legendario delantero y capitan dorsal 7 de Espana."
+      ],
+      "vertical": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Atlas de Guadalajara, rojinegro historico mexicano."
+      ]
+    }
+  },
+  {
+    "h1": "HITO",
+    "h3": "ROMA",
+    "v1": "HORA",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Logro historico en la trayectoria mundialista.",
+        "2. Ciudad italiana sede del mundial de 1934 y 1990."
+      ],
+      "vertical": [
+        "1. Momento programado para el inicio del partido.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "LUIS",
+    "h3": "TACO",
+    "v1": "LUTO",
+    "v2": "SHOT",
+    "clues": {
+      "horizontal": [
+        "1. Nombre de Suarez, goleador historico de Uruguay.",
+        "2. Recurso tecnico golpeando con el talon del pie."
+      ],
+      "vertical": [
+        "1. Homenaje silencioso por una figura fallecida.",
+        "2. Remate directo a la porteria en ingles."
+      ]
+    }
+  },
+  {
+    "h1": "NACI",
+    "h3": "TELA",
+    "v1": "NETO",
+    "v2": "IRAN",
+    "clues": {
+      "horizontal": [
+        "1. Nacional de Uruguay, campeon mundial de clubes.",
+        "2. Tejido de las banderas gigantes de la hinchada."
+      ],
+      "vertical": [
+        "1. Minutos reales de juego transcurridos en la cancha.",
+        "2. Seleccion asiatica participante frecuente en mundiales."
+      ]
+    }
+  },
+  {
+    "h1": "MALI",
+    "h3": "POST",
+    "v1": "MAPA",
+    "v2": "INTE",
+    "clues": {
+      "horizontal": [
+        "1. Pais africano con gran desempeno juvenil en FIFA.",
+        "2. Poste de la porteria que desvia el balon."
+      ],
+      "vertical": [
+        "1. Distribucion geografica de las sedes mundialistas.",
+        "2. Inter de Milan, cuna de grandes defensas y delanteros."
+      ]
+    }
+  },
+  {
+    "h1": "TEMA",
+    "h3": "PELE",
+    "v1": "TOPE",
+    "v2": "AMER",
+    "clues": {
+      "horizontal": [
+        "1. Cancion oficial himno del mundial de futbol.",
+        "2. Leyenda brasilena Edson Arantes, el Rey del Futbol."
+      ],
+      "vertical": [
+        "1. Limite maximo de futbolistas en la convocatoria.",
+        "2. America de Cali o Mexico, colosos de la Concacaf y Conmebol."
+      ]
+    }
+  },
+  {
+    "h1": "MESI",
+    "h3": "PUMA",
+    "v1": "MAPA",
+    "v2": "IRAN",
+    "clues": {
+      "horizontal": [
+        "1. Messi, astro y capitan campeon de Catar 2022.",
+        "2. Pumas de la UNAM, gran cantera del futbol mexicano."
+      ],
+      "vertical": [
+        "1. Distribucion geografica de las sedes mundialistas.",
+        "2. Seleccion asiatica participante frecuente en mundiales."
+      ]
+    }
+  },
+  {
+    "h1": "PENA",
+    "h3": "ROJA",
+    "v1": "PERU",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Sentencia de penal por infraccion en el area.",
+        "2. Tarjeta de expulsion mostrada por el arbitro."
+      ],
+      "vertical": [
+        "1. Seleccion andina que brillo con Paolo Guerrero.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "RITO",
+    "h3": "AMER",
+    "v1": "REAL",
+    "v2": "OBRA",
+    "clues": {
+      "horizontal": [
+        "1. Cabala o tradicion de los jugadores al ingresar.",
+        "2. America de Cali o Mexico, colosos de la Concacaf y Conmebol."
+      ],
+      "vertical": [
+        "1. Gigante de Madrid campeon de campeones europeos.",
+        "2. Jugada increible de gol merecedora de aplausos."
+      ]
+    }
+  },
+  {
+    "h1": "PETO",
+    "h3": "CUPO",
+    "v1": "PACH",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Boleto o cupo clasificatorio ganado para el mundial."
+      ],
+      "vertical": [
+        "1. Pachuca, primer equipo mexicano en ganar la Sudamericana.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "TONO",
+    "h3": "GANA",
+    "v1": "TIGR",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Condicion fisica optima del jugador en el torneo.",
+        "2. Obtener el triunfo para asegurar la clasificacion."
+      ],
+      "vertical": [
+        "1. Tigres de la UANL, subcampeon del mundial de clubes.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "CERO",
+    "h3": "MAPA",
+    "v1": "CIMA",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Distribucion geografica de las sedes mundialistas."
+      ],
+      "vertical": [
+        "1. Primer puesto en la fase de grupos del mundial.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "RIVE",
+    "h3": "TEMA",
+    "v1": "RITO",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. River Plate, historico club argentino semillero de cracks.",
+        "2. Cancion oficial himno del mundial de futbol."
+      ],
+      "vertical": [
+        "1. Cabala o tradicion de los jugadores al ingresar.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "SINO",
+    "h3": "DECO",
+    "v1": "SEDE",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Destino final decidido en tanda de penales.",
+        "2. Mediocampista luso-brasileno figura mundialista."
+      ],
+      "vertical": [
+        "1. Pais o ciudad que acoge los partidos del torneo.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "TEAM",
+    "h3": "RAUL",
+    "v1": "TIRO",
+    "v2": "MILL",
+    "clues": {
+      "horizontal": [
+        "1. Equipo o seleccion en el idioma anglosajon.",
+        "2. Legendario delantero y capitan dorsal 7 de Espana."
+      ],
+      "vertical": [
+        "1. Disparo potente del balon hacia la porteria.",
+        "2. Millonarios, famoso equipo colombiano de Bogota."
+      ]
+    }
+  },
+  {
+    "h1": "MILA",
+    "h3": "TEMA",
+    "v1": "MITO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Milan, gigante italiano ganador de copas mundiales.",
+        "2. Cancion oficial himno del mundial de futbol."
+      ],
+      "vertical": [
+        "1. Leyenda o figura recordada por siempre.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "DOHA",
+    "h3": "RAUL",
+    "v1": "DURO",
+    "v2": "ATLA",
+    "clues": {
+      "horizontal": [
+        "1. Capital catarí que albergo la mayoria de partidos de 2022.",
+        "2. Legendario delantero y capitan dorsal 7 de Espana."
+      ],
+      "vertical": [
+        "1. Partido de mucha friccion, fisico y cerrado.",
+        "2. Atlas de Guadalajara, rojinegro historico mexicano."
+      ]
+    }
+  },
+  {
+    "h1": "CIMA",
+    "h3": "PESE",
+    "v1": "CUPO",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Primer puesto en la fase de grupos del mundial.",
+        "2. Relevancia o peso de la camiseta historica."
+      ],
+      "vertical": [
+        "1. Boleto o cupo clasificatorio ganado para el mundial.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "MIDE",
+    "h3": "PILA",
+    "v1": "MAPA",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Accion de enfrentar tacticamente a otra seleccion.",
+        "2. Resistencia o energia de los jugadores de reserva."
+      ],
+      "vertical": [
+        "1. Distribucion geografica de las sedes mundialistas.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "TACO",
+    "h3": "PALO",
+    "v1": "TOPE",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Recurso tecnico golpeando con el talon del pie.",
+        "2. Poste de metal o madera que puede evitar un gol."
+      ],
+      "vertical": [
+        "1. Limite maximo de futbolistas en la convocatoria.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "COLO",
+    "h3": "RAUL",
+    "v1": "CERO",
+    "v2": "OSLO",
+    "clues": {
+      "horizontal": [
+        "1. Colo-Colo, club mas laureado del futbol chileno.",
+        "2. Legendario delantero y capitan dorsal 7 de Espana."
+      ],
+      "vertical": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Capital noruega con gran tradicion deportiva."
+      ]
+    }
+  },
+  {
+    "h1": "PAIS",
+    "h3": "RAUL",
+    "v1": "PERU",
+    "v2": "SOLA",
+    "clues": {
+      "horizontal": [
+        "1. Nacion que representa una seleccion nacional.",
+        "2. Legendario delantero y capitan dorsal 7 de Espana."
+      ],
+      "vertical": [
+        "1. Seleccion andina que brillo con Paolo Guerrero.",
+        "2. Corrida o jugada individual en solitario de un extremo."
+      ]
+    }
+  },
+  {
+    "h1": "CUPO",
+    "h3": "RIFA",
+    "v1": "CERO",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Boleto o cupo clasificatorio ganado para el mundial.",
+        "2. Sorteo aleatorio de tickets y boletos oficiales."
+      ],
+      "vertical": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "REAL",
+    "h3": "SHOT",
+    "v1": "RUSH",
+    "v2": "LUTO",
+    "clues": {
+      "horizontal": [
+        "1. Gigante de Madrid campeon de campeones europeos.",
+        "2. Remate directo a la porteria en ingles."
+      ],
+      "vertical": [
+        "1. Contraataque rapido hacia la porteria rival.",
+        "2. Homenaje silencioso por una figura fallecida."
+      ]
+    }
+  },
+  {
+    "h1": "INFO",
+    "h3": "AZUL",
+    "v1": "IDAS",
+    "v2": "OSLO",
+    "clues": {
+      "horizontal": [
+        "1. Datos y reportes del equipo previo al partido.",
+        "2. Color del uniforme tradicional de Italia o Francia."
+      ],
+      "vertical": [
+        "1. Primeros partidos de llaves de ida y vuelta.",
+        "2. Capital noruega con gran tradicion deportiva."
+      ]
+    }
+  },
+  {
+    "h1": "OCHO",
+    "h3": "RUTA",
+    "v1": "OTRO",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Ronda de cuartos donde quedan ocho equipos.",
+        "2. Camino de partidos para clasificar a la final."
+      ],
+      "vertical": [
+        "1. Grito del publico exigiendo un gol mas.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "SAGA",
+    "h3": "DOHA",
+    "v1": "SEDE",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Dinastia o historia exitosa de una seleccion.",
+        "2. Capital catarí que albergo la mayoria de partidos de 2022."
+      ],
+      "vertical": [
+        "1. Pais o ciudad que acoge los partidos del torneo.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "PITO",
+    "h3": "ARCO",
+    "v1": "PLAN",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Silbato del arbitro con el que dirige el juego.",
+        "2. Porteria defendida por el guardameta en la cancha."
+      ],
+      "vertical": [
+        "1. Plan o estrategia de juego planteada por el DT.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "ZONA",
+    "h3": "GIRA",
+    "v1": "ZAGA",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Area del campo donde se ejerce marca en zona.",
+        "2. Serie de amistosos preparatorios de la seleccion."
+      ],
+      "vertical": [
+        "1. Defensa o linea de fondo encargada de marcar.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "SHOT",
+    "v1": "RUSH",
+    "v2": "APTO",
+    "clues": {
+      "horizontal": [
+        "1. Ciudad italiana sede del mundial de 1934 y 1990.",
+        "2. Remate directo a la porteria en ingles."
+      ],
+      "vertical": [
+        "1. Contraataque rapido hacia la porteria rival.",
+        "2. Jugador habilitado medicamente para el partido."
+      ]
+    }
+  },
+  {
+    "h1": "BAZA",
+    "h3": "LOTE",
+    "v1": "BOLA",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Recurso clave o jugador desequilibrante en reserva.",
+        "2. Bombo de sorteo de los grupos del mundial."
+      ],
+      "vertical": [
+        "1. El balon o esferico con el que se juega.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "RAYA",
+    "h3": "JUVE",
+    "v1": "ROJA",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Linea blanca que delimita la cancha o el arco.",
+        "2. Juventus de Turin, base historica de la seleccion italiana."
+      ],
+      "vertical": [
+        "1. Tarjeta de expulsion mostrada por el arbitro.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "CIMA",
+    "h3": "SEDE",
+    "v1": "CASA",
+    "v2": "AMER",
+    "clues": {
+      "horizontal": [
+        "1. Primer puesto en la fase de grupos del mundial.",
+        "2. Pais o ciudad que acoge los partidos del torneo."
+      ],
+      "vertical": [
+        "1. Localia o estadio sede de una seleccion nacional.",
+        "2. America de Cali o Mexico, colosos de la Concacaf y Conmebol."
+      ]
+    }
+  },
+  {
+    "h1": "ZAGA",
+    "h3": "CUBA",
+    "v1": "ZICO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Defensa o linea de fondo encargada de marcar.",
+        "2. Nacion del Caribe participante en el mundial 1938."
+      ],
+      "vertical": [
+        "1. Astro brasileno apodado el Pele Blanco.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "GUIA",
+    "h3": "MESI",
+    "v1": "GAME",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Manual oficial de hinchas y turistas del torneo.",
+        "2. Messi, astro y capitan campeon de Catar 2022."
+      ],
+      "vertical": [
+        "1. Partido o encuentro disputado en ingles.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "RETO",
+    "h3": "YERO",
+    "v1": "RAYA",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Desafio de medirse ante la seleccion campeona.",
+        "2. Apodo del defensa central Yerry Mina en mundiales."
+      ],
+      "vertical": [
+        "1. Linea blanca que delimita la cancha o el arco.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "MOIS",
+    "h3": "RUTA",
+    "v1": "MARC",
+    "v2": "STAR",
+    "clues": {
+      "horizontal": [
+        "1. Caicedo, volante ecuatoriano destacado en Catar.",
+        "2. Camino de partidos para clasificar a la final."
+      ],
+      "vertical": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Astro o figura de la seleccion nacional."
+      ]
+    }
+  },
+  {
+    "h1": "COLA",
+    "h3": "TITI",
+    "v1": "CITA",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Fila de espectadores ingresando al estadio.",
+        "2. Thierry Henry, campeon del mundo con Francia en 1998."
+      ],
+      "vertical": [
+        "1. Compromiso o encuentro crucial en el torneo.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "DANI",
+    "h3": "HORA",
+    "v1": "DOHA",
+    "v2": "IDAS",
+    "clues": {
+      "horizontal": [
+        "1. Alves, defensor brasileno con record de trofeos.",
+        "2. Momento programado para el inicio del partido."
+      ],
+      "vertical": [
+        "1. Capital catarí que albergo la mayoria de partidos de 2022.",
+        "2. Primeros partidos de llaves de ida y vuelta."
+      ]
+    }
+  },
+  {
+    "h1": "FANS",
+    "h3": "SINO",
+    "v1": "FASE",
+    "v2": "SHOW",
+    "clues": {
+      "horizontal": [
+        "1. Hinchas o seguidores alentando en las tribunas.",
+        "2. Destino final decidido en tanda de penales."
+      ],
+      "vertical": [
+        "1. Etapa o ronda eliminatoria de la Copa Mundial.",
+        "2. Espectaculo futbolistico brindado en la cancha."
+      ]
+    }
+  },
+  {
+    "h1": "HUGO",
+    "h3": "TIGR",
+    "v1": "HITO",
+    "v2": "OBRA",
+    "clues": {
+      "horizontal": [
+        "1. Nombre de Sanchez, legendario goleador mexicano.",
+        "2. Tigres de la UANL, subcampeon del mundial de clubes."
+      ],
+      "vertical": [
+        "1. Logro historico en la trayectoria mundialista.",
+        "2. Jugada increible de gol merecedora de aplausos."
+      ]
+    }
+  },
+  {
+    "h1": "STAR",
+    "h3": "LUIS",
+    "v1": "SALA",
+    "v2": "RUSH",
+    "clues": {
+      "horizontal": [
+        "1. Astro o figura de la seleccion nacional.",
+        "2. Nombre de Suarez, goleador historico de Uruguay."
+      ],
+      "vertical": [
+        "1. Cabina del VAR donde se analizan las faltas.",
+        "2. Contraataque rapido hacia la porteria rival."
+      ]
+    }
+  },
+  {
+    "h1": "ROJA",
+    "h3": "TIME",
+    "v1": "RETO",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Tarjeta de expulsion mostrada por el arbitro.",
+        "2. Tiempo reglamentario de juego en ingles."
+      ],
+      "vertical": [
+        "1. Desafio de medirse ante la seleccion campeona.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "RUTA",
+    "h3": "TITI",
+    "v1": "RETO",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Camino de partidos para clasificar a la final.",
+        "2. Thierry Henry, campeon del mundo con Francia en 1998."
+      ],
+      "vertical": [
+        "1. Desafio de medirse ante la seleccion campeona.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "MARC",
+    "h3": "RAYA",
+    "v1": "MARK",
+    "v2": "CHAD",
+    "clues": {
+      "horizontal": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Linea blanca que delimita la cancha o el arco."
+      ],
+      "vertical": [
+        "1. Marca personal defensiva sobre el rival.",
+        "2. Pais centroafricano miembro de la FIFA."
+      ]
+    }
+  },
+  {
+    "h1": "VEDA",
+    "h3": "TAZA",
+    "v1": "VOTO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Periodo de prohibicion de fichajes o declaraciones.",
+        "2. Trofeo metalico entregado al campeon (regional)."
+      ],
+      "vertical": [
+        "1. Eleccion por la cual se escoge el pais anfitrion.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "TAZA",
+    "h3": "MALI",
+    "v1": "TEMA",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Trofeo metalico entregado al campeon (regional).",
+        "2. Pais africano con gran desempeno juvenil en FIFA."
+      ],
+      "vertical": [
+        "1. Cancion oficial himno del mundial de futbol.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "PAUL",
+    "h3": "CERO",
+    "v1": "PACH",
+    "v2": "LEON",
+    "clues": {
+      "horizontal": [
+        "1. Paul Pogba, volante campeon con Francia en 2018.",
+        "2. Mantener la porteria propia invicta."
+      ],
+      "vertical": [
+        "1. Pachuca, primer equipo mexicano en ganar la Sudamericana.",
+        "2. Ciudad de Mexico con gran tradicion y sede en 1986."
+      ]
+    }
+  },
+  {
+    "h1": "TITI",
+    "h3": "LEMA",
+    "v1": "TELA",
+    "v2": "IDAS",
+    "clues": {
+      "horizontal": [
+        "1. Thierry Henry, campeon del mundo con Francia en 1998.",
+        "2. Frase representativa de la copa o de una seleccion."
+      ],
+      "vertical": [
+        "1. Tejido de las banderas gigantes de la hinchada.",
+        "2. Primeros partidos de llaves de ida y vuelta."
+      ]
+    }
+  },
+  {
+    "h1": "TITI",
+    "h3": "SAGA",
+    "v1": "TASA",
+    "v2": "IRAN",
+    "clues": {
+      "horizontal": [
+        "1. Thierry Henry, campeon del mundo con Francia en 1998.",
+        "2. Dinastia o historia exitosa de una seleccion."
+      ],
+      "vertical": [
+        "1. Indice o promedio de goles anotados por partido.",
+        "2. Seleccion asiatica participante frecuente en mundiales."
+      ]
+    }
+  },
+  {
+    "h1": "MARC",
+    "h3": "ROJA",
+    "v1": "MURO",
+    "v2": "CHAD",
+    "clues": {
+      "horizontal": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Tarjeta de expulsion mostrada por el arbitro."
+      ],
+      "vertical": [
+        "1. Defensa solida de futbolistas bloqueando el arco.",
+        "2. Pais centroafricano miembro de la FIFA."
+      ]
+    }
+  },
+  {
+    "h1": "ERIC",
+    "h3": "ZAGA",
+    "v1": "ENZO",
+    "v2": "CHAD",
+    "clues": {
+      "horizontal": [
+        "1. Abidal, defensor frances subcampeon en 2006.",
+        "2. Defensa o linea de fondo encargada de marcar."
+      ],
+      "vertical": [
+        "1. Nombre de Fernandez, volante revelacion de Catar 2022.",
+        "2. Pais centroafricano miembro de la FIFA."
+      ]
+    }
+  },
+  {
+    "h1": "META",
+    "h3": "PELE",
+    "v1": "MAPA",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Porteria que defiende cada equipo en el campo.",
+        "2. Leyenda brasilena Edson Arantes, el Rey del Futbol."
+      ],
+      "vertical": [
+        "1. Distribucion geografica de las sedes mundialistas.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "RITO",
+    "h3": "MILA",
+    "v1": "ROMA",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Cabala o tradicion de los jugadores al ingresar.",
+        "2. Milan, gigante italiano ganador de copas mundiales."
+      ],
+      "vertical": [
+        "1. Ciudad italiana sede del mundial de 1934 y 1990.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "PESE",
+    "h3": "TELA",
+    "v1": "PETO",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Relevancia o peso de la camiseta historica.",
+        "2. Tejido de las banderas gigantes de la hinchada."
+      ],
+      "vertical": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "COLO",
+    "h3": "PASO",
+    "v1": "COPA",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Colo-Colo, club mas laureado del futbol chileno.",
+        "2. Avance de fase tras clasificar en la tabla."
+      ],
+      "vertical": [
+        "1. Trofeo dorado entregado al campeon mundial.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "ROMA",
+    "h3": "TAZA",
+    "v1": "RITO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Ciudad italiana sede del mundial de 1934 y 1990.",
+        "2. Trofeo metalico entregado al campeon (regional)."
+      ],
+      "vertical": [
+        "1. Cabala o tradicion de los jugadores al ingresar.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "PELE",
+    "h3": "TIME",
+    "v1": "PETO",
+    "v2": "EDEN",
+    "clues": {
+      "horizontal": [
+        "1. Leyenda brasilena Edson Arantes, el Rey del Futbol.",
+        "2. Tiempo reglamentario de juego en ingles."
+      ],
+      "vertical": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Eden Hazard, capitan de la seleccion de Belgica."
+      ]
+    }
+  },
+  {
+    "h1": "TONO",
+    "h3": "MUDO",
+    "v1": "TEMA",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Condicion fisica optima del jugador en el torneo.",
+        "2. Estadio silenciado tras un gol decisivo del visitante."
+      ],
+      "vertical": [
+        "1. Cancion oficial himno del mundial de futbol.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "CHIV",
+    "h3": "BALL",
+    "v1": "CUBA",
+    "v2": "VILO",
+    "clues": {
+      "horizontal": [
+        "1. Guadalajara, club de Mexico integrado por locales.",
+        "2. Balon o pelota en idioma ingles."
+      ],
+      "vertical": [
+        "1. Nacion del Caribe participante en el mundial 1938.",
+        "2. Estado de tension ante la definicion del partido."
+      ]
+    }
+  },
+  {
+    "h1": "VALE",
+    "h3": "TEMA",
+    "v1": "VOTO",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Comprobante de compra o ticket de entrada.",
+        "2. Cancion oficial himno del mundial de futbol."
+      ],
+      "vertical": [
+        "1. Eleccion por la cual se escoge el pais anfitrion.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "NEYM",
+    "h3": "CAMP",
+    "v1": "NACI",
+    "v2": "MAPA",
+    "clues": {
+      "horizontal": [
+        "1. Neymar, estrella y goleador de la Canarinha.",
+        "2. Campo de juego o concentracion (abreviatura)."
+      ],
+      "vertical": [
+        "1. Nacional de Uruguay, campeon mundial de clubes.",
+        "2. Distribucion geografica de las sedes mundialistas."
+      ]
+    }
+  },
+  {
+    "h1": "VEDA",
+    "h3": "TITI",
+    "v1": "VOTO",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Periodo de prohibicion de fichajes o declaraciones.",
+        "2. Thierry Henry, campeon del mundo con Francia en 1998."
+      ],
+      "vertical": [
+        "1. Eleccion por la cual se escoge el pais anfitrion.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "BALL",
+    "h3": "LAHM",
+    "v1": "BALE",
+    "v2": "LEMA",
+    "clues": {
+      "horizontal": [
+        "1. Balon o pelota en idioma ingles.",
+        "2. Philipp, capitan aleman campeon en Brasil 2014."
+      ],
+      "vertical": [
+        "1. Gareth, estrella galesa que anoto en Catar 2022.",
+        "2. Frase representativa de la copa o de una seleccion."
+      ]
+    }
+  },
+  {
+    "h1": "MITO",
+    "h3": "LUKA",
+    "v1": "MILL",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Leyenda o figura recordada por siempre.",
+        "2. Modric, capitan croata balon de oro en Rusia 2018."
+      ],
+      "vertical": [
+        "1. Millonarios, famoso equipo colombiano de Bogota.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "TELA",
+    "h3": "SAGA",
+    "v1": "TASA",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Tejido de las banderas gigantes de la hinchada.",
+        "2. Dinastia o historia exitosa de una seleccion."
+      ],
+      "vertical": [
+        "1. Indice o promedio de goles anotados por partido.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "LOTE",
+    "h3": "NACI",
+    "v1": "LINE",
+    "v2": "ERIC",
+    "clues": {
+      "horizontal": [
+        "1. Bombo de sorteo de los grupos del mundial.",
+        "2. Nacional de Uruguay, campeon mundial de clubes."
+      ],
+      "vertical": [
+        "1. Linea de cal que delimita el rectangulo de juego.",
+        "2. Abidal, defensor frances subcampeon en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "PUMA",
+    "h3": "TELA",
+    "v1": "PETO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Pumas de la UNAM, gran cantera del futbol mexicano.",
+        "2. Tejido de las banderas gigantes de la hinchada."
+      ],
+      "vertical": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "MARC",
+    "h3": "RAUL",
+    "v1": "MARK",
+    "v2": "COLA",
+    "clues": {
+      "horizontal": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Legendario delantero y capitan dorsal 7 de Espana."
+      ],
+      "vertical": [
+        "1. Marca personal defensiva sobre el rival.",
+        "2. Fila de espectadores ingresando al estadio."
+      ]
+    }
+  },
+  {
+    "h1": "MOIS",
+    "h3": "LUTO",
+    "v1": "MILA",
+    "v2": "SHOW",
+    "clues": {
+      "horizontal": [
+        "1. Caicedo, volante ecuatoriano destacado en Catar.",
+        "2. Homenaje silencioso por una figura fallecida."
+      ],
+      "vertical": [
+        "1. Milan, gigante italiano ganador de copas mundiales.",
+        "2. Espectaculo futbolistico brindado en la cancha."
+      ]
+    }
+  },
+  {
+    "h1": "RAYA",
+    "h3": "JUVE",
+    "v1": "ROJO",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Linea blanca que delimita la cancha o el arco.",
+        "2. Juventus de Turin, base historica de la seleccion italiana."
+      ],
+      "vertical": [
+        "1. Color del uniforme de Chile o Espana (La Roja).",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "MARC",
+    "h3": "REAL",
+    "v1": "MURO",
+    "v2": "COLO",
+    "clues": {
+      "horizontal": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Gigante de Madrid campeon de campeones europeos."
+      ],
+      "vertical": [
+        "1. Defensa solida de futbolistas bloqueando el arco.",
+        "2. Colo-Colo, club mas laureado del futbol chileno."
+      ]
+    }
+  },
+  {
+    "h1": "CASA",
+    "h3": "LINE",
+    "v1": "COLO",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Localia o estadio sede de una seleccion nacional.",
+        "2. Linea de cal que delimita el rectangulo de juego."
+      ],
+      "vertical": [
+        "1. Colo-Colo, club mas laureado del futbol chileno.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "POST",
+    "h3": "LION",
+    "v1": "PALO",
+    "v2": "TONO",
+    "clues": {
+      "horizontal": [
+        "1. Poste de la porteria que desvia el balon.",
+        "2. Leon, mascota o representacion de la garra deportiva."
+      ],
+      "vertical": [
+        "1. Poste de metal o madera que puede evitar un gol.",
+        "2. Condicion fisica optima del jugador en el torneo."
+      ]
+    }
+  },
+  {
+    "h1": "PASO",
+    "h3": "RIFA",
+    "v1": "PERU",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Avance de fase tras clasificar en la tabla.",
+        "2. Sorteo aleatorio de tickets y boletos oficiales."
+      ],
+      "vertical": [
+        "1. Seleccion andina que brillo con Paolo Guerrero.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "MILL",
+    "h3": "RETO",
+    "v1": "MARK",
+    "v2": "LEON",
+    "clues": {
+      "horizontal": [
+        "1. Millonarios, famoso equipo colombiano de Bogota.",
+        "2. Desafio de medirse ante la seleccion campeona."
+      ],
+      "vertical": [
+        "1. Marca personal defensiva sobre el rival.",
+        "2. Ciudad de Mexico con gran tradicion y sede en 1986."
+      ]
+    }
+  },
+  {
+    "h1": "MILA",
+    "h3": "SHOT",
+    "v1": "MESI",
+    "v2": "APTO",
+    "clues": {
+      "horizontal": [
+        "1. Milan, gigante italiano ganador de copas mundiales.",
+        "2. Remate directo a la porteria en ingles."
+      ],
+      "vertical": [
+        "1. Messi, astro y capitan campeon de Catar 2022.",
+        "2. Jugador habilitado medicamente para el partido."
+      ]
+    }
+  },
+  {
+    "h1": "PITO",
+    "h3": "SOLA",
+    "v1": "PESE",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Silbato del arbitro con el que dirige el juego.",
+        "2. Corrida o jugada individual en solitario de un extremo."
+      ],
+      "vertical": [
+        "1. Relevancia o peso de la camiseta historica.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "DOHA",
+    "h3": "CELT",
+    "v1": "DECO",
+    "v2": "APTO",
+    "clues": {
+      "horizontal": [
+        "1. Capital catarí que albergo la mayoria de partidos de 2022.",
+        "2. Celtic de Glasgow, historico club de Escandinavia/Escocia."
+      ],
+      "vertical": [
+        "1. Mediocampista luso-brasileno figura mundialista.",
+        "2. Jugador habilitado medicamente para el partido."
+      ]
+    }
+  },
+  {
+    "h1": "CERO",
+    "h3": "MANO",
+    "v1": "CAMP",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Infraccion al tocar el balon voluntariamente."
+      ],
+      "vertical": [
+        "1. Campo de juego o concentracion (abreviatura).",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "CERO",
+    "h3": "REAL",
+    "v1": "CARD",
+    "v2": "OSLO",
+    "clues": {
+      "horizontal": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Gigante de Madrid campeon de campeones europeos."
+      ],
+      "vertical": [
+        "1. Tarjeta de amonestacion en ingles.",
+        "2. Capital noruega con gran tradicion deportiva."
+      ]
+    }
+  },
+  {
+    "h1": "PETO",
+    "h3": "ROMA",
+    "v1": "PORT",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Ciudad italiana sede del mundial de 1934 y 1990."
+      ],
+      "vertical": [
+        "1. Oporto, club portugues de gran tradicion copera.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "PAUL",
+    "h3": "SHOT",
+    "v1": "PASO",
+    "v2": "LOTE",
+    "clues": {
+      "horizontal": [
+        "1. Paul Pogba, volante campeon con Francia en 2018.",
+        "2. Remate directo a la porteria en ingles."
+      ],
+      "vertical": [
+        "1. Avance de fase tras clasificar en la tabla.",
+        "2. Bombo de sorteo de los grupos del mundial."
+      ]
+    }
+  },
+  {
+    "h1": "ARCO",
+    "h3": "TONO",
+    "v1": "APTO",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Porteria defendida por el guardameta en la cancha.",
+        "2. Condicion fisica optima del jugador en el torneo."
+      ],
+      "vertical": [
+        "1. Jugador habilitado medicamente para el partido.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "VEDA",
+    "h3": "LINE",
+    "v1": "VALE",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Periodo de prohibicion de fichajes o declaraciones.",
+        "2. Linea de cal que delimita el rectangulo de juego."
+      ],
+      "vertical": [
+        "1. Comprobante de compra o ticket de entrada.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "MESI",
+    "h3": "RIFA",
+    "v1": "MARC",
+    "v2": "IRAN",
+    "clues": {
+      "horizontal": [
+        "1. Messi, astro y capitan campeon de Catar 2022.",
+        "2. Sorteo aleatorio de tickets y boletos oficiales."
+      ],
+      "vertical": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Seleccion asiatica participante frecuente en mundiales."
+      ]
+    }
+  },
+  {
+    "h1": "SALA",
+    "h3": "GANA",
+    "v1": "SAGA",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Cabina del VAR donde se analizan las faltas.",
+        "2. Obtener el triunfo para asegurar la clasificacion."
+      ],
+      "vertical": [
+        "1. Dinastia o historia exitosa de una seleccion.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "CARD",
+    "h3": "RUSH",
+    "v1": "CERO",
+    "v2": "DOHA",
+    "clues": {
+      "horizontal": [
+        "1. Tarjeta de amonestacion en ingles.",
+        "2. Contraataque rapido hacia la porteria rival."
+      ],
+      "vertical": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Capital catarí que albergo la mayoria de partidos de 2022."
+      ]
+    }
+  },
+  {
+    "h1": "FIJI",
+    "h3": "AREA",
+    "v1": "FLAG",
+    "v2": "IDAS",
+    "clues": {
+      "horizontal": [
+        "1. Nacion de Oceania afiliada al futbol mundial.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ],
+      "vertical": [
+        "1. Banderin de corner o del arbitro de linea.",
+        "2. Primeros partidos de llaves de ida y vuelta."
+      ]
+    }
+  },
+  {
+    "h1": "RIFA",
+    "h3": "MILL",
+    "v1": "ROMA",
+    "v2": "ATLA",
+    "clues": {
+      "horizontal": [
+        "1. Sorteo aleatorio de tickets y boletos oficiales.",
+        "2. Millonarios, famoso equipo colombiano de Bogota."
+      ],
+      "vertical": [
+        "1. Ciudad italiana sede del mundial de 1934 y 1990.",
+        "2. Atlas de Guadalajara, rojinegro historico mexicano."
+      ]
+    }
+  },
+  {
+    "h1": "BAJO",
+    "h3": "TEMA",
+    "v1": "BOTA",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Bloque tactico defensivo en mitad de cancha.",
+        "2. Cancion oficial himno del mundial de futbol."
+      ],
+      "vertical": [
+        "1. Calzado deportivo de cuero con tacos para cesped.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "VETA",
+    "h3": "RIFA",
+    "v1": "VARA",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Racha positiva de victorias del equipo.",
+        "2. Sorteo aleatorio de tickets y boletos oficiales."
+      ],
+      "vertical": [
+        "1. Palo de la porteria o nivel de exigencia tactica.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "COLA",
+    "h3": "RAYA",
+    "v1": "CERO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Fila de espectadores ingresando al estadio.",
+        "2. Linea blanca que delimita la cancha o el arco."
+      ],
+      "vertical": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "META",
+    "h3": "LOTE",
+    "v1": "MALI",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Porteria que defiende cada equipo en el campo.",
+        "2. Bombo de sorteo de los grupos del mundial."
+      ],
+      "vertical": [
+        "1. Pais africano con gran desempeno juvenil en FIFA.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "LUKA",
+    "h3": "INTE",
+    "v1": "LUIS",
+    "v2": "AMER",
+    "clues": {
+      "horizontal": [
+        "1. Modric, capitan croata balon de oro en Rusia 2018.",
+        "2. Inter de Milan, cuna de grandes defensas y delanteros."
+      ],
+      "vertical": [
+        "1. Nombre de Suarez, goleador historico de Uruguay.",
+        "2. America de Cali o Mexico, colosos de la Concacaf y Conmebol."
+      ]
+    }
+  },
+  {
+    "h1": "TELA",
+    "h3": "SEDE",
+    "v1": "TASA",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Tejido de las banderas gigantes de la hinchada.",
+        "2. Pais o ciudad que acoge los partidos del torneo."
+      ],
+      "vertical": [
+        "1. Indice o promedio de goles anotados por partido.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "PAUL",
+    "h3": "TEAM",
+    "v1": "PITO",
+    "v2": "LEMA",
+    "clues": {
+      "horizontal": [
+        "1. Paul Pogba, volante campeon con Francia en 2018.",
+        "2. Equipo o seleccion en el idioma anglosajon."
+      ],
+      "vertical": [
+        "1. Silbato del arbitro con el que dirige el juego.",
+        "2. Frase representativa de la copa o de una seleccion."
+      ]
+    }
+  },
+  {
+    "h1": "TIME",
+    "h3": "MILA",
+    "v1": "TEMA",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Tiempo reglamentario de juego en ingles.",
+        "2. Milan, gigante italiano ganador de copas mundiales."
+      ],
+      "vertical": [
+        "1. Cancion oficial himno del mundial de futbol.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "PAUL",
+    "h3": "LUTO",
+    "v1": "PALO",
+    "v2": "LEON",
+    "clues": {
+      "horizontal": [
+        "1. Paul Pogba, volante campeon con Francia en 2018.",
+        "2. Homenaje silencioso por una figura fallecida."
+      ],
+      "vertical": [
+        "1. Poste de metal o madera que puede evitar un gol.",
+        "2. Ciudad de Mexico con gran tradicion y sede en 1986."
+      ]
+    }
+  },
+  {
+    "h1": "SHOT",
+    "h3": "LUIS",
+    "v1": "SOLA",
+    "v2": "TASA",
+    "clues": {
+      "horizontal": [
+        "1. Remate directo a la porteria en ingles.",
+        "2. Nombre de Suarez, goleador historico de Uruguay."
+      ],
+      "vertical": [
+        "1. Corrida o jugada individual en solitario de un extremo.",
+        "2. Indice o promedio de goles anotados por partido."
+      ]
+    }
+  },
+  {
+    "h1": "RANK",
+    "h3": "TOPE",
+    "v1": "RITO",
+    "v2": "KIEV",
+    "clues": {
+      "horizontal": [
+        "1. Puesto o clasificacion de selecciones en la FIFA.",
+        "2. Limite maximo de futbolistas en la convocatoria."
+      ],
+      "vertical": [
+        "1. Cabala o tradicion de los jugadores al ingresar.",
+        "2. Ciudad ucraniana que albergo finales europeas."
+      ]
+    }
+  },
+  {
+    "h1": "HERO",
+    "h3": "ROMA",
+    "v1": "HORA",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Heroe que anota el gol de la victoria final.",
+        "2. Ciudad italiana sede del mundial de 1934 y 1990."
+      ],
+      "vertical": [
+        "1. Momento programado para el inicio del partido.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "DATO",
+    "h3": "ROJO",
+    "v1": "DURO",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Estadistica oficial de posesion o remates.",
+        "2. Color del uniforme de Chile o Espana (La Roja)."
+      ],
+      "vertical": [
+        "1. Partido de mucha friccion, fisico y cerrado.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "TIME",
+    "h3": "COPA",
+    "v1": "TACO",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Tiempo reglamentario de juego en ingles.",
+        "2. Trofeo dorado entregado al campeon mundial."
+      ],
+      "vertical": [
+        "1. Recurso tecnico golpeando con el talon del pie.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "CITA",
+    "h3": "PELE",
+    "v1": "COPA",
+    "v2": "AMER",
+    "clues": {
+      "horizontal": [
+        "1. Compromiso o encuentro crucial en el torneo.",
+        "2. Leyenda brasilena Edson Arantes, el Rey del Futbol."
+      ],
+      "vertical": [
+        "1. Trofeo dorado entregado al campeon mundial.",
+        "2. America de Cali o Mexico, colosos de la Concacaf y Conmebol."
+      ]
+    }
+  },
+  {
+    "h1": "TELA",
+    "h3": "NACI",
+    "v1": "TONO",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Tejido de las banderas gigantes de la hinchada.",
+        "2. Nacional de Uruguay, campeon mundial de clubes."
+      ],
+      "vertical": [
+        "1. Condicion fisica optima del jugador en el torneo.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "PETO",
+    "h3": "ARCO",
+    "v1": "PLAY",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Porteria defendida por el guardameta en la cancha."
+      ],
+      "vertical": [
+        "1. Accion de jugar o disputar un partido.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "COPA",
+    "h3": "LINE",
+    "v1": "COLO",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Trofeo dorado entregado al campeon mundial.",
+        "2. Linea de cal que delimita el rectangulo de juego."
+      ],
+      "vertical": [
+        "1. Colo-Colo, club mas laureado del futbol chileno.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "RAYA",
+    "h3": "FASE",
+    "v1": "RIFA",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Linea blanca que delimita la cancha o el arco.",
+        "2. Etapa o ronda eliminatoria de la Copa Mundial."
+      ],
+      "vertical": [
+        "1. Sorteo aleatorio de tickets y boletos oficiales.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "TIGR",
+    "h3": "MAPA",
+    "v1": "TEMA",
+    "v2": "REAL",
+    "clues": {
+      "horizontal": [
+        "1. Tigres de la UANL, subcampeon del mundial de clubes.",
+        "2. Distribucion geografica de las sedes mundialistas."
+      ],
+      "vertical": [
+        "1. Cancion oficial himno del mundial de futbol.",
+        "2. Gigante de Madrid campeon de campeones europeos."
+      ]
+    }
+  },
+  {
+    "h1": "PASA",
+    "h3": "LOTE",
+    "v1": "PALO",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Accion de ceder la pelota a otro companero.",
+        "2. Bombo de sorteo de los grupos del mundial."
+      ],
+      "vertical": [
+        "1. Poste de metal o madera que puede evitar un gol.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "PILA",
+    "h3": "SAGA",
+    "v1": "PESE",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Resistencia o energia de los jugadores de reserva.",
+        "2. Dinastia o historia exitosa de una seleccion."
+      ],
+      "vertical": [
+        "1. Relevancia o peso de la camiseta historica.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "TACO",
+    "h3": "TONO",
+    "v1": "TITI",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Recurso tecnico golpeando con el talon del pie.",
+        "2. Condicion fisica optima del jugador en el torneo."
+      ],
+      "vertical": [
+        "1. Thierry Henry, campeon del mundo con Francia en 1998.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "MANO",
+    "h3": "RUTA",
+    "v1": "MARC",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Infraccion al tocar el balon voluntariamente.",
+        "2. Camino de partidos para clasificar a la final."
+      ],
+      "vertical": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "PAIS",
+    "h3": "RETO",
+    "v1": "PORT",
+    "v2": "SHOW",
+    "clues": {
+      "horizontal": [
+        "1. Nacion que representa una seleccion nacional.",
+        "2. Desafio de medirse ante la seleccion campeona."
+      ],
+      "vertical": [
+        "1. Oporto, club portugues de gran tradicion copera.",
+        "2. Espectaculo futbolistico brindado en la cancha."
+      ]
+    }
+  },
+  {
+    "h1": "COLO",
+    "h3": "BOLA",
+    "v1": "CUBA",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Colo-Colo, club mas laureado del futbol chileno.",
+        "2. El balon o esferico con el que se juega."
+      ],
+      "vertical": [
+        "1. Nacion del Caribe participante en el mundial 1938.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "OSLO",
+    "h3": "CUBA",
+    "v1": "ONCE",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Capital noruega con gran tradicion deportiva.",
+        "2. Nacion del Caribe participante en el mundial 1938."
+      ],
+      "vertical": [
+        "1. Equipo titular inicial que salta a la cancha.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "CERO",
+    "h3": "ATLA",
+    "v1": "CHAD",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Mantener la porteria propia invicta.",
+        "2. Atlas de Guadalajara, rojinegro historico mexicano."
+      ],
+      "vertical": [
+        "1. Pais centroafricano miembro de la FIFA.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "PASS",
+    "h3": "RETO",
+    "v1": "PERU",
+    "v2": "SHOW",
+    "clues": {
+      "horizontal": [
+        "1. Pase de balon en terminologia internacional.",
+        "2. Desafio de medirse ante la seleccion campeona."
+      ],
+      "vertical": [
+        "1. Seleccion andina que brillo con Paolo Guerrero.",
+        "2. Espectaculo futbolistico brindado en la cancha."
+      ]
+    }
+  },
+  {
+    "h1": "CLUB",
+    "h3": "PASA",
+    "v1": "COPA",
+    "v2": "BEAT",
+    "clues": {
+      "horizontal": [
+        "1. Equipo o institucion de futbol asociado.",
+        "2. Accion de ceder la pelota a otro companero."
+      ],
+      "vertical": [
+        "1. Trofeo dorado entregado al campeon mundial.",
+        "2. Vencer o derrotar al adversario en el partido."
+      ]
+    }
+  },
+  {
+    "h1": "MILA",
+    "h3": "LINE",
+    "v1": "MALI",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Milan, gigante italiano ganador de copas mundiales.",
+        "2. Linea de cal que delimita el rectangulo de juego."
+      ],
+      "vertical": [
+        "1. Pais africano con gran desempeno juvenil en FIFA.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "MILL",
+    "h3": "DURO",
+    "v1": "MODA",
+    "v2": "LION",
+    "clues": {
+      "horizontal": [
+        "1. Millonarios, famoso equipo colombiano de Bogota.",
+        "2. Partido de mucha friccion, fisico y cerrado."
+      ],
+      "vertical": [
+        "1. Estilo tactico de moda en la copa actual.",
+        "2. Leon, mascota o representacion de la garra deportiva."
+      ]
+    }
+  },
+  {
+    "h1": "RAYA",
+    "h3": "TEMA",
+    "v1": "RETO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Linea blanca que delimita la cancha o el arco.",
+        "2. Cancion oficial himno del mundial de futbol."
+      ],
+      "vertical": [
+        "1. Desafio de medirse ante la seleccion campeona.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "MITO",
+    "h3": "RAYA",
+    "v1": "MURO",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Leyenda o figura recordada por siempre.",
+        "2. Linea blanca que delimita la cancha o el arco."
+      ],
+      "vertical": [
+        "1. Defensa solida de futbolistas bloqueando el arco.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "TEMA",
+    "h3": "PELE",
+    "v1": "TOPE",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Cancion oficial himno del mundial de futbol.",
+        "2. Leyenda brasilena Edson Arantes, el Rey del Futbol."
+      ],
+      "vertical": [
+        "1. Limite maximo de futbolistas en la convocatoria.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "PILA",
+    "h3": "TOPE",
+    "v1": "PITO",
+    "v2": "AMER",
+    "clues": {
+      "horizontal": [
+        "1. Resistencia o energia de los jugadores de reserva.",
+        "2. Limite maximo de futbolistas en la convocatoria."
+      ],
+      "vertical": [
+        "1. Silbato del arbitro con el que dirige el juego.",
+        "2. America de Cali o Mexico, colosos de la Concacaf y Conmebol."
+      ]
+    }
+  },
+  {
+    "h1": "JOSE",
+    "h3": "FIFA",
+    "v1": "JEFE",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Nombre del DT mundialista Pekerman.",
+        "2. Ente rector del futbol profesional a nivel global."
+      ],
+      "vertical": [
+        "1. Estratega, director tecnico o capitan en cancha.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "PAIS",
+    "h3": "LEON",
+    "v1": "PILA",
+    "v2": "SINO",
+    "clues": {
+      "horizontal": [
+        "1. Nacion que representa una seleccion nacional.",
+        "2. Ciudad de Mexico con gran tradicion y sede en 1986."
+      ],
+      "vertical": [
+        "1. Resistencia o energia de los jugadores de reserva.",
+        "2. Destino final decidido en tanda de penales."
+      ]
+    }
+  },
+  {
+    "h1": "ATLA",
+    "h3": "TELA",
+    "v1": "APTO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Atlas de Guadalajara, rojinegro historico mexicano.",
+        "2. Tejido de las banderas gigantes de la hinchada."
+      ],
+      "vertical": [
+        "1. Jugador habilitado medicamente para el partido.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "OSLO",
+    "h3": "APTO",
+    "v1": "OMAN",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Capital noruega con gran tradicion deportiva.",
+        "2. Jugador habilitado medicamente para el partido."
+      ],
+      "vertical": [
+        "1. Pais arabe miembro de la confederacion asiatica.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "ARCO",
+    "h3": "IGOR",
+    "v1": "ASIS",
+    "v2": "OTRO",
+    "clues": {
+      "horizontal": [
+        "1. Porteria defendida por el guardameta en la cancha.",
+        "2. Nombre del portero ruso Akinfeev en 2018."
+      ],
+      "vertical": [
+        "1. Asistencia o pase previo a la anotacion.",
+        "2. Grito del publico exigiendo un gol mas."
+      ]
+    }
+  },
+  {
+    "h1": "PASS",
+    "h3": "SINO",
+    "v1": "PESE",
+    "v2": "SHOW",
+    "clues": {
+      "horizontal": [
+        "1. Pase de balon en terminologia internacional.",
+        "2. Destino final decidido en tanda de penales."
+      ],
+      "vertical": [
+        "1. Relevancia o peso de la camiseta historica.",
+        "2. Espectaculo futbolistico brindado en la cancha."
+      ]
+    }
+  },
+  {
+    "h1": "PETO",
+    "h3": "SAGA",
+    "v1": "POST",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Dinastia o historia exitosa de una seleccion."
+      ],
+      "vertical": [
+        "1. Poste de la porteria que desvia el balon.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "SAGA",
+    "h3": "LIGA",
+    "v1": "SALA",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Dinastia o historia exitosa de una seleccion.",
+        "2. Competicion de clubes o equipos nacionales."
+      ],
+      "vertical": [
+        "1. Cabina del VAR donde se analizan las faltas.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "PASA",
+    "h3": "MALI",
+    "v1": "PUMA",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Accion de ceder la pelota a otro companero.",
+        "2. Pais africano con gran desempeno juvenil en FIFA."
+      ],
+      "vertical": [
+        "1. Pumas de la UNAM, gran cantera del futbol mexicano.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "PALO",
+    "h3": "STAR",
+    "v1": "PASA",
+    "v2": "OBRA",
+    "clues": {
+      "horizontal": [
+        "1. Poste de metal o madera que puede evitar un gol.",
+        "2. Astro o figura de la seleccion nacional."
+      ],
+      "vertical": [
+        "1. Accion de ceder la pelota a otro companero.",
+        "2. Jugada increible de gol merecedora de aplausos."
+      ]
+    }
+  },
+  {
+    "h1": "PENA",
+    "h3": "TITI",
+    "v1": "PETO",
+    "v2": "ASIS",
+    "clues": {
+      "horizontal": [
+        "1. Sentencia de penal por infraccion en el area.",
+        "2. Thierry Henry, campeon del mundo con Francia en 1998."
+      ],
+      "vertical": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Asistencia o pase previo a la anotacion."
+      ]
+    }
+  },
+  {
+    "h1": "CITA",
+    "h3": "PESE",
+    "v1": "COPA",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Compromiso o encuentro crucial en el torneo.",
+        "2. Relevancia o peso de la camiseta historica."
+      ],
+      "vertical": [
+        "1. Trofeo dorado entregado al campeon mundial.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "DANI",
+    "h3": "HALF",
+    "v1": "DOHA",
+    "v2": "INFO",
+    "clues": {
+      "horizontal": [
+        "1. Alves, defensor brasileno con record de trofeos.",
+        "2. Medio tiempo de un partido de futbol."
+      ],
+      "vertical": [
+        "1. Capital catarí que albergo la mayoria de partidos de 2022.",
+        "2. Datos y reportes del equipo previo al partido."
+      ]
+    }
+  },
+  {
+    "h1": "MARK",
+    "h3": "LOTE",
+    "v1": "MILA",
+    "v2": "KIEV",
+    "clues": {
+      "horizontal": [
+        "1. Marca personal defensiva sobre el rival.",
+        "2. Bombo de sorteo de los grupos del mundial."
+      ],
+      "vertical": [
+        "1. Milan, gigante italiano ganador de copas mundiales.",
+        "2. Ciudad ucraniana que albergo finales europeas."
+      ]
+    }
+  },
+  {
+    "h1": "MANO",
+    "h3": "DOHA",
+    "v1": "MUDO",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Infraccion al tocar el balon voluntariamente.",
+        "2. Capital catarí que albergo la mayoria de partidos de 2022."
+      ],
+      "vertical": [
+        "1. Estadio silenciado tras un gol decisivo del visitante.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "RETO",
+    "h3": "VOTO",
+    "v1": "RIVE",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Desafio de medirse ante la seleccion campeona.",
+        "2. Eleccion por la cual se escoge el pais anfitrion."
+      ],
+      "vertical": [
+        "1. River Plate, historico club argentino semillero de cracks.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "SHOT",
+    "h3": "NEYM",
+    "v1": "SENA",
+    "v2": "TIME",
+    "clues": {
+      "horizontal": [
+        "1. Remate directo a la porteria en ingles.",
+        "2. Neymar, estrella y goleador de la Canarinha."
+      ],
+      "vertical": [
+        "1. Gesto o indicacion tactica del capitan del equipo.",
+        "2. Tiempo reglamentario de juego en ingles."
+      ]
+    }
+  },
+  {
+    "h1": "MITO",
+    "h3": "PETO",
+    "v1": "MAPA",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Leyenda o figura recordada por siempre.",
+        "2. Chaleco utilizado para diferenciar a suplentes."
+      ],
+      "vertical": [
+        "1. Distribucion geografica de las sedes mundialistas.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "OSLO",
+    "h3": "RUSH",
+    "v1": "OTRO",
+    "v2": "OCHO",
+    "clues": {
+      "horizontal": [
+        "1. Capital noruega con gran tradicion deportiva.",
+        "2. Contraataque rapido hacia la porteria rival."
+      ],
+      "vertical": [
+        "1. Grito del publico exigiendo un gol mas.",
+        "2. Ronda de cuartos donde quedan ocho equipos."
+      ]
+    }
+  },
+  {
+    "h1": "PAUL",
+    "h3": "CERO",
+    "v1": "PACH",
+    "v2": "LION",
+    "clues": {
+      "horizontal": [
+        "1. Paul Pogba, volante campeon con Francia en 2018.",
+        "2. Mantener la porteria propia invicta."
+      ],
+      "vertical": [
+        "1. Pachuca, primer equipo mexicano en ganar la Sudamericana.",
+        "2. Leon, mascota o representacion de la garra deportiva."
+      ]
+    }
+  },
+  {
+    "h1": "POST",
+    "h3": "TAZA",
+    "v1": "PITO",
+    "v2": "TEAM",
+    "clues": {
+      "horizontal": [
+        "1. Poste de la porteria que desvia el balon.",
+        "2. Trofeo metalico entregado al campeon (regional)."
+      ],
+      "vertical": [
+        "1. Silbato del arbitro con el que dirige el juego.",
+        "2. Equipo o seleccion en el idioma anglosajon."
+      ]
+    }
+  },
+  {
+    "h1": "MURO",
+    "h3": "LIMA",
+    "v1": "MILL",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Defensa solida de futbolistas bloqueando el arco.",
+        "2. Capital andina sede de torneos juveniles FIFA."
+      ],
+      "vertical": [
+        "1. Millonarios, famoso equipo colombiano de Bogota.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "MOIS",
+    "h3": "DOHA",
+    "v1": "MUDO",
+    "v2": "STAR",
+    "clues": {
+      "horizontal": [
+        "1. Caicedo, volante ecuatoriano destacado en Catar.",
+        "2. Capital catarí que albergo la mayoria de partidos de 2022."
+      ],
+      "vertical": [
+        "1. Estadio silenciado tras un gol decisivo del visitante.",
+        "2. Astro o figura de la seleccion nacional."
+      ]
+    }
+  },
+  {
+    "h1": "TITI",
+    "h3": "META",
+    "v1": "TEMA",
+    "v2": "IDAS",
+    "clues": {
+      "horizontal": [
+        "1. Thierry Henry, campeon del mundo con Francia en 1998.",
+        "2. Porteria que defiende cada equipo en el campo."
+      ],
+      "vertical": [
+        "1. Cancion oficial himno del mundial de futbol.",
+        "2. Primeros partidos de llaves de ida y vuelta."
+      ]
+    }
+  },
+  {
+    "h1": "VARA",
+    "h3": "SAGA",
+    "v1": "VISO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Palo de la porteria o nivel de exigencia tactica.",
+        "2. Dinastia o historia exitosa de una seleccion."
+      ],
+      "vertical": [
+        "1. Condicion o aspecto visual que tiene el cesped.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "PETO",
+    "h3": "SACO",
+    "v1": "POST",
+    "v2": "OJOS",
+    "clues": {
+      "horizontal": [
+        "1. Chaleco utilizado para diferenciar a suplentes.",
+        "2. Saque lateral o tiro de esquina del partido."
+      ],
+      "vertical": [
+        "1. Poste de la porteria que desvia el balon.",
+        "2. Miradas fijas de los arbitros en las pantallas del VAR."
+      ]
+    }
+  },
+  {
+    "h1": "OJOS",
+    "h3": "RUTA",
+    "v1": "OBRA",
+    "v2": "STAR",
+    "clues": {
+      "horizontal": [
+        "1. Miradas fijas de los arbitros en las pantallas del VAR.",
+        "2. Camino de partidos para clasificar a la final."
+      ],
+      "vertical": [
+        "1. Jugada increible de gol merecedora de aplausos.",
+        "2. Astro o figura de la seleccion nacional."
+      ]
+    }
+  },
+  {
+    "h1": "MURO",
+    "h3": "TASA",
+    "v1": "META",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Defensa solida de futbolistas bloqueando el arco.",
+        "2. Indice o promedio de goles anotados por partido."
+      ],
+      "vertical": [
+        "1. Porteria que defiende cada equipo en el campo.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "PELE",
+    "h3": "CIMA",
+    "v1": "PACH",
+    "v2": "EDAD",
+    "clues": {
+      "horizontal": [
+        "1. Leyenda brasilena Edson Arantes, el Rey del Futbol.",
+        "2. Primer puesto en la fase de grupos del mundial."
+      ],
+      "vertical": [
+        "1. Pachuca, primer equipo mexicano en ganar la Sudamericana.",
+        "2. Promedio de anos del plantel convocado."
+      ]
+    }
+  },
+  {
+    "h1": "TAZA",
+    "h3": "COPA",
+    "v1": "TACO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Trofeo metalico entregado al campeon (regional).",
+        "2. Trofeo dorado entregado al campeon mundial."
+      ],
+      "vertical": [
+        "1. Recurso tecnico golpeando con el talon del pie.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  },
+  {
+    "h1": "COLA",
+    "h3": "REAL",
+    "v1": "CARD",
+    "v2": "ATLA",
+    "clues": {
+      "horizontal": [
+        "1. Fila de espectadores ingresando al estadio.",
+        "2. Gigante de Madrid campeon de campeones europeos."
+      ],
+      "vertical": [
+        "1. Tarjeta de amonestacion en ingles.",
+        "2. Atlas de Guadalajara, rojinegro historico mexicano."
+      ]
+    }
+  },
+  {
+    "h1": "CELT",
+    "h3": "TELA",
+    "v1": "CITA",
+    "v2": "TEAM",
+    "clues": {
+      "horizontal": [
+        "1. Celtic de Glasgow, historico club de Escandinavia/Escocia.",
+        "2. Tejido de las banderas gigantes de la hinchada."
+      ],
+      "vertical": [
+        "1. Compromiso o encuentro crucial en el torneo.",
+        "2. Equipo o seleccion en el idioma anglosajon."
+      ]
+    }
+  },
+  {
+    "h1": "SINO",
+    "h3": "COPA",
+    "v1": "SACO",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Destino final decidido en tanda de penales.",
+        "2. Trofeo dorado entregado al campeon mundial."
+      ],
+      "vertical": [
+        "1. Saque lateral o tiro de esquina del partido.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "CIMA",
+    "h3": "RIVE",
+    "v1": "CARD",
+    "v2": "ALEX",
+    "clues": {
+      "horizontal": [
+        "1. Primer puesto en la fase de grupos del mundial.",
+        "2. River Plate, historico club argentino semillero de cracks."
+      ],
+      "vertical": [
+        "1. Tarjeta de amonestacion en ingles.",
+        "2. Del Piero, crack italiano campeon mundial en 2006."
+      ]
+    }
+  },
+  {
+    "h1": "MAPA",
+    "h3": "RIVE",
+    "v1": "MARC",
+    "v2": "AREA",
+    "clues": {
+      "horizontal": [
+        "1. Distribucion geografica de las sedes mundialistas.",
+        "2. River Plate, historico club argentino semillero de cracks."
+      ],
+      "vertical": [
+        "1. Ter Stegen, portero de la seleccion de Alemania.",
+        "2. Zona del rectangulo penal frente a la porteria."
+      ]
+    }
+  },
+  {
+    "h1": "CLUB",
+    "h3": "REAL",
+    "v1": "CARD",
+    "v2": "BALE",
+    "clues": {
+      "horizontal": [
+        "1. Equipo o institucion de futbol asociado.",
+        "2. Gigante de Madrid campeon de campeones europeos."
+      ],
+      "vertical": [
+        "1. Tarjeta de amonestacion en ingles.",
+        "2. Gareth, estrella galesa que anoto en Catar 2022."
+      ]
+    }
+  },
+  {
+    "h1": "PALO",
+    "h3": "SALA",
+    "v1": "PASS",
+    "v2": "OMAN",
+    "clues": {
+      "horizontal": [
+        "1. Poste de metal o madera que puede evitar un gol.",
+        "2. Cabina del VAR donde se analizan las faltas."
+      ],
+      "vertical": [
+        "1. Pase de balon en terminologia internacional.",
+        "2. Pais arabe miembro de la confederacion asiatica."
+      ]
+    }
+  },
+  {
+    "h1": "COLA",
+    "h3": "LEMA",
+    "v1": "COLO",
+    "v2": "AJAX",
+    "clues": {
+      "horizontal": [
+        "1. Fila de espectadores ingresando al estadio.",
+        "2. Frase representativa de la copa o de una seleccion."
+      ],
+      "vertical": [
+        "1. Colo-Colo, club mas laureado del futbol chileno.",
+        "2. Club neerlandes famoso por su futbol total."
+      ]
+    }
+  }
+]
